@@ -1,0 +1,63 @@
+*** Using c compiler gcc instead of cc ...
+                         Chronologic VCS (TM)
+         Version T-2022.06_Full64 -- Fri Nov 17 16:17:15 2023
+
+                    Copyright (c) 1991 - 2022 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '../mux.v'
+Parsing design file '../mux_test.v'
+Top Level Modules:
+       mux_test
+No TimeScale specified
+Starting vcs inline pass...
+1 module and 0 UDP read.
+recompiling module mux_test
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/usr/cad/synopsys/vcs/2022.06/linux64/lib -L/usr/cad/synopsys/vcs/2022.06/linux64/lib  -Wl,-rpath-link=./  /usr/lib64/libnuma.so.1   objs/amcQw_d.o   _161896_archive_1.so  SIM_l.o      rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o           -lvirsim -lerrorinf -lsnpsmalloc -lvfs    -lvcsnew -lsimprofile -luclinative /usr/cad/synopsys/vcs/2022.06/linux64/lib/vcs_tls.o   -Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive        _vcs_pli_stub_.o   /usr/cad/synopsys/vcs/2022.06/linux64/lib/vcs_save_restore_new.o /usr/cad/synopsys/verdi/2022.06//share/PLI/VCS/LINUX64/pli.a -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+Chronologic VCS simulator copyright 1991-2022
+Contains Synopsys proprietary information.
+Compiler version T-2022.06_Full64; Runtime version T-2022.06_Full64;  Nov 17 16:17 2023
+*Verdi* Loading libsscore_vcs202206.so
+FSDB Dumper for VCS, Release Verdi_T-2022.06, Linux x86_64/64bit, 05/29/2022
+(C) 1996 - 2022 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'mux.fsdb'
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+                   0  a = x,  b = x,  sel = x,   out = x
+                  10  a = 0,  b = 0,  sel = 0,   out = x
+                  13  a = 0,  b = 0,  sel = 0,   out = 0
+                  20  a = 1,  b = 0,  sel = 1,   out = 0
+                  30  a = 1,  b = 1,  sel = 0,   out = 0
+                  33  a = 1,  b = 1,  sel = 0,   out = 1
+                  40  a = 0,  b = 1,  sel = 1,   out = 1
+                  50  a = 0,  b = 1,  sel = 0,   out = 1
+                  53  a = 0,  b = 1,  sel = 0,   out = 0
+                  60  a = 1,  b = 0,  sel = 0,   out = 0
+                  63  a = 1,  b = 0,  sel = 0,   out = 1
+                  70  a = 0,  b = 0,  sel = 1,   out = 1
+                  73  a = 0,  b = 0,  sel = 1,   out = 0
+                  80  a = 1,  b = 1,  sel = 1,   out = 0
+                  83  a = 1,  b = 1,  sel = 1,   out = 1
+$finish called from file "../mux_test.v", line 22.
+$finish at simulation time                  100
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 100
+CPU Time:      0.290 seconds;       Data structure size:   0.0Mb
+Fri Nov 17 16:17:17 2023
+CPU time: .356 seconds to compile + .305 seconds to elab + .409 seconds to link + .326 seconds in simulation

@@ -1,0 +1,112 @@
+//pragma protect begin_protected
+//pragma protect key_keyowner=Cadence Design Systems.
+//pragma protect key_keyname=CDS_KEY
+//pragma protect key_method=RC5
+//pragma protect key_block
+n9fMBxULg++yEdUF6bCLo7+QZy/57dj0JHSVlz8OCZego1sOqOaK0FvUpDAKSH13
+VOhnAVdThqW03b56qWn5Y98vOX76vhPhebpdFA0jxt0Hz9nFH8YhhEPk9D0360Kt
+/FIDCohIroquGoWhfRge2aXkUCBWnNIk3+Be9JFc7W88THsIHaYhHg==
+//pragma protect end_key_block
+//pragma protect digest_block
+Vm/Geb1yboLAecHNoKj+cGvCJGk=
+//pragma protect end_digest_block
+//pragma protect data_block
+7262Tv/DYsazBES4I7DmMGVSKj/tMpuSorREPVI67RbNSxS88gNPSFQDmFepBLCT
+xcJiu03bb6itaTh3t0TjIF+QPFguuYS8AGRp7AH/7isYB5T9fMqipIQUyaOAzdbe
+95oHoI051tp1D+ivuxuhd2eQ2HrVoQ8HFLRVNjulcokpThE0tsOafXfCrjkSIg0x
+VL9fsTElRfW7m/t1+cllTYtodP0p4sNAcLwYiuIJOrvFr03xuAmBlZdyrxK4IO5z
+ewUJ3Z5CjI4xAf92iVVO22qoX6PIZdIx09CnygbGfYPmYOMfWcjgirbnBCxsNPsi
+JIMU0Ox+QNZqw4O9R07pjQZZgs/tYd/hHK+mJuIVHyD9ZTfpJ4JeYnWg00K43AWa
+
+//pragma protect end_data_block
+//pragma protect digest_block
+USDfXsZg60LqXxdZmExQE4Oo/5Y=
+//pragma protect end_digest_block
+//pragma protect end_protected
+`include "PATTERN.vp"
+//pragma protect begin_protected
+//pragma protect key_keyowner=Cadence Design Systems.
+//pragma protect key_keyname=CDS_KEY
+//pragma protect key_method=RC5
+//pragma protect key_block
+PpqwdW62d/IoaMuHWquvwxRW48yOMXXWrGejqR1JGLUDeCxE1Xept2qj4lsTFtpl
+8qeXbbF2o+/K3FkdNbHUgI/hpRh9GHTKTjqVynEc1ih3y0ncS2z5DzzzeL6JPLMq
+FxvqAlzGBasE9W7xhW04QgZeYwo2B9Gva8zBRD7I7shrN+VAMYosjg==
+//pragma protect end_key_block
+//pragma protect digest_block
++U35jtWhh4GrlH76D8zv0NwboW4=
+//pragma protect end_digest_block
+//pragma protect data_block
+irWZanDgYNiJlTR0m624LGkybm3cViMf12GvBhUIvC+t6vklRwcgIWmnAsEHEtTh
+qoOa7JxLf3+DDVnGqgCtAk97ZxBlHYyMwHwezFwm5qUJ8K6KMu/R4RI13EsoXfsT
+vDpHuMmvJ1oLDJ0BROw2fIge8XxHpRFO10pAOYsRkOdhpxei/4oEH1Zlt/wyNCPS
+qUCD4wJZ9K7Aol6UOYMEpM5N+cM0hfSJrn1OhVAuVKzfWVg7P+14+aKAtPuEjinz
+IacT+b6245ilNRJD5dDkFW3xQMyt14kdtYAABp5kQKQrHs1QsvNZQrkcV6UthJgv
++cibG3rSoDw2jgQXAQ+PPTRQIGX9jLRGBfnGSbhj3Dk=
+//pragma protect end_data_block
+//pragma protect digest_block
+Ofk3pBvCopY63Q/yJAENJokB6X4=
+//pragma protect end_digest_block
+//pragma protect end_protected
+  `include "HD.v"
+//pragma protect begin_protected
+//pragma protect key_keyowner=Cadence Design Systems.
+//pragma protect key_keyname=CDS_KEY
+//pragma protect key_method=RC5
+//pragma protect key_block
+v7Gl9JBswwbUUCElONrGjT+iJoFxeFYEt9OwR6ldt368ebh20AR+2LlJiFOsizKD
+Sdar7dDv9/2ZpR28gvJEX4fv9xvQDbTnVMZPBH7K+X6manqd4CKS1r//PBDj1Rj9
+ctO1p3dkVZOedxnU49f6Ap/6U6UwtjI/maApyd36r9qJ0Pe2y17RRA==
+//pragma protect end_key_block
+//pragma protect digest_block
+Zlk0RREzYJ1I7voAZHl6Gi3A1MI=
+//pragma protect end_digest_block
+//pragma protect data_block
+g8diMkpf9566oO26WZ+61VhkLdQqmh5mmauQP/T5CCDtYb5VAAMAQ5WuuQU+Dtbo
+8x9pua35jUshoG+h1SjtxqcRGMltRpeuHnqLuM+XHbWdNeg/NhCPbRLrLd3c+wPX
+W2nsyLK9nJLAJPm35MHBgZfMtXTne55+Klyrl3HUYW214Y8apc5j/5EFObtMZbau
+9LgegDv8RKN62GFjYUaYUwpe/addDJMgEwpTIMXik8KrZXaJ+hOtQkip0tTwhSR7
+3wxjMMANJTvdrAxAnOmBxgQZklO0SuztRvtU+8ps/j/E0+CEweNhg82vIAvXWivM
+5m+Ia9NBrpoPnboEoGpZPfodu1oxOsUNX8UHdqN3oHs=
+//pragma protect end_data_block
+//pragma protect digest_block
+1MC3c2s6hQfoWAYib/3wjpd1auE=
+//pragma protect end_digest_block
+//pragma protect end_protected
+  `include "HD_SYN.v"
+//pragma protect begin_protected
+//pragma protect key_keyowner=Cadence Design Systems.
+//pragma protect key_keyname=CDS_KEY
+//pragma protect key_method=RC5
+//pragma protect key_block
+FhOEAXamTyhOPjPaGHuw0WOu1DZ4OFZ+qqDXSZ/9dfJthRnamsxrD3BVPCwMvhmv
+gqXN7i4sci7nCzZkkv6gMuaYWwyZcRZG6bg7jEOQGHevurGxzhIiP9iKN7rf2CK1
+FUKvmvs6m+WqXXq4sHwbrYVG9YrAacsWWA0EnXXoRAdgG0TtuttoxA==
+//pragma protect end_key_block
+//pragma protect digest_block
+8Dla82Cdkop/esxwLv5/17g2oWY=
+//pragma protect end_digest_block
+//pragma protect data_block
+BD/JzNH7C6uGXov4H7ZRnNrrE7ksk6LAlkQQXiqVwrO55+VRxCAIGNejslyKzdQg
+qika1WO09MNOWYwIC++FUVsNouSTZWETZiUKU8kq0IC1cfpl/jLSdji0VuBMYKVK
+Vlb3o5DuTUGQ1PpLBWOeiEDp1K+/hHKNKTWeYlvVR1IY0bTQotznhXS71c//JhpZ
+Ll0ZUGJjxTLten9Wje2BXg6KPuLYpF6FPJr1tWSKY0oIRabi9fA7xzHkXfqG0nhm
++w1opNt4xzh6BIiN9oECkNQ+SxZ6YOv6mcEBb92B/o3OFD92thFNugMPp+C8i7bJ
+deixJFj7HsqWItaFsonAfe1SWTYZyr6LvAazk6NMUJ5BytS4vVjTZN3YsutM8Oej
+k+JSg9IyY/LNEwlHKh95j5K2HaQbYlUbsAhLGHRwBGdGG1XuDefAYP8BbkHkvBwS
+FUNTXh3GGan1VHrxEDQbPNcKLPcfqQYdii6h+tRx1iNOeqm+JMBi25ifuyy+TihR
+MV80AuranJbVWaQ+gNXoEO+gxaZoDe+GAk2ybJAWfXQ7tTRiD2BN+vhL3Klc663b
+7hn6Ce90baZunIChzYhCUAJRr6oFUYDm6ppGNpi/BCDUzDXO1wPj4F5wK6x2YnbQ
+T7ni8zH07vWE7ln9EYtIDCpifIDRN+QRPh3bsL9LYUVs3ZOJJhzCu7Zv2WcRPMmX
+WQBjs0vjHRHx8599yTBhmcvpSQEHY5FofNvwganIAhI/nkxjahvqsmVoZgFR4od1
+STjr8HE21xkKyQeB+LbmYjbvaWFxu+e31tTWs0GPOuBzDTe/Ys/Ze36yR1ytd7qC
+4QU53JpsahG11kzajmbejIhJ1UF0ENSkVkZrxeWdKtw9s/YiheOswtQE8BSvqCWH
+abMR0GkTFwhMyS0oWyvocP0uzfaOsxjF36a2Bki9yT0orPeS5m/ZE49x1rDK4xhE
+KstlKERDuOd52HzCvAJTb/BUxQafFoL/3llP5LJmOtBkKojsfRBji7++YsKPvu3g
+up9WVaSmtI6at4ZgTJUfKIG3AgpLsYcMovBU14zBrkhMJAaBaJSg4r88pBtHYuvi
+
+//pragma protect end_data_block
+//pragma protect digest_block
+xHxj0tjLHV0IHHKuPMhANVGLPNI=
+//pragma protect end_digest_block
+//pragma protect end_protected

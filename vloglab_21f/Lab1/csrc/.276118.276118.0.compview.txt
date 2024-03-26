@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1694168930.187346540, "rt":0.57, "ut":0.14, "st":0.12}}
+{"vcselab":{"timestamp_begin":1694168930.848764731, "rt":0.41, "ut":0.17, "st":0.03}}
+{"link":{"timestamp_begin":1694168931.325023267, "rt":0.21, "ut":0.15, "st":0.08}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1694168929.717798203}
+{"VCS_COMP_START_TIME": 1694168929.717798203}
+{"VCS_COMP_END_TIME": 1694168932.158489449}
+{"VCS_USER_OPTIONS": "mux.v mux_test.v -R -full64 -xprop +v2k -debug_access+all"}
+{"vcs1": {"peak_mem": 324000}}
+{"stitch_vcselab": {"peak_mem": 207468}}

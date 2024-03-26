@@ -1,0 +1,109 @@
+0 
+33
++itf+/usr/cad/synopsys/vcs/2022.06/linux64/lib/vcsdp_lite.tab
++v2k
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/usr/cad/synopsys/vcs/2022.06/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /usr/cad/synopsys/vcs/2022.06/linux64/lib/libvirsim.so /usr/cad/synopsys/vcs/2022.06/linux64/lib/liberrorinf.so /usr/cad/synopsys/vcs/2022.06/linux64/lib/libsnpsmalloc.so /usr/cad/synopsys/vcs/2022.06/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/usr/cad/synopsys/vcs/2022.06/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/usr/cad/synopsys/verdi/2022.06//share/PLI/VCS/LINUX64/pli.a -ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/usr/cad/synopsys/vcs/2022.06/include
+-Mxllcflags=
+-P
+-Xvcs_run_simv=1
+-debug_access+all
+-fsdb
+-full64
+-gen_obj
+-picarchive
+-xprop
+/usr/cad/synopsys/vcs/2022.06/linux64/bin/vcs1
+/usr/cad/synopsys/verdi/2022.06//share/PLI/VCS/LINUX64/verdi.tab
+../HW.v
+../HW_test.v
+59
+_CE_M=
+_CE_CONDA=
+XLOCALEDIR=/usr/cad/synopsys/icc2/2021.06-sp2//etc/locale
+XDG_SESSION_ID=11718
+XDG_RUNTIME_DIR=/run/user/1049
+XDG_DATA_DIRS=/home/Ethanchen/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+VSCODE_IPC_HOOK_CLI=/run/user/1049/vscode-ipc-f7673ca4-86c5-4769-aa31-dde22ab1b2d6.sock
+VSCODE_GIT_IPC_HANDLE=/run/user/1049/vscode-git-19c4d799d6.sock
+VSCODE_GIT_ASKPASS_NODE=/home/Ethanchen/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/node
+VSCODE_GIT_ASKPASS_MAIN=/home/Ethanchen/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass-main.js
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VMR_MODE_FLAG=64
+VERDI_HOME=/usr/cad/synopsys/verdi/2022.06/
+VENDOR=unknown
+VC_STATIC_HOME=/usr/cad/synopsys/vc_formal/cur/
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_HOME=/usr/cad/synopsys/vcs/2022.06
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_CC=gcc
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/usr/cad/synopsys/vcs/2022.06/linux64
+TERM_PROGRAM_VERSION=1.84.2
+TERM_PROGRAM=vscode
+SYN_MAN_DIR=/usr/cad/synopsys/synthesis/2021.06-sp2/doc/syn/man
+SYNOPSYS_NCX_ROOT=/usr/cad/synopsys/star-rcxt/2021.06/
+SYNOPSYS_LC_ROOT=/cad/synopsys/lc/cur
+SYNOPSYS=/usr/cad/synopsys/synthesis/cur/
+SSH_CONNECTION=140.124.43.128 60711 140.124.41.195 22
+SSH_CLIENT=140.124.43.128 60711 22
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SNPS_VCS_CLANG_PATH=/usr/cad/synopsys/vcs/2022.06/linux64/clang
+SNPS_INTERNAL_VCS_LINUX_OS=linux
+SHLIB_PATH=/usr/cad/synopsys/verdi/2022.06//etc/lib/libstdc++/LINUX64/:/usr/cad/synopsys/verdi/2022.06//share/PLI/lib/LINUX64/:/usr/cad/synopsys/verdi/2022.06//share/PLI/VCS/LINUX64/:
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+QT_GRAPHICSSYSTEM_CHECKED=1
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+OVA_UUM=0
+OSTYPE=linux
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KDEDIRS=/usr
+HOSTTYPE=x86_64-linux
+HISTCONTROL=ignoredups
+GROUP=Ethanchen
+GIT_ASKPASS=/home/Ethanchen/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/extensions/git/dist/askpass.sh
+CONDA_SHLVL=0
+CONDA_PYTHON_EXE=/home/Ethanchen/anaconda3/bin/python
+CONDA_EXE=/home/Ethanchen/anaconda3/bin/conda
+COLORTERM=truecolor
+CDN_SYNTH_ROOT=/usr/cad/cadence/GENUS/cur/tools
+0
+0
+4
+1700387548 ../HW_test.v
+1700387996 ../HW.v
+1653825972 /usr/cad/synopsys/verdi/2022.06//share/PLI/VCS/LINUX64/verdi.tab
+1654052745 /usr/cad/synopsys/vcs/2022.06/linux64/lib/vcsdp_lite.tab
+4
+1654054205 /usr/cad/synopsys/vcs/2022.06/linux64/lib/libvirsim.so
+1654053585 /usr/cad/synopsys/vcs/2022.06/linux64/lib/liberrorinf.so
+1654053489 /usr/cad/synopsys/vcs/2022.06/linux64/lib/libsnpsmalloc.so
+1654053565 /usr/cad/synopsys/vcs/2022.06/linux64/lib/libvfs.so
+1700388002 simv.daidir
+-1 partitionlib

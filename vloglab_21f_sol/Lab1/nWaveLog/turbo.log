@@ -1,0 +1,3 @@
+Command Line: /usr/cad/synopsys/verdi/2022.06/platform/LINUXAMD64/bin/Novas -nWave
+uname(Linux ntut-lab-317-server-supermicro 3.10.0-1160.42.2.el7.x86_64 #1 SMP Tue Sep 7 14:49:57 UTC 2021 x86_64)
+au time 56.140601 2.500889 0.679099 delta 284749824 284749824 total 809902080 809902080
