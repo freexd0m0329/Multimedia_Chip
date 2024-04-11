@@ -1,0 +1,424 @@
+ncverilog: 15.20-s039: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s039: Started on Apr 11, 2024 at 15:55:43 CST
+ncverilog
+	testfixture.v
+	CS_compile.v
+	-v
+	tsmc18.v
+	+access+r
+file: testfixture.v
+	module worklib.test:v
+		errors: 0, warnings: 0
+file: CS_compile.v
+	module worklib.CS_DW01_sub_0:v
+		errors: 0, warnings: 0
+	module worklib.CS_DW01_add_5:v
+		errors: 0, warnings: 0
+	module worklib.CS_DW01_sub_18:v
+		errors: 0, warnings: 0
+	module worklib.CS_DW01_sub_22:v
+		errors: 0, warnings: 0
+	module worklib.CS_DW01_sub_19:v
+		errors: 0, warnings: 0
+	module worklib.CS_DW01_sub_23:v
+		errors: 0, warnings: 0
+	module worklib.CS_DW01_sub_20:v
+		errors: 0, warnings: 0
+	module worklib.CS_DW01_sub_24:v
+		errors: 0, warnings: 0
+	module worklib.CS_DW01_sub_21:v
+		errors: 0, warnings: 0
+	module worklib.CS_DW01_sub_25:v
+		errors: 0, warnings: 0
+	module worklib.CS_DW01_add_4:v
+		errors: 0, warnings: 0
+	module worklib.CS:v
+		errors: 0, warnings: 0
+file: tsmc18.v
+	module tsmc18.XNOR3X2:v
+		errors: 0, warnings: 0
+	module tsmc18.XOR3X2:v
+		errors: 0, warnings: 0
+	module tsmc18.ADDFX2:v
+		errors: 0, warnings: 0
+	module tsmc18.ADDHXL:v
+		errors: 0, warnings: 0
+	module tsmc18.AND2X1:v
+		errors: 0, warnings: 0
+	module tsmc18.AND2X2:v
+		errors: 0, warnings: 0
+	module tsmc18.AND2X4:v
+		errors: 0, warnings: 0
+	module tsmc18.AND3X1:v
+		errors: 0, warnings: 0
+	module tsmc18.AND3X4:v
+		errors: 0, warnings: 0
+	module tsmc18.AND4X2:v
+		errors: 0, warnings: 0
+	module tsmc18.AOI21X1:v
+		errors: 0, warnings: 0
+	module tsmc18.AOI21X2:v
+		errors: 0, warnings: 0
+	module tsmc18.AOI21X4:v
+		errors: 0, warnings: 0
+	module tsmc18.AOI21XL:v
+		errors: 0, warnings: 0
+	module tsmc18.AOI221X2:v
+		errors: 0, warnings: 0
+	module tsmc18.AOI222X2:v
+		errors: 0, warnings: 0
+	module tsmc18.AOI22X1:v
+		errors: 0, warnings: 0
+	module tsmc18.AOI2BB1X1:v
+		errors: 0, warnings: 0
+	module tsmc18.AOI2BB1X2:v
+		errors: 0, warnings: 0
+	module tsmc18.AOI2BB2X1:v
+		errors: 0, warnings: 0
+	module tsmc18.AOI2BB2X2:v
+		errors: 0, warnings: 0
+	module tsmc18.AOI2BB2X4:v
+		errors: 0, warnings: 0
+	module tsmc18.AOI31X1:v
+		errors: 0, warnings: 0
+	module tsmc18.AOI31X2:v
+		errors: 0, warnings: 0
+	module tsmc18.BUFX12:v
+		errors: 0, warnings: 0
+	module tsmc18.BUFX16:v
+		errors: 0, warnings: 0
+	module tsmc18.BUFX20:v
+		errors: 0, warnings: 0
+	module tsmc18.BUFX3:v
+		errors: 0, warnings: 0
+	module tsmc18.BUFX4:v
+		errors: 0, warnings: 0
+	module tsmc18.BUFX8:v
+		errors: 0, warnings: 0
+	module tsmc18.CLKBUFX12:v
+		errors: 0, warnings: 0
+	module tsmc18.CLKBUFX8:v
+		errors: 0, warnings: 0
+	module tsmc18.CLKINVX3:v
+		errors: 0, warnings: 0
+	module tsmc18.CLKINVX8:v
+		errors: 0, warnings: 0
+	module tsmc18.DFFRHQX1:v
+		errors: 0, warnings: 0
+	module tsmc18.DFFRHQX2:v
+		errors: 0, warnings: 0
+	module tsmc18.DFFRHQX4:v
+		errors: 0, warnings: 0
+	module tsmc18.DFFRHQXL:v
+		errors: 0, warnings: 0
+	module tsmc18.INVX12:v
+		errors: 0, warnings: 0
+	module tsmc18.INVX16:v
+		errors: 0, warnings: 0
+	module tsmc18.INVX1:v
+		errors: 0, warnings: 0
+	module tsmc18.INVX20:v
+		errors: 0, warnings: 0
+	module tsmc18.INVX2:v
+		errors: 0, warnings: 0
+	module tsmc18.INVX4:v
+		errors: 0, warnings: 0
+	module tsmc18.INVX8:v
+		errors: 0, warnings: 0
+	module tsmc18.INVXL:v
+		errors: 0, warnings: 0
+	module tsmc18.MX2X2:v
+		errors: 0, warnings: 0
+	module tsmc18.MXI2X1:v
+		errors: 0, warnings: 0
+	module tsmc18.MXI2X2:v
+		errors: 0, warnings: 0
+	module tsmc18.MXI2X4:v
+		errors: 0, warnings: 0
+	module tsmc18.MXI2XL:v
+		errors: 0, warnings: 0
+	module tsmc18.NAND2X1:v
+		errors: 0, warnings: 0
+	module tsmc18.NAND2X2:v
+		errors: 0, warnings: 0
+	module tsmc18.NAND2X4:v
+		errors: 0, warnings: 0
+	module tsmc18.NAND2XL:v
+		errors: 0, warnings: 0
+	module tsmc18.NAND2BX1:v
+		errors: 0, warnings: 0
+	module tsmc18.NAND2BX2:v
+		errors: 0, warnings: 0
+	module tsmc18.NAND2BX4:v
+		errors: 0, warnings: 0
+	module tsmc18.NAND2BXL:v
+		errors: 0, warnings: 0
+	module tsmc18.NAND3X1:v
+		errors: 0, warnings: 0
+	module tsmc18.NAND3X2:v
+		errors: 0, warnings: 0
+	module tsmc18.NAND3XL:v
+		errors: 0, warnings: 0
+	module tsmc18.NAND3BX1:v
+		errors: 0, warnings: 0
+	module tsmc18.NAND4X1:v
+		errors: 0, warnings: 0
+	module tsmc18.NAND4X2:v
+		errors: 0, warnings: 0
+	module tsmc18.NOR2X1:v
+		errors: 0, warnings: 0
+	module tsmc18.NOR2X2:v
+		errors: 0, warnings: 0
+	module tsmc18.NOR2X4:v
+		errors: 0, warnings: 0
+	module tsmc18.NOR2XL:v
+		errors: 0, warnings: 0
+	module tsmc18.NOR2BX1:v
+		errors: 0, warnings: 0
+	module tsmc18.NOR2BX2:v
+		errors: 0, warnings: 0
+	module tsmc18.NOR2BX4:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI211X2:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI21X1:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI21X2:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI21X4:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI21XL:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI221X2:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI222X1:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI222X2:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI222X4:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI22X1:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI22X2:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI22X4:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI22XL:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI2BB1X1:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI2BB1X2:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI2BB1X4:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI2BB1XL:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI2BB2X2:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI32X1:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI32X2:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI32X4:v
+		errors: 0, warnings: 0
+	module tsmc18.OAI32XL:v
+		errors: 0, warnings: 0
+	module tsmc18.OR2X1:v
+		errors: 0, warnings: 0
+	module tsmc18.OR2X2:v
+		errors: 0, warnings: 0
+	module tsmc18.OR2X4:v
+		errors: 0, warnings: 0
+	module tsmc18.OR2XL:v
+		errors: 0, warnings: 0
+	module tsmc18.OR4X2:v
+		errors: 0, warnings: 0
+	module tsmc18.XNOR2X1:v
+		errors: 0, warnings: 0
+	module tsmc18.XNOR2X2:v
+		errors: 0, warnings: 0
+	module tsmc18.XNOR2X4:v
+		errors: 0, warnings: 0
+	module tsmc18.XNOR2XL:v
+		errors: 0, warnings: 0
+	module tsmc18.XOR2X1:v
+		errors: 0, warnings: 0
+	module tsmc18.XOR2X2:v
+		errors: 0, warnings: 0
+	module tsmc18.XOR2X4:v
+		errors: 0, warnings: 0
+	module tsmc18.XOR2XL:v
+		errors: 0, warnings: 0
+	primitive tsmc18.udp_mux2:v
+		errors: 0, warnings: 0
+	primitive tsmc18.udp_dff:v
+		errors: 0, warnings: 0
+		Caching library 'tsmc18' ....... Done
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+  CS_DW01_sub_0 sub_18 ( .A({n409, n408, n407, n406, n405, n340, n404, n403, 
+                     |
+ncelab: *W,CUVWSP (./CS_compile.v,1064|21): 1 output port was not connected:
+ncelab: (./CS_compile.v,8): CO
+
+  CS_DW01_add_5 add_0_root_sub_0_root_sub_9 ( .A(Xt), .B({N28, N28, N28, N28, 
+                                          |
+ncelab: *W,CUVWSP (./CS_compile.v,1082|42): 1 output port was not connected:
+ncelab: (./CS_compile.v,49): CO
+
+  CS_DW01_sub_18 sub_17 ( .A({n409, n408, n407, n406, n405, n340, n404, n403, 
+                      |
+ncelab: *W,CUVWSP (./CS_compile.v,1084|22): 1 output port was not connected:
+ncelab: (./CS_compile.v,133): CO
+
+  CS_DW01_sub_22 sub_16 ( .A({n409, n408, n407, n406, n405, n340, n404, n403, 
+                      |
+ncelab: *W,CUVWSP (./CS_compile.v,1087|22): 1 output port was not connected:
+ncelab: (./CS_compile.v,224): CO
+
+  CS_DW01_sub_19 sub_15 ( .A({n409, n408, n407, n406, n405, n340, n404, n403, 
+                      |
+ncelab: *W,CUVWSP (./CS_compile.v,1090|22): 1 output port was not connected:
+ncelab: (./CS_compile.v,317): CO
+
+  CS_DW01_sub_23 sub_14 ( .A({n409, n408, n407, n406, n405, n340, n404, n403, 
+                      |
+ncelab: *W,CUVWSP (./CS_compile.v,1093|22): 1 output port was not connected:
+ncelab: (./CS_compile.v,410): CO
+
+  CS_DW01_sub_20 sub_13 ( .A({n409, n408, n407, n406, n405, n340, n404, n403, 
+                      |
+ncelab: *W,CUVWSP (./CS_compile.v,1096|22): 1 output port was not connected:
+ncelab: (./CS_compile.v,502): CO
+
+  CS_DW01_sub_24 sub_12 ( .A({n409, n408, n407, n406, n405, n340, n404, n403, 
+                      |
+ncelab: *W,CUVWSP (./CS_compile.v,1099|22): 1 output port was not connected:
+ncelab: (./CS_compile.v,594): CO
+
+  CS_DW01_sub_21 sub_11 ( .A({n409, n408, n407, n406, n405, n340, n404, n403, 
+                      |
+ncelab: *W,CUVWSP (./CS_compile.v,1102|22): 1 output port was not connected:
+ncelab: (./CS_compile.v,688): CO
+
+  CS_DW01_sub_25 sub_10 ( .A({n409, n408, n407, n406, n405, n340, n404, n403, 
+                      |
+ncelab: *W,CUVWSP (./CS_compile.v,1105|22): 1 output port was not connected:
+ncelab: (./CS_compile.v,780): CO
+
+  CS_DW01_add_4 add_23 ( .A({1'b0, n409, n408, n407, n406, n405, n340, n404, 
+                     |
+ncelab: *W,CUVWSP (./CS_compile.v,1108|21): 1 output port was not connected:
+ncelab: (./CS_compile.v,872): CO
+
+	Reading SDF file from location "./chip_syn.sdf"
+	Writing compiled SDF file to "chip_syn.sdf.X".
+	Annotating SDF timing data:
+		Compiled SDF file:     chip_syn.sdf.X
+		Log file:              
+		Backannotation scope:  test.CS
+		Configuration file:    
+		MTM control:           
+		Scale factors:         
+		Scale type:            
+	Annotation completed successfully...
+	SDF statistics: No. of Pathdelays = 4141  Annotated = 100.00% -- No. of Tchecks = 1200  Annotated = 100.00% 
+				        Total 	   Annotated	  Percentage
+		 Path Delays	        4141	        4141	      100.00
+		      $width	         600	         600	      100.00
+		  $setuphold	         600	         600	      100.00
+  assign N32 = X[2];
+       |
+ncelab: *W,SDFNCAP (./CS_compile.v,1061|7): The interconnect source test.CS.X[2] is separated by a unidirectional continuous assign from the destination test.CS.U694.A.  The port annotation will still occur.
+  assign N31 = X[1];
+       |
+ncelab: *W,SDFNCAP (./CS_compile.v,1060|7): The interconnect source test.CS.X[1] is separated by a unidirectional continuous assign from the destination test.CS.U692.A.  The port annotation will still occur.
+  assign N30 = X[0];
+       |
+ncelab: *W,SDFNCAP (./CS_compile.v,1059|7): The interconnect source test.CS.X[0] is separated by a unidirectional continuous assign from the destination test.CS.U690.A.  The port annotation will still occur.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		tsmc18.ADDFX2:v <0x27d8e52d>
+			streams:   0, words:     0
+		tsmc18.ADDHXL:v <0x72a9ea7d>
+			streams:   0, words:     0
+		tsmc18.DFFRHQX1:v <0x09fcb944>
+			streams:   0, words:     0
+		tsmc18.DFFRHQX2:v <0x1616144f>
+			streams:   0, words:     0
+		tsmc18.DFFRHQX4:v <0x447bcd78>
+			streams:   0, words:     0
+		tsmc18.DFFRHQXL:v <0x709908d6>
+			streams:   0, words:     0
+		tsmc18.MX2X2:v <0x78cba6b9>
+			streams:   0, words:     0
+		tsmc18.MXI2X1:v <0x31c9185c>
+			streams:   0, words:     0
+		tsmc18.MXI2X2:v <0x379ecf1d>
+			streams:   0, words:     0
+		tsmc18.MXI2X4:v <0x604067de>
+			streams:   0, words:     0
+		tsmc18.MXI2XL:v <0x74e0f9ca>
+			streams:   0, words:     0
+		tsmc18.XNOR2X1:v <0x296f03c1>
+			streams:   0, words:     0
+		tsmc18.XNOR2X2:v <0x2080cd8e>
+			streams:   0, words:     0
+		tsmc18.XNOR2X4:v <0x1ec6a3f6>
+			streams:   0, words:     0
+		tsmc18.XNOR2XL:v <0x785ded53>
+			streams:   0, words:     0
+		tsmc18.XNOR3X2:v <0x27254684>
+			streams:   0, words:     0
+		tsmc18.XOR2X1:v <0x57580ea3>
+			streams:   0, words:     0
+		tsmc18.XOR2X2:v <0x131ffb2f>
+			streams:   0, words:     0
+		tsmc18.XOR2X4:v <0x2d599557>
+			streams:   0, words:     0
+		tsmc18.XOR2XL:v <0x066ae031>
+			streams:   0, words:     0
+		tsmc18.XOR3X2:v <0x1f143f78>
+			streams:   0, words:     0
+		worklib.CS:v <0x75f46103>
+			streams:   0, words:     0
+		worklib.test:v <0x374ab344>
+			streams:  12, words: 12250
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                    Instances  Unique
+		Modules:                 1719     120
+		UDPs:                     240       2
+		Primitives:              2871       8
+		Timing outputs:          1724      32
+		Registers:                216      21
+		Scalar wires:            1944       -
+		Expanded wires:             8       1
+		Always blocks:              4       4
+		Initial blocks:             7       7
+		Cont. assignments:          0       4
+		Pseudo assignments:         1       1
+		Timing checks:           1800     231
+		Interconnect:            3792       -
+		Delayed tcheck signals:   600      24
+		Simulation timescale:     1ps
+	Writing initial simulation snapshot: worklib.test:v
+Loading snapshot worklib.test:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+---------------------------------------------
+
+---------------------------------------------
+
+All data have been generated successfully!
+
+-------------------PASS-------------------
+
+---------------------------------------------
+
+Simulation complete via $finish(1) at time 1055 NS + 0
+./testfixture.v:114       $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s039: Exiting on Apr 11, 2024 at 15:56:46 CST  (total: 00:01:03)

@@ -1,0 +1,9 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+testfixture.v
+CS_compile.v
+-v
+tsmc18.v
++access+r

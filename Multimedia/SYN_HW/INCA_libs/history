@@ -1,0 +1,5 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(11Apr2024:15:55:43):( ncverilog testfixture.v CS_compile.v -v tsmc18.v +access+r )
