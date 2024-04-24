@@ -5,6 +5,7 @@
 ```bash
 # Copy File for env setting
 cp /home/standard/multimedia_2024_HW/SYN_HW/* .
+cp /home/standard/Environment_Setup_File/synthesis_setup_for_18/synopsys_dc.setup  .synopsys_dc.setup 
 # Check File List
 ls
 $ control_test_syn.v  CS.v  in.dat  out.dat  out_golden.dat  pt_script.tcl  testfixture.v  testfixture.v~  tsmc18.v
