@@ -14,7 +14,7 @@ dv &
 
 ## 1. Analysis Design
 
-```bash
+```tcl
 sh mkdir CS
 define_design_lib CS -path ./CS
 analyze -library CS -format verilog {/home/mm53/multimedia_2024_HW/SYN_HW/CS.v}
@@ -32,7 +32,7 @@ analyze -library CS -format verilog {/home/mm53/multimedia_2024_HW/SYN_HW/CS.v}
 
 ## 2. Elaborate Design
 
-```bash
+```tcl
 elaborate CS -architecture verilog -library CS
 # design_vision> 
 #     Loading db file '/usr/cad/synopsys/synthesis/cur/libraries/syn/gtech.db'
@@ -99,7 +99,7 @@ elaborate CS -architecture verilog -library CS
 
 ## 3. Setting Design Constraints
 
-```bash
+```tcl
 create_clock -name clk -period 20 -waveform {0 10} [get_ports clk]
 set_dont_touch_network [get_clocks clk]
 set_fix_hold [get_clocks clk]
@@ -141,7 +141,7 @@ set_max_area 0
 
 ## 4. Setting Desgin Environment
 
-```bash
+```tcl
 # Set input driving for clk
 set_driving_cell -library slow -lib_cell BUFX4 -pin {Y}  [get_ports clk]
 # Set input driving for all input except clk
@@ -160,7 +160,7 @@ set_wire_load_model -name tsmc18_wl10 -library slow
 
 ## 5. Check Design
 
-```bash
+```tcl
 check_design -multiple_designs
 # design_vision>
 #     ****************************************
@@ -188,7 +188,7 @@ uniquify
 
 ## 6. Report and save before Synthesis
 
-```bash
+```tcl
 report_port -significant_digits 4
 # design_vision>
 #     Information: Updating design information... (UID-85)
@@ -237,7 +237,7 @@ write -hierarchy -format ddc -output /home/mm53/multimedia_2024_HW/SYN_HW/syn.dd
 
 ## 7. Compile Design
 
-```bash
+```tcl
 compile -exact_map -map_effort high -area_effort high
 # design_vision>
     # Information: Evaluating DesignWare library utilization. (UISN-27)
@@ -452,7 +452,7 @@ compile -exact_map -map_effort high -area_effort high
 
 ## 8. Report and save after Synthesis
 
-```bash
+```tcl
 #Report Timing
 report_timing -path full -delay max -nworst 1 -max_paths 1 -significant_digits 2 -sort_by group
 # design_vision>
@@ -628,7 +628,7 @@ write -hierarchy -format verilog -output /home/mm53/multimedia_2024_HW/SYN_HW/CS
 ## 9. Pre-Layout Simulation
 
 ```bash
-ncverilog testfixture.v CS_compile.v –v tsmc18.v +access+r
+ncverilog testfixture.v CS_compile.v -v tsmc18.v +access+r
 ```
 
 PASS test
