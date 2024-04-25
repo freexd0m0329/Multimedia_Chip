@@ -1,0 +1,124 @@
+read_netlist tsmc18.v
+ Begin reading netlist ( tsmc18.v )...
+ End parsing Verilog file tsmc18.v with 0 errors.
+ End reading netlist: #modules=487, top=XOR2XL, #lines=27322, CPU_time=0.07 sec, Memory=1MB
+read_netlist chip_scan.vg
+ Begin reading netlist ( chip_scan.vg )...
+ End parsing Verilog file chip_scan.vg with 0 errors.
+ End reading netlist: #modules=3, top=STI_DAC, #lines=626, CPU_time=0.02 sec, Memory=0MB
+run_build_model STI_DAC
+ ------------------------------------------------------------------------------
+ Begin build model for topcut = STI_DAC ...
+ ------------------------------------------------------------------------------
+ There were 1053 primitives and 0 faultable pins removed during model optimizations
+ Warning: Rule B9 (undriven module internal net) was violated 2 times.
+ Warning: Rule B10 (unconnected module internal net) was violated 8 times.
+ Warning: Rule N16 (overspecified UDP) was violated 1 times.
+ End build model: #primitives=1101, CPU_time=0.01 sec, Memory=1MB
+ ------------------------------------------------------------------------------
+ Begin learning analyses...
+ End learning analyses, total learning CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+set_rules C4 ignore
+run_drc chip_scan.spf
+ ------------------------------------------------------------------------------
+ Begin scan design rules checking...
+ ------------------------------------------------------------------------------
+ Begin reading test protocol file chip_scan.spf...
+ End parsing STIL file chip_scan.spf with 0 errors.
+ Test protocol file reading completed, CPU time=0.01 sec.
+ ------------------------------------------------------------------------------
+ Begin simulating test protocol procedures...
+ Test protocol simulation completed, CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+ Begin scan chain operation checking...
+ Chain chain1 successfully traced with 76 scan_cells.
+ Scan chain operation checking completed, CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+ Begin clock rules checking...
+ Warning: Rule C26 (clock as data different from capture clock for stable cell) was violated 76 times.
+ Clock rules checking completed, CPU time=0.00 sec.
+ Performing clock grouping analysis for 2 clocks.
+ Clock grouping results: #pairs=0, #groups=0, #serial_pairs=0, #disturbed_pairs=0, CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+ Begin nonscan rules checking...
+ Nonscan cell summary: #DFF=0  #DLAT=0  #RAM_outs=0  tla_usage_type=none
+ Nonscan rules checking completed, CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+ Begin DRC dependent learning...
+ Fast-sequential depth results: control=0(0), observe=0(0), detect=0(0), CPU time=0.00 sec
+ DRC dependent learning completed, CPU time=0.00 sec.
+ ------------------------------------------------------------------------------
+ DRC Summary Report
+ ------------------------------------------------------------------------------
+ Warning: Rule C26 (clock as data different from capture clock for stable cell) was violated 76 times.
+ There were 76 violations that occurred during DRC process.
+ Design rules checking was successful, total CPU time=0.01 sec.
+ ------------------------------------------------------------------------------
+add_faults -all
+ 3658 faults were added to fault list.
+set_pat -internal
+run_atpg -auto
+ 
+ ATPG performed for stuck fault model using internal pattern source.
+ ----------------------------------------------------------
+ #patterns     #faults     #ATPG faults  test      process
+ stored     detect/active  red/au/abort  coverage  CPU time
+ ---------  -------------  ------------  --------  --------
+ Begin deterministic ATPG: #uncollapsed_faults=3119, abort_limit=10...
+ 32           2453    655         6/3/1    81.97%      0.11
+ Local redundancy analysis results: #redundant_faults=15, CPU_time=0.00 sec
+ 64            292    327        14/8/3    90.74%      0.14
+ 96            146    129       52/20/8    95.78%      0.16
+ 125            53     32      75/35/19    98.06%      0.18
+ 
+     Uncollapsed Stuck Fault Summary Report
+ -----------------------------------------------
+ fault class                     code   #faults
+ ------------------------------  ----  ---------
+ Detected                         DT       3483
+ Possibly detected                PT          0
+ Undetectable                     UD        106
+ ATPG untestable                  AU         37
+ Not detected                     ND         32
+ -----------------------------------------------
+ total faults                              3658
+ test coverage                            98.06%
+ -----------------------------------------------
+            Pattern Summary Report
+ -----------------------------------------------
+ #internal patterns                         125
+     #basic_scan patterns                   125
+ -----------------------------------------------
+            CPU Usage Summary Report
+ -----------------------------------------------
+ Total CPU time                            0.19
+ -----------------------------------------------
+set_faults -fault_coverage
+ Warning: Unused gate deletion affects fault coverage calculation. (M245)
+set_faults -summary verbose
+report_summaries
+     Uncollapsed Stuck Fault Summary Report
+ -----------------------------------------------
+ fault class                     code   #faults
+ ------------------------------  ----  ---------
+ Detected                         DT       3483
+   detected_by_simulation         DS      (2944)
+   detected_by_implication        DI       (539)
+ Possibly detected                PT          0
+ Undetectable                     UD        106
+   undetectable-redundant         UR       (106)
+ ATPG untestable                  AU         37
+   atpg_untestable-not_detected   AN        (37)
+ Not detected                     ND         32
+   not-observed                   NO        (32)
+ -----------------------------------------------
+ total faults                              3658
+ test coverage                            98.06%
+ fault coverage                           95.22%
+ -----------------------------------------------
+            Pattern Summary Report
+ -----------------------------------------------
+ #internal patterns                         125
+     #basic_scan patterns                   125
+ -----------------------------------------------
