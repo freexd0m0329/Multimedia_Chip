@@ -1,0 +1,402 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2019 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v19.12-s087_1, built Mon Nov 11 17:32:01 PST 2019
+Options:	
+Date:		Thu May  9 15:33:32 2024
+Host:		islabx5 (x86_64 w/Linux 2.6.32-642.el6.x86_64) (6cores*24cpus*Intel(R) Xeon(R) CPU E5-2630 0 @ 2.30GHz 15360KB)
+OS:		CentOS release 6.8 (Final)
+
+License:
+		invs	Innovus Implementation System	19.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+Change the soft stacksize limit to 0.2%RAM (128 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> win
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+RC_corner
+**WARN: (IMPLF-58):	MACRO 'PCI33DGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'PCI33SDGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'PCI66DGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'PCI66SDGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'PDB02DGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'PDB02SDGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'PDB04DGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'PDB04SDGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'PDB08DGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'PDB08SDGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'PDB12DGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'PDB12SDGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'PDB16DGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'PDB16SDGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'PDB24DGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'PDB24SDGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'PDD02DGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'PDD02SDGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'PDD04DGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-58):	MACRO 'PDD04SDGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (EMS-27):	Message (IMPLF-58) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+**WARN: (IMPLF-119):	LAYER 'METAL1' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'VIA12' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'METAL2' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'VIA23' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'METAL3' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'VIA34' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'METAL4' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'VIA45' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'METAL5' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-61):	596 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data, and certain properties, have been ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM1 GENERATE.
+**WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM2 GENERATE.
+**WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM3 GENERATE.
+**WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM4 GENERATE.
+**WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM5 GENERATE.
+Loading view definition file from /home/mm53/APR_HW/floorplan.enc.dat/viewDefinition.tcl
+**WARN: (TECHLIB-302):	No function defined for cell 'HOLDX1'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/slow.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'PVSS3DGZ'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'PVSS2DGZ'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'PVSS2ANA'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'PVSS1DGZ'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'PVSS1ANA'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'PVDD2POC'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'PVDD2DGZ'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'PVDD2ANA'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'PVDD1DGZ'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'PVDD1ANA'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'PRCUT'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+*** End library_loading (cpu=0.02min, real=0.02min, mem=11.9M, fe_cpu=0.32min, fe_real=0.52min, fe_mem=692.1M) ***
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3X4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3X4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3X2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3X2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR2XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR2XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR2X4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR2X4' is defined in LEF but not in the timing library.
+**WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+**WARN: (IMPTS-282):	Cell 'PRT24DGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'PRT16DGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'PRT12DGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'PRT08DGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'PRO24CDG' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'PRO16CDG' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'PRO12CDG' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'PRO08CDG' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'PDUWDGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'PDUSDGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'PDUDGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'PDT24DGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'PDT16DGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'PDT12DGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'PDT08DGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'PDT04DGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'PDT02DGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'PDO24CDG' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'PDO16CDG' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (IMPTS-282):	Cell 'PDO12CDG' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+**WARN: (EMS-27):	Message (IMPTS-282) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+*** Netlist is unique.
+**WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Loading preference file /home/mm53/APR_HW/floorplan.enc.dat/gui.pref.tcl ...
+**WARN: (IMPOPT-3602):	The specified path group name reg2reg is not defined.
+**WARN: (IMPOPT-3602):	The specified path group name reg2out is not defined.
+**WARN: (IMPOPT-3602):	The specified path group name in2reg is not defined.
+**WARN: (IMPOPT-3602):	The specified path group name in2out is not defined.
+CHIP
+**WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Loading place ...
+**WARN: (IMPEXT-6202):	In addition to the technology file, the capacitance table file is specified for all the RC corners. If the technology file  is already specified for all the RC corners, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command to enable the technology file to be used for preRoute and postRoute (effort level medium/high/signoff) extraction engines.
+Loading path group file /home/mm53/APR_HW/floorplan.enc.dat/mmmc/pathgroup.sdc ...
+'set_default_switching_activity' finished successfully.
+**WARN: (IMPCTE-107):	The following globals have been obsoleted since version 19.12-s087_1. They will be removed in the next release. 
+timing_enable_default_delay_arc
+<CMD> specifyScanChain scan1 -start ipad_SCAN_IN/C -stop opad_SCAN_OUT/I
+<CMD> scanTrace
+*** Scan Trace Summary (runtime: cpu: 0:00:00.0 , real: 0:00:00.0): 
+Successfully traced 1 scan chain  (total 348 scan bits).
+*** Scan Sanity Check Summary:
+*** 1 scan chain  passed sanity check.
+invalid command name "get_db_pins"
+**ERROR: (TCLCMD-1022):	Property 'cellType' is not supported for object type 'db instance'
+**ERROR: (TCLCMD-917):	Cannot find 'cells' that match '*'
+**ERROR: (TCLCMD-1022):	Property 'is_pad_pin' is not supported for object type 'db instance'
+**ERROR: (TCLCMD-917):	Cannot find 'cells' that match '*'
+**ERROR: (TCLCMD-1022):	Property 'PAD' is not supported for object type 'db instance'
+**ERROR: (TCLCMD-917):	Cannot find 'cells' that match '*'
+<CMD> zoomBox -1003.22050 504.84150 2653.70400 2393.77600
+<CMD> zoomBox -259.44550 1073.36150 737.03250 1588.07850
+<CMD> selectInst ipad_cdata_rd14
+<CMD> deselectAll
+<CMD> selectInst ipad_cdata_rd17
+<CMD> zoomBox -52.85000 1224.01600 467.31850 1492.70200
+<CMD> zoomBox 9.73150 1269.67200 385.55400 1463.79800
+<CMD> zoomBox -47.53350 1192.14100 564.43150 1508.24300
+<CMD> panPage 0 1
+<CMD> panPage 0 1
+<CMD> panPage 0 1
+<CMD> panPage 0 1
+<CMD> panPage 0 1
+<CMD> panPage 0 1
+<CMD> panPage 0 -1
+<CMD> deselectAll
+<CMD> selectInst ipad_IOVSS3
+<CMD> panPage 0 1
+<CMD> panPage 0 1
+<CMD> deselectAll
+<CMD> selectInst opad_SCAN_OUT
+<CMD> deselectAll
+<CMD> selectInst ipad_CoreVDD4
+<CMD> deselectAll
+<CMD> selectInst ipad_SCAN_EN
+**ERROR: (TCLCMD-1022):	Property 'cell_type' is not supported for object type 'db instance'
+**ERROR: (TCLCMD-917):	Cannot find 'cells' that match '*'
+<CMD> deselectAll
+<CMD> selectInst ipad_SCAN_EN
+**ERROR: (TCLCMD-1022):	Property 'Cell_Type' is not supported for object type 'db instance'
+**ERROR: (TCLCMD-917):	Cannot find 'cells' that match '*'
+CONV/clk CONV/reset CONV/busy CONV/ready CONV/iaddr[11] CONV/iaddr[10] CONV/iaddr[9] CONV/iaddr[8] CONV/iaddr[7] CONV/iaddr[6] CONV/iaddr[5] CONV/iaddr[4] CONV/iaddr[3] CONV/iaddr[2] CONV/iaddr[1] CONV/iaddr[0] CONV/idata[19] CONV/idata[18] CONV/idata[17] CONV/idata[16] CONV/idata[15] CONV/idata[14] CONV/idata[13] CONV/idata[12] CONV/idata[11] CONV/idata[10] CONV/idata[9] CONV/idata[8] CONV/idata[7] CONV/idata[6] CONV/idata[5] CONV/idata[4] CONV/idata[3] CONV/idata[2] CONV/idata[1] CONV/idata[0] CONV/cwr CONV/caddr_wr[11] CONV/caddr_wr[10] CONV/caddr_wr[9] CONV/caddr_wr[8] CONV/caddr_wr[7] CONV/caddr_wr[6] CONV/caddr_wr[5] CONV/caddr_wr[4] CONV/caddr_wr[3] CONV/caddr_wr[2] CONV/caddr_wr[1] CONV/caddr_wr[0] CONV/cdata_wr[19] CONV/cdata_wr[18] CONV/cdata_wr[17] CONV/cdata_wr[16] CONV/cdata_wr[15] CONV/cdata_wr[14] CONV/cdata_wr[13] CONV/cdata_wr[12] CONV/cdata_wr[11] CONV/cdata_wr[10] CONV/cdata_wr[9] CONV/cdata_wr[8] CONV/cdata_wr[7] CONV/cdata_wr[6] CONV/cdata_wr[5] CONV/cdata_wr[4] CONV/cdata_wr[3] CONV/cdata_wr[2] CONV/cdata_wr[1] CONV/cdata_wr[0] CONV/crd CONV/caddr_rd[11] CONV/caddr_rd[10] CONV/caddr_rd[9] CONV/caddr_rd[8] CONV/caddr_rd[7] CONV/caddr_rd[6] CONV/caddr_rd[5] CONV/caddr_rd[4] CONV/caddr_rd[3] CONV/caddr_rd[2] CONV/caddr_rd[1] CONV/caddr_rd[0] CONV/cdata_rd[19] CONV/cdata_rd[18] CONV/cdata_rd[17] CONV/cdata_rd[16] CONV/cdata_rd[15] CONV/cdata_rd[14] CONV/cdata_rd[13] CONV/cdata_rd[12] CONV/cdata_rd[11] CONV/cdata_rd[10] CONV/cdata_rd[9] CONV/cdata_rd[8] CONV/cdata_rd[7] CONV/cdata_rd[6] CONV/cdata_rd[5] CONV/cdata_rd[4] CONV/cdata_rd[3] CONV/cdata_rd[2] ...
+
+Usage: get_object_name [-help] <collection>
+
+
+
+Usage: get_object_name [-help] <collection>
+
+-help            # Prints out the command usage
+<collection>     # Object collection that contains the object (string, required)
+
+
+**ERROR: (TCLCMD-1022):	Property 'is_pad' is not supported for object type 'db instance'
+**ERROR: (TCLCMD-917):	Cannot find 'cells' that match '*'
+ipad_clk ipad_reset ipad_ready ipad_idata0 ipad_idata1 ipad_idata2 ipad_idata3 ipad_idata4 ipad_idata5 ipad_idata6 ipad_idata7 ipad_idata8 ipad_idata9 ipad_idata10 ipad_idata11 ipad_idata12 ipad_idata13 ipad_idata14 ipad_idata15 ipad_idata16 ipad_idata17 ipad_idata18 ipad_idata19 ipad_cdata_rd0 ipad_cdata_rd1 ipad_cdata_rd2 ipad_cdata_rd3 ipad_cdata_rd4 ipad_cdata_rd5 ipad_cdata_rd6 ipad_cdata_rd7 ipad_cdata_rd8 ipad_cdata_rd9 ipad_cdata_rd10 ipad_cdata_rd11 ipad_cdata_rd12 ipad_cdata_rd13 ipad_cdata_rd14 ipad_cdata_rd15 ipad_cdata_rd16 ipad_cdata_rd17 ipad_cdata_rd18 ipad_cdata_rd19 ipad_SCAN_IN ipad_SCAN_EN opad_SCAN_OUT opad_busy opad_iaddr0 opad_iaddr1 opad_iaddr2 opad_iaddr3 opad_iaddr4 opad_iaddr5 opad_iaddr6 opad_iaddr7 opad_iaddr8 opad_iaddr9 opad_iaddr10 opad_iaddr11 opad_cwr opad_caddr_wr0 opad_caddr_wr1 opad_caddr_wr2 opad_caddr_wr3 opad_caddr_wr4 opad_caddr_wr5 opad_caddr_wr6 opad_caddr_wr7 opad_caddr_wr8 opad_caddr_wr9 opad_caddr_wr10 opad_caddr_wr11 opad_cdata_wr0 opad_cdata_wr1 opad_cdata_wr2 opad_cdata_wr3 opad_cdata_wr4 opad_cdata_wr5 opad_cdata_wr6 opad_cdata_wr7 opad_cdata_wr8 opad_cdata_wr9 opad_cdata_wr10 opad_cdata_wr11 opad_cdata_wr12 opad_cdata_wr13 opad_cdata_wr14 opad_cdata_wr15 opad_cdata_wr16 opad_cdata_wr17 opad_cdata_wr18 opad_cdata_wr19 opad_crd opad_caddr_rd0 opad_caddr_rd1 opad_caddr_rd2 opad_caddr_rd3 opad_caddr_rd4 opad_caddr_rd5 opad_caddr_rd6 ...
+**ERROR: (TCLCMD-1022):	Property 'is_pad_cell' is not supported for object type 'db pin'
+**ERROR: (TCLCMD-917):	Cannot find 'pins' that match '*'
+**ERROR: (TCLCMD-1022):	Property 'is_pad_cell' is not supported for object type 'db pin'
+**ERROR: (TCLCMD-917):	Cannot find 'pins' that match '*'
+**WARN: (TCLCMD-618):	Unknown option '-filter{object_type=~"PD"}'
+CONV ipad_clk ipad_reset ipad_ready ipad_idata0 ipad_idata1 ipad_idata2 ipad_idata3 ipad_idata4 ipad_idata5 ipad_idata6 ipad_idata7 ipad_idata8 ipad_idata9 ipad_idata10 ipad_idata11 ipad_idata12 ipad_idata13 ipad_idata14 ipad_idata15 ipad_idata16 ipad_idata17 ipad_idata18 ipad_idata19 ipad_cdata_rd0 ipad_cdata_rd1 ipad_cdata_rd2 ipad_cdata_rd3 ipad_cdata_rd4 ipad_cdata_rd5 ipad_cdata_rd6 ipad_cdata_rd7 ipad_cdata_rd8 ipad_cdata_rd9 ipad_cdata_rd10 ipad_cdata_rd11 ipad_cdata_rd12 ipad_cdata_rd13 ipad_cdata_rd14 ipad_cdata_rd15 ipad_cdata_rd16 ipad_cdata_rd17 ipad_cdata_rd18 ipad_cdata_rd19 ipad_SCAN_IN ipad_SCAN_EN opad_SCAN_OUT opad_busy opad_iaddr0 opad_iaddr1 opad_iaddr2 opad_iaddr3 opad_iaddr4 opad_iaddr5 opad_iaddr6 opad_iaddr7 opad_iaddr8 opad_iaddr9 opad_iaddr10 opad_iaddr11 opad_cwr opad_caddr_wr0 opad_caddr_wr1 opad_caddr_wr2 opad_caddr_wr3 opad_caddr_wr4 opad_caddr_wr5 opad_caddr_wr6 opad_caddr_wr7 opad_caddr_wr8 opad_caddr_wr9 opad_caddr_wr10 opad_caddr_wr11 opad_cdata_wr0 opad_cdata_wr1 opad_cdata_wr2 opad_cdata_wr3 opad_cdata_wr4 opad_cdata_wr5 opad_cdata_wr6 opad_cdata_wr7 opad_cdata_wr8 opad_cdata_wr9 opad_cdata_wr10 opad_cdata_wr11 opad_cdata_wr12 opad_cdata_wr13 opad_cdata_wr14 opad_cdata_wr15 opad_cdata_wr16 opad_cdata_wr17 opad_cdata_wr18 opad_cdata_wr19 opad_crd opad_caddr_rd0 opad_caddr_rd1 opad_caddr_rd2 opad_caddr_rd3 opad_caddr_rd4 opad_caddr_rd5 ...
+**ERROR: (TCLCMD-917):	Cannot find 'cells' that match '*'
+<CMD> zoomBox -271.27650 1758.23550 901.05650 2363.78800
+<CMD> zoomBox -699.89950 1571.03600 1545.92400 2731.08550
+<CMD> zoomBox -2180.78800 924.26200 3773.94550 4000.09850
+<CMD> zoomBox -5161.69600 -377.64100 8258.77450 6554.52050
+<CMD> pan 201.75100 4114.24200
+<CMD> getIoFlowFlag
+<CMD> setIoFlowFlag 0
+<CMD> floorPlan -site tsm3site -r 0.999238317129 0.5 121.9 121.88 121.44 121.52
+Adjusting Core to Left to: 122.5600. Core to Bottom to: 122.4400.
+**WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+**WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+Type 'man IMPFP-3961' for more detail.
+Horizontal Layer M1 offset = 560 (derived)
+Vertical Layer M2 offset = 660 (derived)
+Generated pitch 0.56 in METAL5 is different from 1.12 defined in technology file in preferred direction.
+**WARN: (IMPFP-325):	Floorplan of the design is resized. All current floorplan objects are automatically derived based on specified new floorplan. This may change blocks, fixed standard cells, existing routes and blockages.
+<CMD> uiSetTool select
+<CMD> getIoFlowFlag
+<CMD> fit
+<CMD> zoomBox -1217.94850 -750.22500 3810.14250 1846.96700
+<CMD> zoomBox -929.32500 -259.39650 2703.47150 1617.07500
+<CMD> zoomBox -720.79450 95.22650 1903.90150 1450.97750
+<CMD> zoomBox -639.35500 233.72150 1591.63700 1386.11000
+<CMD> zoomBox -419.86300 514.81550 950.24450 1222.52600
+<CMD> zoomBox -367.46500 581.92050 797.12700 1183.47450
+<CMD> zoomBox -508.94450 455.77250 1102.94800 1288.37350
+<CMD> zoomBox -704.76350 281.54550 1526.22950 1433.93450
+<CMD> zoomBox -619.24050 383.97250 1277.10400 1363.50350
+<CMD> zoomBox -432.23300 607.94200 732.36050 1209.49700
+<CMD> zoomBox -387.58950 661.40950 602.31550 1172.73150
+<CMD> panPage 0 1
+<CMD> panPage 0 1
+<CMD> deselectAll
+<CMD> selectInst ipad_IOVSS4
+<CMD> selectInst opad_iaddr6
+<CMD> deselectAll
+<CMD> getPreference InstFlightLine
+<CMD> getPreference InstFlightLine
+<CMD> getPreference InstFlightLine
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+<CMD> selectObjByProp Instance {}
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+<CMD> selectObjByProp Instance {}
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+<CMD> selectObjByProp Instance {}
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+<CMD> selectObjByProp Instance {}
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+<CMD> selectObjByProp Instance {}
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+<CMD> selectObjByProp Instance {}
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+<CMD> selectObjByProp Instance {}
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+<CMD> selectObjByProp Instance {}
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+<CMD> selectObjByProp Instance {}
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+<CMD> selectObjByProp Instance {}
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+<CMD> selectObjByProp Instance {}
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+<CMD> selectObjByProp Instance {}
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+<CMD> selectObjByProp Instance {}
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+<CMD> selectObjByProp Instance <Type>=<I/O>
+<CMD> selectObjByProp Instance <Type>=<I/O>
+<CMD> selectObjByProp Instance <Type>=<I/O>
+<CMD> deselect_obj inst:CHIP/CORNER0
+<CMD> deselect_obj inst:CHIP/CORNER1
+<CMD> deselect_obj inst:CHIP/CORNER2
+<CMD> deselect_obj inst:CHIP/CORNER3
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+<CMD> selectObjByProp Instance And()
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+<CMD> selectObjByProp Instance OR()
+**ERROR: (IMPSYT-7081):	uiSelectObjByProp: Cannot find property.
+<CMD> selectObjByProp Instance <Type>=<I/O>
+<CMD> zoomBox -2516.35400 387.63050 1757.53600 2595.25000
+<CMD> zoomBox -3005.25650 254.29350 2022.84950 2851.49300
+<CMD> pan 329.56300 2585.30600
+<CMD> zoomBox -2265.25150 -242.62150 2008.63900 1964.99850
+<CMD> zoomBox -1916.37550 -91.89150 1716.43150 1784.58550
+<CMD> zoomBox -1582.47600 55.88900 1505.41000 1650.89450
+<CMD> pan 100.26850 1562.23550
+<CMD> deselectAll
+<CMD> getPreference InstFlightLine
+<CMD> selectObjByProp Instance <Type>=<I/O>
+<CMD> deselectAll
+<CMD> selectInst CORNER0
+<CMD> deselectAll
+<CMD> selectInst CORNER0
+<CMD> deleteSelectedFromFPlan
+<CMD> deselectAll
+<CMD> selectInst CORNER1
+<CMD> deleteSelectedFromFPlan
+<CMD> zoomBox -2011.40050 -217.17250 1621.40700 1659.30450
+<CMD> deselectAll
+<CMD> selectInst CORNER3
+<CMD> deleteSelectedFromFPlan
+<CMD> deselectAll
+<CMD> selectInst CORNER2
+<CMD> deleteSelectedFromFPlan
+<CMD> panPage 1 0
+<CMD> panPage 1 0
+<CMD> deselectAll
+<CMD> selectInst CORNER0
+<CMD> deselectAll
+<CMD> selectInst CORNER0
+<CMD> selectInst CORNER3
+<CMD> selectInst CORNER2
+<CMD> selectInst CORNER1
+<CMD> getPreference InstFlightLine
+<CMD> gui_select -rect {2317.82300 359.53250 1465.87200 -55.52050}
+<CMD> deselectAll
+<CMD> gui_select -rect {1599.12550 82.10250 2726.32250 189.14250}
+<CMD> deselectAll
+<CMD> gui_select -rect {2385.54200 322.39650 1426.55100 -70.81200}
+<CMD> uiSetTool move
+**ERROR: (IMPFP-60):	Io Inst new lower left location is outside of headbox, it would not be moved.
+<CMD> setObjFPlanBox Instance CORNER0 3278.5575 648.7935 3463.5575 833.7935
+**ERROR: (IMPFP-60):	Io Inst new lower left location is outside of headbox, it would not be moved.
+<CMD> setObjFPlanBox Instance CORNER1 3093.5575 648.7935 3278.5575 833.7935
+**ERROR: (IMPFP-60):	Io Inst new lower left location is outside of headbox, it would not be moved.
+<CMD> setObjFPlanBox Instance CORNER2 2908.5575 648.7935 3093.5575 833.7935
+**ERROR: (IMPFP-60):	Io Inst new lower left location is outside of headbox, it would not be moved.
+<CMD> setObjFPlanBox Instance CORNER3 2723.5575 648.7935 2908.5575 833.7935
+**ERROR: (IMPFP-60):	Io Inst new lower left location is outside of headbox, it would not be moved.
+<CMD> setObjFPlanBox Instance CORNER0 2666.9005 629.133 2851.9005 814.133
+**ERROR: (IMPFP-60):	Io Inst new lower left location is outside of headbox, it would not be moved.
+<CMD> setObjFPlanBox Instance CORNER1 2481.9005 629.133 2666.9005 814.133
+**ERROR: (IMPFP-60):	Io Inst new lower left location is outside of headbox, it would not be moved.
+<CMD> setObjFPlanBox Instance CORNER2 2296.9005 629.133 2481.9005 814.133
+**ERROR: (IMPFP-60):	Io Inst new lower left location is outside of headbox, it would not be moved.
+<CMD> setObjFPlanBox Instance CORNER3 2111.9005 629.133 2296.9005 814.133
+<CMD> zoomBox -194.99650 -217.17250 3437.81100 1659.30450
+<CMD> zoomBox -558.27750 -217.17250 3074.53000 1659.30450
+<CMD> uiSetTool select
+<CMD> gui_select -rect {1532.28000 1484.54550 -58.02900 -40.22900}
+<CMD> deselectAll
+<CMD> getPreference InstFlightLine
+
+--------------------------------------------------------------------------------
+Exiting Innovus on Thu May  9 16:05:25 2024
+  Total CPU time:     0:04:14
+  Total real time:    0:31:54
+  Peak memory (main): 910.09MB
+
+
+*** Memory Usage v#1 (Current mem = 1070.480M, initial mem = 281.531M) ***
+*** Message Summary: 1606 warning(s), 55 error(s)
+
+--- Ending "Innovus" (totcpu=0:04:14, real=0:31:53, mem=1070.5M) ---

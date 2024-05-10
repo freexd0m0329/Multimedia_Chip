@@ -1,0 +1,9 @@
+CHIP 1000
+ERC PATHCHK GROUND && ! POWER
+0 0 0 May  8 22:24:29 2024                                                      
+ERC PATHCHK POWER && ! GROUND
+0 0 0 May  8 22:24:29 2024                                                      
+ERC PATHCHK ! POWER && ! GROUND NOFLOAT
+0 0 0 May  8 22:24:29 2024                                                      
+ERC PATHCHK ! LABELED NOFLOAT
+0 0 0 May  8 22:24:29 2024                                                      

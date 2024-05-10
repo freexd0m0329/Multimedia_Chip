@@ -1,0 +1,735 @@
+
+
+==================================================================================
+=== CALIBRE::ERC-H SUMMARY REPORT
+===
+Execution Date/Time:          Wed May  8 22:24:12 2024
+Calibre Version:              v2020.2_14.12    Thu Apr 2 15:39:27 PDT 2020
+Rule File Pathname:           Calibre.lvs
+Rule File Title:              
+Layout System:                GDSII
+Layout Path(s):               CHIP.gds
+Layout Primary Cell:          CHIP
+Current Directory:            /home/mm53/APR_HW/LVS
+User Name:                    mm53
+Maximum Results/ERC Check:    1000
+Maximum ERC Result Vertices:  4096
+ERC Results Database:         calibre_erc.db (ASCII)
+ERC PATHCHK Results Database: svdb/CHIP.pathchk.erc
+ERC PATHCHK Report:           svdb/CHIP.pathchk.rep
+Layout Depth:                 ALL
+Text Depth:                   PRIMARY
+Summary Report File:          calibre_erc.sum (REPLACE)
+Geometry Flagging:            ACUTE = NO  SKEW = YES  ANGLED = NO  OFFGRID = YES
+                              NONSIMPLE POLYGON = NO  NONSIMPLE PATH = NO
+Excluded Cells:              
+CheckText Mapping:            COMMENT TEXT + RULE FILE INFORMATION
+Layers:                       MEMORY-BASED
+Keep Empty Checks:            YES
+----------------------------------------------------------------------------------
+--- RUNTIME WARNINGS
+---
+LVS BOX cell "ADDFHXL" not located or not allowed.
+LVS BOX cell "ADDFX4" not located or not allowed.
+LVS BOX cell "AFCSHCINX2" not located or not allowed.
+LVS BOX cell "AFCSHCINX4" not located or not allowed.
+LVS BOX cell "AFCSHCONX2" not located or not allowed.
+LVS BOX cell "AFCSHCONX4" not located or not allowed.
+LVS BOX cell "AFHCINX2" not located or not allowed.
+LVS BOX cell "AFHCINX4" not located or not allowed.
+LVS BOX cell "AFHCONX2" not located or not allowed.
+LVS BOX cell "AFHCONX4" not located or not allowed.
+LVS BOX cell "AHHCINX2" not located or not allowed.
+LVS BOX cell "AHHCINX4" not located or not allowed.
+LVS BOX cell "AHHCONX2" not located or not allowed.
+LVS BOX cell "AHHCONX4" not located or not allowed.
+LVS BOX cell "AND2XL" not located or not allowed.
+LVS BOX cell "AND3XL" not located or not allowed.
+LVS BOX cell "AND4X1" not located or not allowed.
+LVS BOX cell "AND4X4" not located or not allowed.
+LVS BOX cell "AND4XL" not located or not allowed.
+LVS BOX cell "AOI211X4" not located or not allowed.
+LVS BOX cell "AOI221X4" not located or not allowed.
+LVS BOX cell "AOI31XL" not located or not allowed.
+LVS BOX cell "AOI32X4" not located or not allowed.
+LVS BOX cell "AOI33X1" not located or not allowed.
+LVS BOX cell "AOI33X2" not located or not allowed.
+LVS BOX cell "AOI33X4" not located or not allowed.
+LVS BOX cell "AOI33XL" not located or not allowed.
+LVS BOX cell "BENCX1" not located or not allowed.
+LVS BOX cell "BENCX2" not located or not allowed.
+LVS BOX cell "BENCX4" not located or not allowed.
+LVS BOX cell "BMXX1" not located or not allowed.
+LVS BOX cell "CLKBUFX1" not located or not allowed.
+LVS BOX cell "CLKBUFX12" not located or not allowed.
+LVS BOX cell "CLKBUFX16" not located or not allowed.
+LVS BOX cell "CLKBUFX2" not located or not allowed.
+LVS BOX cell "CLKBUFXL" not located or not allowed.
+LVS BOX cell "CLKINVX1" not located or not allowed.
+LVS BOX cell "CLKINVX12" not located or not allowed.
+LVS BOX cell "CLKINVX16" not located or not allowed.
+LVS BOX cell "CLKINVX20" not located or not allowed.
+LVS BOX cell "CLKINVXL" not located or not allowed.
+LVS BOX cell "CMPR42X2" not located or not allowed.
+LVS BOX cell "DFFHQX1" not located or not allowed.
+LVS BOX cell "DFFHQX2" not located or not allowed.
+LVS BOX cell "DFFHQX4" not located or not allowed.
+LVS BOX cell "DFFHQXL" not located or not allowed.
+LVS BOX cell "DFFNRX1" not located or not allowed.
+LVS BOX cell "DFFNRX2" not located or not allowed.
+LVS BOX cell "DFFNRX4" not located or not allowed.
+LVS BOX cell "DFFNRXL" not located or not allowed.
+LVS BOX cell "DFFNSRX1" not located or not allowed.
+LVS BOX cell "DFFNSRX2" not located or not allowed.
+LVS BOX cell "DFFNSRX4" not located or not allowed.
+LVS BOX cell "DFFNSRXL" not located or not allowed.
+LVS BOX cell "DFFNSX1" not located or not allowed.
+LVS BOX cell "DFFNSX2" not located or not allowed.
+LVS BOX cell "DFFNSX4" not located or not allowed.
+LVS BOX cell "DFFNSXL" not located or not allowed.
+LVS BOX cell "DFFNX1" not located or not allowed.
+LVS BOX cell "DFFNX2" not located or not allowed.
+LVS BOX cell "DFFNX4" not located or not allowed.
+LVS BOX cell "DFFNXL" not located or not allowed.
+LVS BOX cell "DFFRHQX1" not located or not allowed.
+LVS BOX cell "DFFRHQX2" not located or not allowed.
+LVS BOX cell "DFFRHQX4" not located or not allowed.
+LVS BOX cell "DFFRHQXL" not located or not allowed.
+LVS BOX cell "DFFRX1" not located or not allowed.
+LVS BOX cell "DFFRX2" not located or not allowed.
+LVS BOX cell "DFFRX4" not located or not allowed.
+LVS BOX cell "DFFRXL" not located or not allowed.
+LVS BOX cell "DFFSHQX1" not located or not allowed.
+LVS BOX cell "DFFSHQX2" not located or not allowed.
+LVS BOX cell "DFFSHQX4" not located or not allowed.
+LVS BOX cell "DFFSHQXL" not located or not allowed.
+LVS BOX cell "DFFSRHQX1" not located or not allowed.
+LVS BOX cell "DFFSRHQX2" not located or not allowed.
+LVS BOX cell "DFFSRHQX4" not located or not allowed.
+LVS BOX cell "DFFSRHQXL" not located or not allowed.
+LVS BOX cell "DFFSRX1" not located or not allowed.
+LVS BOX cell "DFFSRX2" not located or not allowed.
+LVS BOX cell "DFFSRX4" not located or not allowed.
+LVS BOX cell "DFFSRXL" not located or not allowed.
+LVS BOX cell "DFFSX1" not located or not allowed.
+LVS BOX cell "DFFSX2" not located or not allowed.
+LVS BOX cell "DFFSX4" not located or not allowed.
+LVS BOX cell "DFFSXL" not located or not allowed.
+LVS BOX cell "DFFTRX1" not located or not allowed.
+LVS BOX cell "DFFTRX2" not located or not allowed.
+LVS BOX cell "DFFTRX4" not located or not allowed.
+LVS BOX cell "DFFTRXL" not located or not allowed.
+LVS BOX cell "DFFX1" not located or not allowed.
+LVS BOX cell "DFFX2" not located or not allowed.
+LVS BOX cell "DFFX4" not located or not allowed.
+LVS BOX cell "DFFXL" not located or not allowed.
+LVS BOX cell "DLY1X1" not located or not allowed.
+LVS BOX cell "DLY2X1" not located or not allowed.
+LVS BOX cell "DLY3X1" not located or not allowed.
+LVS BOX cell "DLY4X1" not located or not allowed.
+LVS BOX cell "EDFFTRX1" not located or not allowed.
+LVS BOX cell "EDFFTRX2" not located or not allowed.
+LVS BOX cell "EDFFTRX4" not located or not allowed.
+LVS BOX cell "EDFFTRXL" not located or not allowed.
+LVS BOX cell "EDFFX1" not located or not allowed.
+LVS BOX cell "EDFFX2" not located or not allowed.
+LVS BOX cell "EDFFX4" not located or not allowed.
+LVS BOX cell "EDFFXL" not located or not allowed.
+LVS BOX cell "HOLDX1" not located or not allowed.
+LVS BOX cell "INVX16" not located or not allowed.
+LVS BOX cell "INVX3" not located or not allowed.
+LVS BOX cell "JKFFRX1" not located or not allowed.
+LVS BOX cell "JKFFRX2" not located or not allowed.
+LVS BOX cell "JKFFRX4" not located or not allowed.
+LVS BOX cell "JKFFRXL" not located or not allowed.
+LVS BOX cell "JKFFSRX1" not located or not allowed.
+LVS BOX cell "JKFFSRX2" not located or not allowed.
+LVS BOX cell "JKFFSRX4" not located or not allowed.
+LVS BOX cell "JKFFSRXL" not located or not allowed.
+LVS BOX cell "JKFFSX1" not located or not allowed.
+LVS BOX cell "JKFFSX2" not located or not allowed.
+LVS BOX cell "JKFFSX4" not located or not allowed.
+LVS BOX cell "JKFFSXL" not located or not allowed.
+LVS BOX cell "JKFFX1" not located or not allowed.
+LVS BOX cell "JKFFX2" not located or not allowed.
+LVS BOX cell "JKFFX4" not located or not allowed.
+LVS BOX cell "JKFFXL" not located or not allowed.
+LVS BOX cell "MX2XL" not located or not allowed.
+LVS BOX cell "MX4X1" not located or not allowed.
+LVS BOX cell "MX4X2" not located or not allowed.
+LVS BOX cell "MX4X4" not located or not allowed.
+LVS BOX cell "MX4XL" not located or not allowed.
+LVS BOX cell "MXI2XL" not located or not allowed.
+LVS BOX cell "MXI4X1" not located or not allowed.
+LVS BOX cell "MXI4X2" not located or not allowed.
+LVS BOX cell "MXI4X4" not located or not allowed.
+LVS BOX cell "MXI4XL" not located or not allowed.
+LVS BOX cell "NAND4BBX4" not located or not allowed.
+LVS BOX cell "NAND4BBXL" not located or not allowed.
+LVS BOX cell "NAND4BX1" not located or not allowed.
+LVS BOX cell "NAND4BX2" not located or not allowed.
+LVS BOX cell "NAND4BXL" not located or not allowed.
+LVS BOX cell "NOR3BX2" not located or not allowed.
+LVS BOX cell "NOR3BX4" not located or not allowed.
+LVS BOX cell "NOR3BXL" not located or not allowed.
+LVS BOX cell "NOR3X2" not located or not allowed.
+LVS BOX cell "NOR4BBX1" not located or not allowed.
+LVS BOX cell "NOR4BBX2" not located or not allowed.
+LVS BOX cell "NOR4BBX4" not located or not allowed.
+LVS BOX cell "NOR4BBXL" not located or not allowed.
+LVS BOX cell "NOR4BX2" not located or not allowed.
+LVS BOX cell "NOR4BX4" not located or not allowed.
+LVS BOX cell "NOR4X4" not located or not allowed.
+LVS BOX cell "OAI211X4" not located or not allowed.
+LVS BOX cell "OAI31X2" not located or not allowed.
+LVS BOX cell "OAI32X2" not located or not allowed.
+LVS BOX cell "OAI32XL" not located or not allowed.
+LVS BOX cell "OAI33X2" not located or not allowed.
+LVS BOX cell "OAI33X4" not located or not allowed.
+LVS BOX cell "OAI33XL" not located or not allowed.
+LVS BOX cell "OR3X1" not located or not allowed.
+LVS BOX cell "OR3X2" not located or not allowed.
+LVS BOX cell "OR4X1" not located or not allowed.
+LVS BOX cell "OR4XL" not located or not allowed.
+LVS BOX cell "PCI33DGZ" not located or not allowed.
+LVS BOX cell "PCI33SDGZ" not located or not allowed.
+LVS BOX cell "PCI66DGZ" not located or not allowed.
+LVS BOX cell "PCI66SDGZ" not located or not allowed.
+LVS BOX cell "PDB02DGZ" not located or not allowed.
+LVS BOX cell "PDB02SDGZ" not located or not allowed.
+LVS BOX cell "PDB04DGZ" not located or not allowed.
+LVS BOX cell "PDB04SDGZ" not located or not allowed.
+LVS BOX cell "PDB08DGZ" not located or not allowed.
+LVS BOX cell "PDB08SDGZ" not located or not allowed.
+LVS BOX cell "PDB12DGZ" not located or not allowed.
+LVS BOX cell "PDB12SDGZ" not located or not allowed.
+LVS BOX cell "PDB16DGZ" not located or not allowed.
+LVS BOX cell "PDB16SDGZ" not located or not allowed.
+LVS BOX cell "PDB24DGZ" not located or not allowed.
+LVS BOX cell "PDB24SDGZ" not located or not allowed.
+LVS BOX cell "PDD02DGZ" not located or not allowed.
+LVS BOX cell "PDD02SDGZ" not located or not allowed.
+LVS BOX cell "PDD04DGZ" not located or not allowed.
+LVS BOX cell "PDD04SDGZ" not located or not allowed.
+LVS BOX cell "PDD08DGZ" not located or not allowed.
+LVS BOX cell "PDD08SDGZ" not located or not allowed.
+LVS BOX cell "PDD12DGZ" not located or not allowed.
+LVS BOX cell "PDD12SDGZ" not located or not allowed.
+LVS BOX cell "PDD16DGZ" not located or not allowed.
+LVS BOX cell "PDD16SDGZ" not located or not allowed.
+LVS BOX cell "PDD24DGZ" not located or not allowed.
+LVS BOX cell "PDD24SDGZ" not located or not allowed.
+LVS BOX cell "PDDDGZ" not located or not allowed.
+LVS BOX cell "PDDSDGZ" not located or not allowed.
+LVS BOX cell "PDDW02DGZ" not located or not allowed.
+LVS BOX cell "PDDW04DGZ" not located or not allowed.
+LVS BOX cell "PDDW08DGZ" not located or not allowed.
+LVS BOX cell "PDDW12DGZ" not located or not allowed.
+LVS BOX cell "PDDW16DGZ" not located or not allowed.
+LVS BOX cell "PDDW24DGZ" not located or not allowed.
+LVS BOX cell "PDDWDGZ" not located or not allowed.
+LVS BOX cell "PDISDGZ" not located or not allowed.
+LVS BOX cell "PDO02CDG" not located or not allowed.
+LVS BOX cell "PDO04CDG" not located or not allowed.
+LVS BOX cell "PDO08CDG" not located or not allowed.
+LVS BOX cell "PDO16CDG" not located or not allowed.
+LVS BOX cell "PDO24CDG" not located or not allowed.
+LVS BOX cell "PDT02DGZ" not located or not allowed.
+LVS BOX cell "PDT04DGZ" not located or not allowed.
+LVS BOX cell "PDT08DGZ" not located or not allowed.
+LVS BOX cell "PDT12DGZ" not located or not allowed.
+LVS BOX cell "PDT16DGZ" not located or not allowed.
+LVS BOX cell "PDT24DGZ" not located or not allowed.
+LVS BOX cell "PDU02DGZ" not located or not allowed.
+LVS BOX cell "PDU02SDGZ" not located or not allowed.
+LVS BOX cell "PDU04DGZ" not located or not allowed.
+LVS BOX cell "PDU04SDGZ" not located or not allowed.
+LVS BOX cell "PDU08DGZ" not located or not allowed.
+LVS BOX cell "PDU08SDGZ" not located or not allowed.
+LVS BOX cell "PDU12DGZ" not located or not allowed.
+LVS BOX cell "PDU12SDGZ" not located or not allowed.
+LVS BOX cell "PDU16DGZ" not located or not allowed.
+LVS BOX cell "PDU16SDGZ" not located or not allowed.
+LVS BOX cell "PDU24DGZ" not located or not allowed.
+LVS BOX cell "PDU24SDGZ" not located or not allowed.
+LVS BOX cell "PDUDGZ" not located or not allowed.
+LVS BOX cell "PDUSDGZ" not located or not allowed.
+LVS BOX cell "PDUW02DGZ" not located or not allowed.
+LVS BOX cell "PDUW04DGZ" not located or not allowed.
+LVS BOX cell "PDUW08DGZ" not located or not allowed.
+LVS BOX cell "PDUW12DGZ" not located or not allowed.
+LVS BOX cell "PDUW16DGZ" not located or not allowed.
+LVS BOX cell "PDUW24DGZ" not located or not allowed.
+LVS BOX cell "PDUWDGZ" not located or not allowed.
+LVS BOX cell "PDXO01DG" not located or not allowed.
+LVS BOX cell "PDXO02DG" not located or not allowed.
+LVS BOX cell "PDXO03DG" not located or not allowed.
+LVS BOX cell "PDXOE1DG" not located or not allowed.
+LVS BOX cell "PDXOE2DG" not located or not allowed.
+LVS BOX cell "PDXOE3DG" not located or not allowed.
+LVS BOX cell "PRB08DGZ" not located or not allowed.
+LVS BOX cell "PRB08SDGZ" not located or not allowed.
+LVS BOX cell "PRB12DGZ" not located or not allowed.
+LVS BOX cell "PRB12SDGZ" not located or not allowed.
+LVS BOX cell "PRB16DGZ" not located or not allowed.
+LVS BOX cell "PRB16SDGZ" not located or not allowed.
+LVS BOX cell "PRB24DGZ" not located or not allowed.
+LVS BOX cell "PRB24SDGZ" not located or not allowed.
+LVS BOX cell "PRCUT" not located or not allowed.
+LVS BOX cell "PRD08DGZ" not located or not allowed.
+LVS BOX cell "PRD08SDGZ" not located or not allowed.
+LVS BOX cell "PRD12DGZ" not located or not allowed.
+LVS BOX cell "PRD12SDGZ" not located or not allowed.
+LVS BOX cell "PRD16DGZ" not located or not allowed.
+LVS BOX cell "PRD16SDGZ" not located or not allowed.
+LVS BOX cell "PRD24DGZ" not located or not allowed.
+LVS BOX cell "PRD24SDGZ" not located or not allowed.
+LVS BOX cell "PRDW08DGZ" not located or not allowed.
+LVS BOX cell "PRDW12DGZ" not located or not allowed.
+LVS BOX cell "PRDW16DGZ" not located or not allowed.
+LVS BOX cell "PRDW24DGZ" not located or not allowed.
+LVS BOX cell "PRO08CDG" not located or not allowed.
+LVS BOX cell "PRO12CDG" not located or not allowed.
+LVS BOX cell "PRO16CDG" not located or not allowed.
+LVS BOX cell "PRO24CDG" not located or not allowed.
+LVS BOX cell "PRT08DGZ" not located or not allowed.
+LVS BOX cell "PRT12DGZ" not located or not allowed.
+LVS BOX cell "PRT16DGZ" not located or not allowed.
+LVS BOX cell "PRT24DGZ" not located or not allowed.
+LVS BOX cell "PRU08DGZ" not located or not allowed.
+LVS BOX cell "PRU08SDGZ" not located or not allowed.
+LVS BOX cell "PRU12DGZ" not located or not allowed.
+LVS BOX cell "PRU12SDGZ" not located or not allowed.
+LVS BOX cell "PRU16DGZ" not located or not allowed.
+LVS BOX cell "PRU16SDGZ" not located or not allowed.
+LVS BOX cell "PRU24DGZ" not located or not allowed.
+LVS BOX cell "PRU24SDGZ" not located or not allowed.
+LVS BOX cell "PRUW08DGZ" not located or not allowed.
+LVS BOX cell "PRUW12DGZ" not located or not allowed.
+LVS BOX cell "PRUW16DGZ" not located or not allowed.
+LVS BOX cell "PRUW24DGZ" not located or not allowed.
+LVS BOX cell "RF1R1WX2" not located or not allowed.
+LVS BOX cell "RF2R1WX2" not located or not allowed.
+LVS BOX cell "RFRDX1" not located or not allowed.
+LVS BOX cell "RFRDX2" not located or not allowed.
+LVS BOX cell "RFRDX4" not located or not allowed.
+LVS BOX cell "RSLATNX1" not located or not allowed.
+LVS BOX cell "RSLATNX2" not located or not allowed.
+LVS BOX cell "RSLATNX4" not located or not allowed.
+LVS BOX cell "RSLATNXL" not located or not allowed.
+LVS BOX cell "RSLATX1" not located or not allowed.
+LVS BOX cell "RSLATX2" not located or not allowed.
+LVS BOX cell "RSLATX4" not located or not allowed.
+LVS BOX cell "RSLATXL" not located or not allowed.
+LVS BOX cell "SDFFHQX1" not located or not allowed.
+LVS BOX cell "SDFFHQX2" not located or not allowed.
+LVS BOX cell "SDFFHQX4" not located or not allowed.
+LVS BOX cell "SDFFHQXL" not located or not allowed.
+LVS BOX cell "SDFFNRX1" not located or not allowed.
+LVS BOX cell "SDFFNRX2" not located or not allowed.
+LVS BOX cell "SDFFNRX4" not located or not allowed.
+LVS BOX cell "SDFFNRXL" not located or not allowed.
+LVS BOX cell "SDFFNSRX1" not located or not allowed.
+LVS BOX cell "SDFFNSRX2" not located or not allowed.
+LVS BOX cell "SDFFNSRX4" not located or not allowed.
+LVS BOX cell "SDFFNSRXL" not located or not allowed.
+LVS BOX cell "SDFFNSX1" not located or not allowed.
+LVS BOX cell "SDFFNSX2" not located or not allowed.
+LVS BOX cell "SDFFNSX4" not located or not allowed.
+LVS BOX cell "SDFFNSXL" not located or not allowed.
+LVS BOX cell "SDFFNX1" not located or not allowed.
+LVS BOX cell "SDFFNX2" not located or not allowed.
+LVS BOX cell "SDFFNX4" not located or not allowed.
+LVS BOX cell "SDFFNXL" not located or not allowed.
+LVS BOX cell "SDFFRX2" not located or not allowed.
+LVS BOX cell "SDFFSHQX1" not located or not allowed.
+LVS BOX cell "SDFFSHQX2" not located or not allowed.
+LVS BOX cell "SDFFSHQX4" not located or not allowed.
+LVS BOX cell "SDFFSHQXL" not located or not allowed.
+LVS BOX cell "SDFFSRHQX1" not located or not allowed.
+LVS BOX cell "SDFFSRHQX2" not located or not allowed.
+LVS BOX cell "SDFFSRHQX4" not located or not allowed.
+LVS BOX cell "SDFFSRHQXL" not located or not allowed.
+LVS BOX cell "SDFFSRX1" not located or not allowed.
+LVS BOX cell "SDFFSRX2" not located or not allowed.
+LVS BOX cell "SDFFSRX4" not located or not allowed.
+LVS BOX cell "SDFFSRXL" not located or not allowed.
+LVS BOX cell "SDFFSX1" not located or not allowed.
+LVS BOX cell "SDFFSX2" not located or not allowed.
+LVS BOX cell "SDFFSX4" not located or not allowed.
+LVS BOX cell "SDFFTRX1" not located or not allowed.
+LVS BOX cell "SDFFTRX2" not located or not allowed.
+LVS BOX cell "SDFFTRX4" not located or not allowed.
+LVS BOX cell "SDFFTRXL" not located or not allowed.
+LVS BOX cell "SDFFX1" not located or not allowed.
+LVS BOX cell "SDFFX2" not located or not allowed.
+LVS BOX cell "SDFFX4" not located or not allowed.
+LVS BOX cell "SDFFXL" not located or not allowed.
+LVS BOX cell "SEDFFHQX1" not located or not allowed.
+LVS BOX cell "SEDFFHQX2" not located or not allowed.
+LVS BOX cell "SEDFFHQX4" not located or not allowed.
+LVS BOX cell "SEDFFHQXL" not located or not allowed.
+LVS BOX cell "SEDFFTRX1" not located or not allowed.
+LVS BOX cell "SEDFFTRX2" not located or not allowed.
+LVS BOX cell "SEDFFTRX4" not located or not allowed.
+LVS BOX cell "SEDFFTRXL" not located or not allowed.
+LVS BOX cell "SEDFFX1" not located or not allowed.
+LVS BOX cell "SEDFFX2" not located or not allowed.
+LVS BOX cell "SEDFFX4" not located or not allowed.
+LVS BOX cell "SEDFFXL" not located or not allowed.
+LVS BOX cell "TBUFIX1" not located or not allowed.
+LVS BOX cell "TBUFIX12" not located or not allowed.
+LVS BOX cell "TBUFIX16" not located or not allowed.
+LVS BOX cell "TBUFIX2" not located or not allowed.
+LVS BOX cell "TBUFIX20" not located or not allowed.
+LVS BOX cell "TBUFIX3" not located or not allowed.
+LVS BOX cell "TBUFIX4" not located or not allowed.
+LVS BOX cell "TBUFIX8" not located or not allowed.
+LVS BOX cell "TBUFIXL" not located or not allowed.
+LVS BOX cell "TBUFX1" not located or not allowed.
+LVS BOX cell "TBUFX12" not located or not allowed.
+LVS BOX cell "TBUFX16" not located or not allowed.
+LVS BOX cell "TBUFX2" not located or not allowed.
+LVS BOX cell "TBUFX20" not located or not allowed.
+LVS BOX cell "TBUFX3" not located or not allowed.
+LVS BOX cell "TBUFX4" not located or not allowed.
+LVS BOX cell "TBUFX8" not located or not allowed.
+LVS BOX cell "TBUFXL" not located or not allowed.
+LVS BOX cell "TIEHI" not located or not allowed.
+LVS BOX cell "TIELO" not located or not allowed.
+LVS BOX cell "TLATNRX1" not located or not allowed.
+LVS BOX cell "TLATNRX2" not located or not allowed.
+LVS BOX cell "TLATNRX4" not located or not allowed.
+LVS BOX cell "TLATNRXL" not located or not allowed.
+LVS BOX cell "TLATNSRX1" not located or not allowed.
+LVS BOX cell "TLATNSRX2" not located or not allowed.
+LVS BOX cell "TLATNSRX4" not located or not allowed.
+LVS BOX cell "TLATNSRXL" not located or not allowed.
+LVS BOX cell "TLATNSX1" not located or not allowed.
+LVS BOX cell "TLATNSX2" not located or not allowed.
+LVS BOX cell "TLATNSX4" not located or not allowed.
+LVS BOX cell "TLATNSXL" not located or not allowed.
+LVS BOX cell "TLATNX1" not located or not allowed.
+LVS BOX cell "TLATNX2" not located or not allowed.
+LVS BOX cell "TLATNX4" not located or not allowed.
+LVS BOX cell "TLATNXL" not located or not allowed.
+LVS BOX cell "TLATRX1" not located or not allowed.
+LVS BOX cell "TLATRX2" not located or not allowed.
+LVS BOX cell "TLATRX4" not located or not allowed.
+LVS BOX cell "TLATRXL" not located or not allowed.
+LVS BOX cell "TLATSRX1" not located or not allowed.
+LVS BOX cell "TLATSRX2" not located or not allowed.
+LVS BOX cell "TLATSRX4" not located or not allowed.
+LVS BOX cell "TLATSRXL" not located or not allowed.
+LVS BOX cell "TLATSX1" not located or not allowed.
+LVS BOX cell "TLATSX2" not located or not allowed.
+LVS BOX cell "TLATSX4" not located or not allowed.
+LVS BOX cell "TLATSXL" not located or not allowed.
+LVS BOX cell "TLATX1" not located or not allowed.
+LVS BOX cell "TLATX2" not located or not allowed.
+LVS BOX cell "TLATX4" not located or not allowed.
+LVS BOX cell "TLATXL" not located or not allowed.
+LVS BOX cell "TTLATX1" not located or not allowed.
+LVS BOX cell "TTLATX2" not located or not allowed.
+LVS BOX cell "TTLATX4" not located or not allowed.
+LVS BOX cell "TTLATXL" not located or not allowed.
+LVS BOX cell "XNOR3X4" not located or not allowed.
+TEXT PRINT MAXIMUM limit of 1000 exceeded. 4240 object(s) not printed.
+TEXT PRINT MAXIMUM limit of 1000 exceeded. 4240 object(s) not printed.
+There is no data for layout net name AVD33.
+There is no data for layout net name AVD33B.
+There is no data for layout net name AVD33G.
+There is no data for layout net name AVD33R.
+There is no data for layout net name AVD33WELL.
+There is no data for layout net name AVDD.
+There is no data for layout net name AVDDB.
+There is no data for layout net name AVDDBG.
+There is no data for layout net name AVDDG.
+There is no data for layout net name AVDDR.
+There is no data for layout net name AVDWELL.
+There is no data for layout net name DVDD.
+There is no data for layout net name TAVD33.
+There is no data for layout net name TAVD33PST.
+There is no data for layout net name TAVDD.
+There is no data for layout net name TAVDDPST.
+There is no data for layout net name VD33.
+There is no data for layout net name VD33WELL.
+There is no data for layout net name VDD5V.
+There is no data for layout net name VDDG.
+There is no data for layout net name VDDPST.
+There is no data for layout net name VDDSA.
+There is no data for layout net name VDWELL.
+There is no data for layout net name AGND.
+There is no data for layout net name AVS33.
+There is no data for layout net name AVS33B.
+There is no data for layout net name AVS33G.
+There is no data for layout net name AVS33R.
+There is no data for layout net name AVS33SUB.
+There is no data for layout net name AVSS.
+There is no data for layout net name AVSSB.
+There is no data for layout net name AVSSBG.
+There is no data for layout net name AVSSG.
+There is no data for layout net name AVSSR.
+There is no data for layout net name AVSSUB.
+There is no data for layout net name DVSS.
+There is no data for layout net name GND.
+There is no data for layout net name TAVSS.
+There is no data for layout net name TAVSSPST.
+There is no data for layout net name VS33.
+There is no data for layout net name VS33SUB.
+There is no data for layout net name VSSG.
+There is no data for layout net name VSSPST.
+There is no data for layout net name VSSUB.
+There is no data for layout net name AVD33.
+There is no data for layout net name AVD33B.
+There is no data for layout net name AVD33G.
+There is no data for layout net name AVD33R.
+There is no data for layout net name AVD33WELL.
+There is no data for layout net name AVDD.
+There is no data for layout net name AVDDB.
+There is no data for layout net name AVDDBG.
+There is no data for layout net name AVDDG.
+There is no data for layout net name AVDDR.
+There is no data for layout net name AVDWELL.
+There is no data for layout net name DVDD.
+There is no data for layout net name TAVD33.
+There is no data for layout net name TAVD33PST.
+There is no data for layout net name TAVDD.
+There is no data for layout net name TAVDDPST.
+There is no data for layout net name VD33.
+There is no data for layout net name VD33WELL.
+There is no data for layout net name VDD5V.
+There is no data for layout net name VDDG.
+There is no data for layout net name VDDPST.
+There is no data for layout net name VDDSA.
+There is no data for layout net name VDWELL.
+There is no data for layout net name AGND.
+There is no data for layout net name AVS33.
+There is no data for layout net name AVS33B.
+There is no data for layout net name AVS33G.
+There is no data for layout net name AVS33R.
+There is no data for layout net name AVS33SUB.
+There is no data for layout net name AVSS.
+There is no data for layout net name AVSSB.
+There is no data for layout net name AVSSBG.
+There is no data for layout net name AVSSG.
+There is no data for layout net name AVSSR.
+There is no data for layout net name AVSSUB.
+There is no data for layout net name DVSS.
+There is no data for layout net name GND.
+There is no data for layout net name TAVSS.
+There is no data for layout net name TAVSSPST.
+There is no data for layout net name VS33.
+There is no data for layout net name VS33SUB.
+There is no data for layout net name VSSG.
+There is no data for layout net name VSSPST.
+There is no data for layout net name VSSUB.
+There is no data for layout net name AGND.
+There is no data for layout net name AVS33.
+There is no data for layout net name AVS33B.
+There is no data for layout net name AVS33G.
+There is no data for layout net name AVS33R.
+There is no data for layout net name AVS33SUB.
+There is no data for layout net name AVSS.
+There is no data for layout net name AVSSB.
+There is no data for layout net name AVSSBG.
+There is no data for layout net name AVSSG.
+There is no data for layout net name AVSSR.
+There is no data for layout net name AVSSUB.
+There is no data for layout net name DVSS.
+There is no data for layout net name GND.
+There is no data for layout net name TAVSS.
+There is no data for layout net name TAVSSPST.
+There is no data for layout net name VS33.
+There is no data for layout net name VS33SUB.
+There is no data for layout net name VSSG.
+There is no data for layout net name VSSPST.
+There is no data for layout net name VSSUB.
+There is no data for layout net name AVD33.
+There is no data for layout net name AVD33B.
+There is no data for layout net name AVD33G.
+There is no data for layout net name AVD33R.
+There is no data for layout net name AVD33WELL.
+There is no data for layout net name AVDD.
+There is no data for layout net name AVDDB.
+There is no data for layout net name AVDDBG.
+There is no data for layout net name AVDDG.
+There is no data for layout net name AVDDR.
+There is no data for layout net name AVDWELL.
+There is no data for layout net name DVDD.
+There is no data for layout net name TAVD33.
+There is no data for layout net name TAVD33PST.
+There is no data for layout net name TAVDD.
+There is no data for layout net name TAVDDPST.
+There is no data for layout net name VD33.
+There is no data for layout net name VD33WELL.
+There is no data for layout net name VDD5V.
+There is no data for layout net name VDDG.
+There is no data for layout net name VDDPST.
+There is no data for layout net name VDDSA.
+There is no data for layout net name VDWELL.
+There is no data for layout net name AGND.
+There is no data for layout net name AVS33.
+There is no data for layout net name AVS33B.
+There is no data for layout net name AVS33G.
+There is no data for layout net name AVS33R.
+There is no data for layout net name AVS33SUB.
+There is no data for layout net name AVSS.
+There is no data for layout net name AVSSB.
+There is no data for layout net name AVSSBG.
+There is no data for layout net name AVSSG.
+There is no data for layout net name AVSSR.
+There is no data for layout net name AVSSUB.
+There is no data for layout net name DVSS.
+There is no data for layout net name GND.
+There is no data for layout net name TAVSS.
+There is no data for layout net name TAVSSPST.
+There is no data for layout net name VS33.
+There is no data for layout net name VS33SUB.
+There is no data for layout net name VSSG.
+There is no data for layout net name VSSPST.
+There is no data for layout net name VSSUB.
+There is no data for layout net name AVD33.
+There is no data for layout net name AVD33B.
+There is no data for layout net name AVD33G.
+There is no data for layout net name AVD33R.
+There is no data for layout net name AVD33WELL.
+There is no data for layout net name AVDD.
+There is no data for layout net name AVDDB.
+There is no data for layout net name AVDDBG.
+There is no data for layout net name AVDDG.
+There is no data for layout net name AVDDR.
+There is no data for layout net name AVDWELL.
+There is no data for layout net name DVDD.
+There is no data for layout net name TAVD33.
+There is no data for layout net name TAVD33PST.
+There is no data for layout net name TAVDD.
+There is no data for layout net name TAVDDPST.
+There is no data for layout net name VD33.
+There is no data for layout net name VD33WELL.
+There is no data for layout net name VDD5V.
+There is no data for layout net name VDDG.
+There is no data for layout net name VDDPST.
+There is no data for layout net name VDDSA.
+There is no data for layout net name VDWELL.
+----------------------------------------------------------------------------------
+--- ORIGINAL LAYER STATISTICS
+---
+LAYER DPO ......... TOTAL Original Geometry Count = 0       (0)
+LAYER POLY1 ....... TOTAL Original Geometry Count = 0       (0)
+LAYER RPO ......... TOTAL Original Geometry Count = 0       (0)
+LAYER RPDMY1 ...... TOTAL Original Geometry Count = 0       (0)
+LAYER RPDMYX ...... TOTAL Original Geometry Count = 0       (0)
+LAYER DOD ......... TOTAL Original Geometry Count = 0       (0)
+LAYER OD .......... TOTAL Original Geometry Count = 0       (0)
+LAYER RODMY ....... TOTAL Original Geometry Count = 0       (0)
+LAYER HRI ......... TOTAL Original Geometry Count = 0       (0)
+LAYER RLPPDMY ..... TOTAL Original Geometry Count = 0       (0)
+LAYER NIMP ........ TOTAL Original Geometry Count = 0       (0)
+LAYER PIMP ........ TOTAL Original Geometry Count = 0       (0)
+LAYER RFDUMMY1 .... TOTAL Original Geometry Count = 0       (0)
+LAYER MOMDMY1 ..... TOTAL Original Geometry Count = 0       (0)
+LAYER MOMDMY0 ..... TOTAL Original Geometry Count = 0       (0)
+LAYER MOMDMY2 ..... TOTAL Original Geometry Count = 0       (0)
+LAYER MOMDMY3 ..... TOTAL Original Geometry Count = 0       (0)
+LAYER MOMDMY4 ..... TOTAL Original Geometry Count = 0       (0)
+LAYER MOMDMY5 ..... TOTAL Original Geometry Count = 0       (0)
+LAYER MOMDMY6 ..... TOTAL Original Geometry Count = 0       (0)
+LAYER RFDUMMYX .... TOTAL Original Geometry Count = 0       (0)
+LAYER RWDMY1 ...... TOTAL Original Geometry Count = 0       (0)
+LAYER RWDMYX ...... TOTAL Original Geometry Count = 0       (0)
+LAYER NWELL ....... TOTAL Original Geometry Count = 0       (0)
+LAYER OD2 ......... TOTAL Original Geometry Count = 0       (0)
+LAYER NTN ......... TOTAL Original Geometry Count = 0       (0)
+LAYER DNW ......... TOTAL Original Geometry Count = 0       (0)
+LAYER VTMN ........ TOTAL Original Geometry Count = 0       (0)
+LAYER ESD3DMY ..... TOTAL Original Geometry Count = 0       (0)
+LAYER PSUB2 ....... TOTAL Original Geometry Count = 0       (0)
+LAYER VTMP ........ TOTAL Original Geometry Count = 0       (0)
+LAYER DIODMY ...... TOTAL Original Geometry Count = 0       (0)
+LAYER DUM1 ........ TOTAL Original Geometry Count = 145600  (145600)
+LAYER M1 .......... TOTAL Original Geometry Count = 214417  (480436)
+LAYER M1SLOT ...... TOTAL Original Geometry Count = 0       (0)
+LAYER RMDMY ....... TOTAL Original Geometry Count = 0       (0)
+LAYER RMDMY1i ..... TOTAL Original Geometry Count = 0       (0)
+LAYER DUM2 ........ TOTAL Original Geometry Count = 187945  (187945)
+LAYER M2 .......... TOTAL Original Geometry Count = 173157  (174111)
+LAYER M2SLOT ...... TOTAL Original Geometry Count = 0       (0)
+LAYER RMDMY2i ..... TOTAL Original Geometry Count = 0       (0)
+LAYER DUM3 ........ TOTAL Original Geometry Count = 198610  (198610)
+LAYER M3 .......... TOTAL Original Geometry Count = 77969   (78605)
+LAYER M3SLOT ...... TOTAL Original Geometry Count = 0       (0)
+LAYER RMDMY3i ..... TOTAL Original Geometry Count = 0       (0)
+LAYER DUM4 ........ TOTAL Original Geometry Count = 38150   (38150)
+LAYER M4 .......... TOTAL Original Geometry Count = 42117   (64763)
+LAYER M4SLOT ...... TOTAL Original Geometry Count = 0       (0)
+LAYER RMDMY4i ..... TOTAL Original Geometry Count = 0       (0)
+LAYER DUM5 ........ TOTAL Original Geometry Count = 39211   (39211)
+LAYER M5 .......... TOTAL Original Geometry Count = 36030   (100782)
+LAYER M5SLOT ...... TOTAL Original Geometry Count = 0       (0)
+LAYER RMDMY5i ..... TOTAL Original Geometry Count = 0       (0)
+LAYER INDDMY ...... TOTAL Original Geometry Count = 0       (0)
+LAYER DUM6 ........ TOTAL Original Geometry Count = 0       (0)
+LAYER M6 .......... TOTAL Original Geometry Count = 604     (43488)
+LAYER M6SLOT ...... TOTAL Original Geometry Count = 0       (0)
+LAYER RMDMY6i ..... TOTAL Original Geometry Count = 0       (0)
+LAYER DMP2V ....... TOTAL Original Geometry Count = 0       (0)
+LAYER DMN2V ....... TOTAL Original Geometry Count = 0       (0)
+LAYER BJTDMY ...... TOTAL Original Geometry Count = 0       (0)
+LAYER CTM5 ........ TOTAL Original Geometry Count = 0       (0)
+LAYER VIA5i ....... TOTAL Original Geometry Count = 1316    (94752)
+LAYER CTMDMY ...... TOTAL Original Geometry Count = 0       (0)
+LAYER CTMDMY_3t ... TOTAL Original Geometry Count = 0       (0)
+LAYER CTMDMY2p0 ... TOTAL Original Geometry Count = 0       (0)
+LAYER CTMDMY1p5 ... TOTAL Original Geometry Count = 0       (0)
+LAYER CONT ........ TOTAL Original Geometry Count = 0       (0)
+LAYER DRAIN ....... TOTAL Original Geometry Count = 0       (0)
+LAYER VARG3 ....... TOTAL Original Geometry Count = 0       (0)
+LAYER VARDMYX ..... TOTAL Original Geometry Count = 0       (0)
+LAYER VARG6 ....... TOTAL Original Geometry Count = 0       (0)
+LAYER JVARD ....... TOTAL Original Geometry Count = 0       (0)
+LAYER asym_rf ..... TOTAL Original Geometry Count = 0       (0)
+LAYER PV_N ........ TOTAL Original Geometry Count = 0       (0)
+LAYER PV_P ........ TOTAL Original Geometry Count = 0       (0)
+LAYER VTDN ........ TOTAL Original Geometry Count = 0       (0)
+LAYER SBDUMMY ..... TOTAL Original Geometry Count = 0       (0)
+LAYER MD .......... TOTAL Original Geometry Count = 0       (0)
+LAYER CTM3 ........ TOTAL Original Geometry Count = 0       (0)
+LAYER VIA3i ....... TOTAL Original Geometry Count = 258680  (258680)
+LAYER CBD ......... TOTAL Original Geometry Count = 0       (0)
+LAYER PLMIDE ...... TOTAL Original Geometry Count = 0       (0)
+LAYER CTM4 ........ TOTAL Original Geometry Count = 0       (0)
+LAYER VIA4i ....... TOTAL Original Geometry Count = 1731124 (1818596)
+LAYER VIAD ........ TOTAL Original Geometry Count = 0       (0)
+LAYER CTM2 ........ TOTAL Original Geometry Count = 0       (0)
+LAYER VIA2i ....... TOTAL Original Geometry Count = 291668  (291668)
+LAYER UBM ......... TOTAL Original Geometry Count = 0       (0)
+LAYER VIA1 ........ TOTAL Original Geometry Count = 205366  (205366)
+----------------------------------------------------------------------------------
+--- RULECHECK RESULTS STATISTICS
+---
+RULECHECK mnpg .................... TOTAL Result Count = 0 (0)
+RULECHECK mppg .................... TOTAL Result Count = 0 (0)
+RULECHECK floating ................ TOTAL Result Count = 0 (0)
+RULECHECK floating.nxwell_float ... TOTAL Result Count = 0 (0)
+RULECHECK floating.psub ........... TOTAL Result Count = 1 (1)
+RULECHECK npvss150 ................ TOTAL Result Count = 0 (0)
+RULECHECK npvss49 ................. TOTAL Result Count = 0 (0)
+RULECHECK ppvdd150 ................ TOTAL Result Count = 0 (0)
+RULECHECK ppvdd49 ................. TOTAL Result Count = 0 (0)
+----------------------------------------------------------------------------------
+--- ERC PATHCHK RESULTS STATISTICS
+---
+  PATHCHK GROUND && ! POWER:
+  PATHCHK POWER && ! GROUND:
+  PATHCHK ! POWER && ! GROUND NOFLOAT:
+  PATHCHK ! LABELED NOFLOAT:
+----------------------------------------------------------------------------------
+--- SUMMARY
+---
+TOTAL CPU Time:                              16
+TOTAL REAL Time:                             17
+TOTAL Original Layer Geometries:             3641964 (4220763)
+TOTAL ERC RuleChecks Executed:               9
+TOTAL ERC RuleCheck Results Generated:       1 (1)
+TOTAL ERC PATHCHK Operations Executed:       4

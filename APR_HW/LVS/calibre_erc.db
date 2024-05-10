@@ -1,0 +1,42 @@
+CHIP 1000
+mnpg
+0 0 2 May  8 22:24:28 2024                                                      
+Rule File Pathname: Calibre.lvs
+MOS connected to both power and ground
+mppg
+0 0 2 May  8 22:24:28 2024                                                      
+Rule File Pathname: Calibre.lvs
+MOS connected to both power and ground
+floating
+0 0 2 May  8 22:24:28 2024                                                      
+Rule File Pathname: Calibre.lvs
+Please check the floating gate
+floating.nxwell_float
+0 0 2 May  8 22:24:29 2024                                                      
+Rule File Pathname: Calibre.lvs
+Floating nxwell_float is not allowed
+floating.psub
+1 1 2 May  8 22:24:29 2024                                                      
+Rule File Pathname: Calibre.lvs
+Floating psub is not allowed
+p 1 4
+593 593
+3291027 593
+3291027 3289047
+593 3289047
+npvss150
+0 0 2 May  8 22:24:29 2024                                                      
+Rule File Pathname: Calibre.lvs
+gate1_not_IO1 connected to GROUND
+npvss49
+0 0 2 May  8 22:24:29 2024                                                      
+Rule File Pathname: Calibre.lvs
+ntap connected to GROUND
+ppvdd150
+0 0 2 May  8 22:24:29 2024                                                      
+Rule File Pathname: Calibre.lvs
+gate1_not_IO1 connected to POWER
+ppvdd49
+0 0 2 May  8 22:24:29 2024                                                      
+Rule File Pathname: Calibre.lvs
+ptap connected to POWER

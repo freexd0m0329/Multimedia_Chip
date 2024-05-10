@@ -1,0 +1,14 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1715178252 1715178269
+lvs_ExtOutFile RUNDIR /home/mm53/APR_HW/LVS
+lvs_ExtOutFile RULES_FILE Calibre.lvs
+lvs_ExtInfoExtSummary {0 0 0 0 12 0 0 0 0 185 0}
+lvs_ExtInfoErcSummary {9 1 1 0 0 4 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST layout.spi
+lvs_ExtOutFile EXTRACTION_REPORT lvs.rep.ext
+lvs_ExtOutFile ERC_PATHCHK_DATABASE svdb/CHIP.pathchk.erc
+lvs_ExtOutFile ERC_PATHCHK_REPORT svdb/CHIP.pathchk.rep
+lvs_ExtOutFile ERC_DATABASE calibre_erc.db
+lvs_ExtOutFile ERC_SUMMARY calibre_erc.sum

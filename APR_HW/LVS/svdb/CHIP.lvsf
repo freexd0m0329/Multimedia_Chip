@@ -1,0 +1,57 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/mm53/APR_HW/LVS
+lvs_LvsfVersion 4
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 185}
+lvs_SourceCase YES
+lvs_LayoutCase NO
+lvs_PowerName AVD33
+lvs_PowerName AVD33B
+lvs_PowerName AVD33G
+lvs_PowerName AVD33R
+lvs_PowerName AVD33WELL
+lvs_PowerName AVDD
+lvs_PowerName AVDDB
+lvs_PowerName AVDDBG
+lvs_PowerName AVDDG
+lvs_PowerName AVDDR
+lvs_PowerName AVDWELL
+lvs_PowerName DVDD
+lvs_PowerName TAVD33
+lvs_PowerName TAVD33PST
+lvs_PowerName TAVDD
+lvs_PowerName TAVDDPST
+lvs_PowerName VD33
+lvs_PowerName VD33WELL
+lvs_PowerName VDD
+lvs_PowerName VDD5V
+lvs_PowerName VDDG
+lvs_PowerName VDDPST
+lvs_PowerName VDDSA
+lvs_PowerName VDWELL
+lvs_GroundName AGND
+lvs_GroundName AVS33
+lvs_GroundName AVS33B
+lvs_GroundName AVS33G
+lvs_GroundName AVS33R
+lvs_GroundName AVS33SUB
+lvs_GroundName AVSS
+lvs_GroundName AVSSB
+lvs_GroundName AVSSBG
+lvs_GroundName AVSSG
+lvs_GroundName AVSSR
+lvs_GroundName AVSSUB
+lvs_GroundName DVSS
+lvs_GroundName GND
+lvs_GroundName TAVSS
+lvs_GroundName TAVSSPST
+lvs_GroundName VS33
+lvs_GroundName VS33SUB
+lvs_GroundName VSS
+lvs_GroundName VSSG
+lvs_GroundName VSSPST
+lvs_GroundName VSSUB
+lvs_LvsOutFile LVS_REPORT lvs.rep
+lvs_LvsOutFile SOURCE_NETLIST source.spi
+lvs_LvsOutFile RULES_FILE Calibre.lvs
+lvs_LvsRunTimes 1715178269 1715178270

@@ -1,0 +1,215 @@
+[05/09 13:37:59      0s] 
+[05/09 13:37:59      0s] Cadence Innovus(TM) Implementation System.
+[05/09 13:37:59      0s] Copyright 2019 Cadence Design Systems, Inc. All rights reserved worldwide.
+[05/09 13:37:59      0s] 
+[05/09 13:37:59      0s] Version:	v19.12-s087_1, built Mon Nov 11 17:32:01 PST 2019
+[05/09 13:37:59      0s] Options:	
+[05/09 13:37:59      0s] Date:		Thu May  9 13:37:59 2024
+[05/09 13:37:59      0s] Host:		islabx5 (x86_64 w/Linux 2.6.32-642.el6.x86_64) (6cores*24cpus*Intel(R) Xeon(R) CPU E5-2630 0 @ 2.30GHz 15360KB)
+[05/09 13:37:59      0s] OS:		CentOS release 6.8 (Final)
+[05/09 13:37:59      0s] 
+[05/09 13:37:59      0s] License:
+[05/09 13:38:00      0s] 		invs	Innovus Implementation System	19.1	checkout succeeded
+[05/09 13:38:00      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[05/09 13:38:16     15s] @(#)CDS: Innovus v19.12-s087_1 (64bit) 11/11/2019 17:32 (Linux 2.6.32-431.11.2.el6.x86_64)
+[05/09 13:38:16     15s] @(#)CDS: NanoRoute 19.12-s087_1 NR191024-1807/19_12-UB (database version 18.20, 485.7.1) {superthreading v1.51}
+[05/09 13:38:16     15s] @(#)CDS: AAE 19.12-s033 (64bit) 11/11/2019 (Linux 2.6.32-431.11.2.el6.x86_64)
+[05/09 13:38:16     15s] @(#)CDS: CTE 19.12-s033_1 () Oct 24 2019 14:09:28 ( )
+[05/09 13:38:16     15s] @(#)CDS: SYNTECH 19.12-s008_1 () Oct  6 2019 23:25:36 ( )
+[05/09 13:38:16     15s] @(#)CDS: CPE v19.12-s079
+[05/09 13:38:16     15s] @(#)CDS: IQuantus/TQuantus 19.1.3-s095 (64bit) Fri Aug 30 18:16:09 PDT 2019 (Linux 2.6.32-431.11.2.el6.x86_64)
+[05/09 13:38:16     15s] @(#)CDS: OA 22.60-p024 Thu Sep  5 03:05:12 2019
+[05/09 13:38:16     15s] @(#)CDS: SGN 18.10-d003 (18-Jul-2018) (64 bit executable, Qt5.9.1)
+[05/09 13:38:16     15s] @(#)CDS: RCDB 11.14.18
+[05/09 13:38:16     15s] @(#)CDS: STYLUS 19.10-s011_1 (09/04/2019 02:55 PDT)
+[05/09 13:38:16     15s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_20039_islabx5_mm53_v8X8FL.
+
+[05/09 13:38:16     15s] Change the soft stacksize limit to 0.2%RAM (128 mbytes). Set global soft_stack_size_limit to change the value.
+[05/09 13:38:17     16s] 
+[05/09 13:38:17     16s] **INFO:  MMMC transition support version v31-84 
+[05/09 13:38:17     16s] 
+[05/09 13:38:17     16s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[05/09 13:38:17     16s] <CMD> suppressMessage ENCEXT-2799
+[05/09 13:38:17     16s] <CMD> win
+[05/09 13:38:37     19s] <CMD> encMessage warning 0
+[05/09 13:38:37     19s] Suppress "**WARN ..." messages.
+[05/09 13:38:37     19s] <CMD> encMessage debug 0
+[05/09 13:38:37     19s] <CMD> encMessage info 0
+[05/09 13:38:37     20s] **WARN: (IMPLF-58):	MACRO 'PCI33DGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-58):	MACRO 'PCI33SDGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-58):	MACRO 'PCI66DGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-58):	MACRO 'PCI66SDGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-58):	MACRO 'PDB02DGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-58):	MACRO 'PDB02SDGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-58):	MACRO 'PDB04DGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-58):	MACRO 'PDB04SDGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-58):	MACRO 'PDB08DGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-58):	MACRO 'PDB08SDGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-58):	MACRO 'PDB12DGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-58):	MACRO 'PDB12SDGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-58):	MACRO 'PDB16DGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-58):	MACRO 'PDB16SDGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-58):	MACRO 'PDB24DGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-58):	MACRO 'PDB24SDGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-58):	MACRO 'PDD02DGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-58):	MACRO 'PDD02SDGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-58):	MACRO 'PDD04DGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-58):	MACRO 'PDD04SDGZ' has been found in the database. Its content except DENSITY and PIN ANTENNA* data, and certain properties, will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (EMS-27):	Message (IMPLF-58) has exceeded the current message display limit of 20.
+[05/09 13:38:37     20s] To increase the message display limit, refer to the product command reference manual.
+[05/09 13:38:37     20s] **WARN: (IMPLF-119):	LAYER 'METAL1' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-119):	LAYER 'VIA12' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-119):	LAYER 'METAL2' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-119):	LAYER 'VIA23' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-119):	LAYER 'METAL3' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-119):	LAYER 'VIA34' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-119):	LAYER 'METAL4' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-119):	LAYER 'VIA45' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-119):	LAYER 'METAL5' has been found in the database. Its content except ANTENNA* data will be ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-61):	596 duplicated MACRO definitions have been found in the LEF file(s). Their content except DENSITY and PIN ANTENNA* data, and certain properties, have been ignored.
+[05/09 13:38:37     20s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[05/09 13:38:37     20s] **WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[05/09 13:38:37     20s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM1 GENERATE.
+[05/09 13:38:37     20s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM2 GENERATE.
+[05/09 13:38:37     20s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM3 GENERATE.
+[05/09 13:38:37     20s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM4 GENERATE.
+[05/09 13:38:37     20s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM5 GENERATE.
+[05/09 13:38:37     20s] Loading view definition file from /home/mm53/APR_HW/final.enc.dat/viewDefinition.tcl
+[05/09 13:38:38     21s] **WARN: (TECHLIB-302):	No function defined for cell 'HOLDX1'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/slow.lib)
+[05/09 13:38:38     21s] **WARN: (TECHLIB-302):	No function defined for cell 'PVSS3DGZ'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+[05/09 13:38:38     21s] **WARN: (TECHLIB-302):	No function defined for cell 'PVSS2DGZ'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+[05/09 13:38:38     21s] **WARN: (TECHLIB-302):	No function defined for cell 'PVSS2ANA'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+[05/09 13:38:38     21s] **WARN: (TECHLIB-302):	No function defined for cell 'PVSS1DGZ'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+[05/09 13:38:38     21s] **WARN: (TECHLIB-302):	No function defined for cell 'PVSS1ANA'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+[05/09 13:38:38     21s] **WARN: (TECHLIB-302):	No function defined for cell 'PVDD2POC'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+[05/09 13:38:38     21s] **WARN: (TECHLIB-302):	No function defined for cell 'PVDD2DGZ'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+[05/09 13:38:38     21s] **WARN: (TECHLIB-302):	No function defined for cell 'PVDD2ANA'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+[05/09 13:38:38     21s] **WARN: (TECHLIB-302):	No function defined for cell 'PVDD1DGZ'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+[05/09 13:38:38     21s] **WARN: (TECHLIB-302):	No function defined for cell 'PVDD1ANA'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+[05/09 13:38:38     21s] **WARN: (TECHLIB-302):	No function defined for cell 'PRCUT'. The cell will only be used for analysis. (File /opt/Design_kit/CBDK_TSMC018_Arm_v3.2/CIC/SOCE/lib/tpz973gvwc.lib)
+[05/09 13:38:38     21s] *** End library_loading (cpu=0.01min, real=0.02min, mem=11.9M, fe_cpu=0.36min, fe_real=0.65min, fe_mem=694.3M) ***
+[05/09 13:38:38     21s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X4' is defined in LEF but not in the timing library.
+[05/09 13:38:38     21s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X4' is defined in LEF but not in the timing library.
+[05/09 13:38:38     21s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X2' is defined in LEF but not in the timing library.
+[05/09 13:38:38     21s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X2' is defined in LEF but not in the timing library.
+[05/09 13:38:38     21s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+[05/09 13:38:38     21s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+[05/09 13:38:38     21s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+[05/09 13:38:38     21s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+[05/09 13:38:38     21s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+[05/09 13:38:38     21s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+[05/09 13:38:38     21s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+[05/09 13:38:38     21s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+[05/09 13:38:38     21s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3X4' is defined in LEF but not in the timing library.
+[05/09 13:38:38     21s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3X4' is defined in LEF but not in the timing library.
+[05/09 13:38:38     21s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3X2' is defined in LEF but not in the timing library.
+[05/09 13:38:38     21s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3X2' is defined in LEF but not in the timing library.
+[05/09 13:38:38     21s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR2XL' is defined in LEF but not in the timing library.
+[05/09 13:38:38     21s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR2XL' is defined in LEF but not in the timing library.
+[05/09 13:38:38     21s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR2X4' is defined in LEF but not in the timing library.
+[05/09 13:38:38     21s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR2X4' is defined in LEF but not in the timing library.
+[05/09 13:38:38     21s] **WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+[05/09 13:38:38     21s] To increase the message display limit, refer to the product command reference manual.
+[05/09 13:38:39     21s] **WARN: (IMPTS-282):	Cell 'PRT24DGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[05/09 13:38:39     21s] **WARN: (IMPTS-282):	Cell 'PRT16DGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[05/09 13:38:39     21s] **WARN: (IMPTS-282):	Cell 'PRT12DGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[05/09 13:38:39     21s] **WARN: (IMPTS-282):	Cell 'PRT08DGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[05/09 13:38:39     21s] **WARN: (IMPTS-282):	Cell 'PRO24CDG' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[05/09 13:38:39     21s] **WARN: (IMPTS-282):	Cell 'PRO16CDG' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[05/09 13:38:39     21s] **WARN: (IMPTS-282):	Cell 'PRO12CDG' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[05/09 13:38:39     21s] **WARN: (IMPTS-282):	Cell 'PRO08CDG' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[05/09 13:38:39     21s] **WARN: (IMPTS-282):	Cell 'PDUWDGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[05/09 13:38:39     21s] **WARN: (IMPTS-282):	Cell 'PDUSDGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[05/09 13:38:39     21s] **WARN: (IMPTS-282):	Cell 'PDUDGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[05/09 13:38:39     21s] **WARN: (IMPTS-282):	Cell 'PDT24DGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[05/09 13:38:39     21s] **WARN: (IMPTS-282):	Cell 'PDT16DGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[05/09 13:38:39     21s] **WARN: (IMPTS-282):	Cell 'PDT12DGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[05/09 13:38:39     21s] **WARN: (IMPTS-282):	Cell 'PDT08DGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[05/09 13:38:39     21s] **WARN: (IMPTS-282):	Cell 'PDT04DGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[05/09 13:38:39     21s] **WARN: (IMPTS-282):	Cell 'PDT02DGZ' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[05/09 13:38:39     21s] **WARN: (IMPTS-282):	Cell 'PDO24CDG' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[05/09 13:38:39     21s] **WARN: (IMPTS-282):	Cell 'PDO16CDG' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[05/09 13:38:39     21s] **WARN: (IMPTS-282):	Cell 'PDO12CDG' is not a level shifter cell but has 'input_signal_level' and 'output_signal_level' specified on pins, or it has different related_power_pin specified on input and output pins. To mark this cell as level shifter, use 'is_level_shifter' attribute.
+[05/09 13:38:39     21s] **WARN: (EMS-27):	Message (IMPTS-282) has exceeded the current message display limit of 20.
+[05/09 13:38:39     21s] To increase the message display limit, refer to the product command reference manual.
+[05/09 13:38:39     21s] *** Netlist is unique.
+[05/09 13:38:39     21s] **WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[05/09 13:38:39     21s] **WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[05/09 13:38:39     21s] Loading preference file /home/mm53/APR_HW/final.enc.dat/gui.pref.tcl ...
+[05/09 13:38:39     22s] **WARN: (IMPOPT-3602):	The specified path group name reg2reg is not defined.
+[05/09 13:38:39     22s] **WARN: (IMPOPT-3602):	The specified path group name reg2out is not defined.
+[05/09 13:38:39     22s] **WARN: (IMPOPT-3602):	The specified path group name in2reg is not defined.
+[05/09 13:38:39     22s] **WARN: (IMPOPT-3602):	The specified path group name in2out is not defined.
+[05/09 13:38:39     22s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[05/09 13:38:39     22s] **WARN: (IMPSYC-2):	Timing information is not defined for cell ANTENNA; Check the timing library (.lib) file and make sure the timing information exists for the cell and you can run the check_library command to verify if the timing library has complete information after the design is loaded.
+[05/09 13:38:40     22s] **WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[05/09 13:38:40     22s] **WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[05/09 13:38:41     23s] Loading place ...
+[05/09 13:38:43     24s] **WARN: (IMPEXT-6202):	In addition to the technology file, the capacitance table file is specified for all the RC corners. If the technology file  is already specified for all the RC corners, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command to enable the technology file to be used for preRoute and postRoute (effort level medium/high/signoff) extraction engines.
+[05/09 13:38:43     25s] Loading path group file /home/mm53/APR_HW/final.enc.dat/mmmc/pathgroup.sdc ...
+[05/09 13:38:44     26s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version 19.12-s087_1. They will be removed in the next release. 
+[05/09 13:38:44     26s] timing_enable_default_delay_arc
+[05/09 13:38:47     26s] <CMD> setDrawView place
+[05/09 13:39:02     29s] <CMD> setLayerPreference soft -isVisible 0
+[05/09 13:39:03     29s] <CMD> setLayerPreference soft -isVisible 1
+[05/09 13:39:05     29s] <CMD> setLayerPreference screen -isVisible 0
+[05/09 13:39:06     29s] <CMD> setLayerPreference screen -isVisible 1
+[05/09 13:39:26     32s] <CMD> setLayerPreference layerBlk -isVisible 0
+[05/09 13:39:42     34s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Thu May  9 13:39:42 2024
+  Total CPU time:     0:00:36
+  Total real time:    0:01:46
+  Peak memory (main): 983.10MB
+
+[05/09 13:39:42     34s] 
+[05/09 13:39:42     34s] *** Memory Usage v#1 (Current mem = 1178.887M, initial mem = 281.531M) ***
+[05/09 13:39:42     34s] 
+[05/09 13:39:42     34s] *** Summary of all messages that are not suppressed in this session:
+[05/09 13:39:42     34s] Severity  ID               Count  Summary                                  
+[05/09 13:39:42     34s] WARNING   IMPLF-58           596  MACRO '%s' has been found in the databas...
+[05/09 13:39:42     34s] WARNING   IMPLF-61             1  %d duplicated MACRO definitions have bee...
+[05/09 13:39:42     34s] WARNING   IMPLF-200            1  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[05/09 13:39:42     34s] WARNING   IMPLF-119            9  LAYER '%s' has been found in the databas...
+[05/09 13:39:42     34s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[05/09 13:39:42     34s] WARNING   IMPTS-282           28  Cell '%s' is not a level shifter cell bu...
+[05/09 13:39:42     34s] WARNING   IMPEXT-6202          1  In addition to the technology file, the ...
+[05/09 13:39:42     34s] WARNING   IMPSYC-2             1  Timing information is not defined for ce...
+[05/09 13:39:42     34s] WARNING   IMPVL-159          940  Pin '%s' of cell '%s' is defined in LEF ...
+[05/09 13:39:42     34s] WARNING   IMPPP-557            5  A single-layer VIARULE GENERATE for turn...
+[05/09 13:39:42     34s] WARNING   IMPOPT-3602          4  The specified path group name %s is not ...
+[05/09 13:39:42     34s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[05/09 13:39:42     34s] WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+[05/09 13:39:42     34s] WARNING   TECHLIB-302         12  No function defined for cell '%s'. The c...
+[05/09 13:39:42     34s] *** Message Summary: 1604 warning(s), 0 error(s)
+[05/09 13:39:42     34s] 
+[05/09 13:39:42     34s] --- Ending "Innovus" (totcpu=0:00:34.6, real=0:01:43, mem=1178.9M) ---

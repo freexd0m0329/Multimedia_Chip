@@ -1,0 +1,76 @@
+//  v2lvs v2020.2_14.12    Thu Apr 2 15:39:14 PDT 2020
+//
+//  Copyright (c) 1992, 1993 Regents of the University of California
+//         All rights reserved.
+//
+//        Copyright Mentor Graphics Corporation 1996-2020
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//
+Running /usr/cad/mentor/calibre/cur/pkgs/icv/pvt/v2lvs -v ../CHIP.v -l tsmc18_lvs.v -l tpz973gv_lvs.v -s tsmc18_lvs.spi -s tpz973gv_lvs.spi -o source.spi -s1 VDD -s0 VSS
+
+Info: Creating Library Database ...
+Info: Creating Library Database ...
+Info: Creating Design Database ...
+Info: Converting Design ...
+Warning: Duplicate port/net name "n1653" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1691" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1692" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1693" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1694" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1695" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1696" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1697" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1698" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1699" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1700" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1701" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1702" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1703" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1704" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1705" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1722" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1723" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1724" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1730" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1733" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1736" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1739" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1742" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1745" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1748" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1751" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1754" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1757" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1758" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1761" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1762" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1763" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1764" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1765" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1766" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1767" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1768" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1769" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1770" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1771" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1772" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1773" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1774" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1775" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1776" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1777" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1778" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1779" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1780" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1781" found in module "CONV" while doing case-insensitive lookup
+Warning: Duplicate port/net name "n1782" found in module "CONV" while doing case-insensitive lookup
+
+CPU TIME = 0  REAL TIME = 1  MALLOC = 11/11/11

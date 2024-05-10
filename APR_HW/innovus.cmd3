@@ -1,0 +1,165 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Thu May  9 15:33:48 2024                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v19.12-s087_1 (64bit) 11/11/2019 17:32 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: NanoRoute 19.12-s087_1 NR191024-1807/19_12-UB (database version 18.20, 485.7.1) {superthreading v1.51}
+#@(#)CDS: AAE 19.12-s033 (64bit) 11/11/2019 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: CTE 19.12-s033_1 () Oct 24 2019 14:09:28 ( )
+#@(#)CDS: SYNTECH 19.12-s008_1 () Oct  6 2019 23:25:36 ( )
+#@(#)CDS: CPE v19.12-s079
+#@(#)CDS: IQuantus/TQuantus 19.1.3-s095 (64bit) Fri Aug 30 18:16:09 PDT 2019 (Linux 2.6.32-431.11.2.el6.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+win
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+is_common_ui_mode
+restoreDesign /home/mm53/APR_HW/floorplan.enc.dat CHIP
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+specifyScanChain scan1 -start ipad_SCAN_IN/C -stop opad_SCAN_OUT/I
+scanTrace
+zoomBox -1003.22050 504.84150 2653.70400 2393.77600
+zoomBox -259.44550 1073.36150 737.03250 1588.07850
+selectInst ipad_cdata_rd14
+deselectAll
+selectInst ipad_cdata_rd17
+zoomBox -52.85000 1224.01600 467.31850 1492.70200
+zoomBox 9.73150 1269.67200 385.55400 1463.79800
+zoomBox -47.53350 1192.14100 564.43150 1508.24300
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 -1
+deselectAll
+selectInst ipad_IOVSS3
+panPage 0 1
+panPage 0 1
+deselectAll
+selectInst opad_SCAN_OUT
+deselectAll
+selectInst ipad_CoreVDD4
+deselectAll
+selectInst ipad_SCAN_EN
+deselectAll
+selectInst ipad_SCAN_EN
+zoomBox -271.27650 1758.23550 901.05650 2363.78800
+zoomBox -699.89950 1571.03600 1545.92400 2731.08550
+zoomBox -2180.78800 924.26200 3773.94550 4000.09850
+zoomBox -5161.69600 -377.64100 8258.77450 6554.52050
+pan 201.75100 4114.24200
+getIoFlowFlag
+setIoFlowFlag 0
+floorPlan -site tsm3site -r 0.999238317129 0.5 121.9 121.88 121.44 121.52
+uiSetTool select
+getIoFlowFlag
+fit
+zoomBox -1217.94850 -750.22500 3810.14250 1846.96700
+zoomBox -929.32500 -259.39650 2703.47150 1617.07500
+zoomBox -720.79450 95.22650 1903.90150 1450.97750
+zoomBox -639.35500 233.72150 1591.63700 1386.11000
+zoomBox -419.86300 514.81550 950.24450 1222.52600
+zoomBox -367.46500 581.92050 797.12700 1183.47450
+zoomBox -508.94450 455.77250 1102.94800 1288.37350
+zoomBox -704.76350 281.54550 1526.22950 1433.93450
+zoomBox -619.24050 383.97250 1277.10400 1363.50350
+zoomBox -432.23300 607.94200 732.36050 1209.49700
+zoomBox -387.58950 661.40950 602.31550 1172.73150
+panPage 0 1
+panPage 0 1
+deselectAll
+selectInst ipad_IOVSS4
+selectInst opad_iaddr6
+deselectAll
+getPreference InstFlightLine
+getPreference InstFlightLine
+getPreference InstFlightLine
+selectObjByProp Instance {}
+selectObjByProp Instance {}
+selectObjByProp Instance {}
+selectObjByProp Instance {}
+selectObjByProp Instance {}
+selectObjByProp Instance {}
+selectObjByProp Instance {}
+selectObjByProp Instance {}
+selectObjByProp Instance {}
+selectObjByProp Instance {}
+selectObjByProp Instance {}
+selectObjByProp Instance {}
+selectObjByProp Instance {}
+selectObjByProp Instance <Type>=<I/O>
+selectObjByProp Instance <Type>=<I/O>
+selectObjByProp Instance <Type>=<I/O>
+deselect_obj inst:CHIP/CORNER0
+deselect_obj inst:CHIP/CORNER1
+deselect_obj inst:CHIP/CORNER2
+deselect_obj inst:CHIP/CORNER3
+selectObjByProp Instance And()
+selectObjByProp Instance OR()
+selectObjByProp Instance <Type>=<I/O>
+zoomBox -2516.35400 387.63050 1757.53600 2595.25000
+zoomBox -3005.25650 254.29350 2022.84950 2851.49300
+pan 329.56300 2585.30600
+zoomBox -2265.25150 -242.62150 2008.63900 1964.99850
+zoomBox -1916.37550 -91.89150 1716.43150 1784.58550
+zoomBox -1582.47600 55.88900 1505.41000 1650.89450
+pan 100.26850 1562.23550
+deselectAll
+getPreference InstFlightLine
+selectObjByProp Instance <Type>=<I/O>
+deselectAll
+selectInst CORNER0
+deselectAll
+selectInst CORNER0
+deleteSelectedFromFPlan
+deselectAll
+selectInst CORNER1
+deleteSelectedFromFPlan
+zoomBox -2011.40050 -217.17250 1621.40700 1659.30450
+deselectAll
+selectInst CORNER3
+deleteSelectedFromFPlan
+deselectAll
+selectInst CORNER2
+deleteSelectedFromFPlan
+panPage 1 0
+panPage 1 0
+deselectAll
+selectInst CORNER0
+deselectAll
+selectInst CORNER0
+selectInst CORNER3
+selectInst CORNER2
+selectInst CORNER1
+getPreference InstFlightLine
+gui_select -rect {2317.82300 359.53250 1465.87200 -55.52050}
+deselectAll
+gui_select -rect {1599.12550 82.10250 2726.32250 189.14250}
+deselectAll
+gui_select -rect {2385.54200 322.39650 1426.55100 -70.81200}
+uiSetTool move
+setObjFPlanBox Instance CORNER0 3278.5575 648.7935 3463.5575 833.7935
+setObjFPlanBox Instance CORNER1 3093.5575 648.7935 3278.5575 833.7935
+setObjFPlanBox Instance CORNER2 2908.5575 648.7935 3093.5575 833.7935
+setObjFPlanBox Instance CORNER3 2723.5575 648.7935 2908.5575 833.7935
+setObjFPlanBox Instance CORNER0 2666.9005 629.133 2851.9005 814.133
+setObjFPlanBox Instance CORNER1 2481.9005 629.133 2666.9005 814.133
+setObjFPlanBox Instance CORNER2 2296.9005 629.133 2481.9005 814.133
+setObjFPlanBox Instance CORNER3 2111.9005 629.133 2296.9005 814.133
+zoomBox -194.99650 -217.17250 3437.81100 1659.30450
+zoomBox -558.27750 -217.17250 3074.53000 1659.30450
+uiSetTool select
+gui_select -rect {1532.28000 1484.54550 -58.02900 -40.22900}
+deselectAll
+getPreference InstFlightLine

@@ -1,0 +1,1013 @@
+
+
+
+                  ##################################################
+                  ##                                              ##
+                  ##         C A L I B R E    S Y S T E M         ##
+                  ##                                              ##
+                  ##             L V S   R E P O R T              ##
+                  ##                                              ##
+                  ##################################################
+
+
+
+REPORT FILE NAME:         lvs.rep
+LAYOUT NAME:              layout.spi ('CHIP')
+SOURCE NAME:              source.spi ('CHIP')
+RULE FILE:                Calibre.lvs
+HCELL FILE:               (-automatch)
+CREATION TIME:            Wed May  8 22:24:30 2024
+CURRENT DIRECTORY:        /home/mm53/APR_HW/LVS
+USER NAME:                mm53
+CALIBRE VERSION:          v2020.2_14.12    Thu Apr 2 15:39:27 PDT 2020
+
+
+
+                               OVERALL COMPARISON RESULTS
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+
+**************************************************************************************************************
+                                      CELL  SUMMARY
+**************************************************************************************************************
+
+  Result         Layout                        Source
+  -----------    -----------                   --------------
+  CORRECT        CHIP                          CHIP
+
+
+
+**************************************************************************************************************
+                                      LVS PARAMETERS
+**************************************************************************************************************
+
+
+o LVS Setup:
+
+   // LVS COMPONENT TYPE PROPERTY
+   // LVS COMPONENT SUBTYPE PROPERTY
+   // LVS PIN NAME PROPERTY
+   LVS POWER NAME                         "AVD33" "AVD33B" "AVD33G" "AVD33R" "AVD33WELL" "AVDD" "AVDDB" "AVDDBG" "AVDDG" "AVDDR"
+                                          "AVDWELL" "DVDD" "TAVD33" "TAVD33PST" "TAVDD" "TAVDDPST" "VD33" "VD33WELL" "VDD" "VDD5V"
+                                          "VDDG" "VDDPST" "VDDSA" "VDWELL"
+   LVS GROUND NAME                        "AGND" "AVS33" "AVS33B" "AVS33G" "AVS33R" "AVS33SUB" "AVSS" "AVSSB" "AVSSBG" "AVSSG"
+                                          "AVSSR" "AVSSUB" "DVSS" "GND" "TAVSS" "TAVSSPST" "VS33" "VS33SUB" "VSS" "VSSG" "VSSPST"
+                                          "VSSUB"
+   LVS CELL SUPPLY                        NO
+   LVS RECOGNIZE GATES                    NONE
+   // LVS HCELL REPORT
+   LVS IGNORE PORTS                       NO
+   LVS CHECK PORT NAMES                   YES
+   LVS IGNORE TRIVIAL NAMED PORTS         NO
+   LVS BUILTIN DEVICE PIN SWAP            YES
+   LVS ALL CAPACITOR PINS SWAPPABLE       YES
+   LVS DISCARD PINS BY DEVICE             NO
+   LVS SOFT SUBSTRATE PINS                NO
+   LVS INJECT LOGIC                       YES
+   LVS EXPAND UNBALANCED CELLS            YES
+   LVS FLATTEN INSIDE CELL                NO
+   LVS EXPAND SEED PROMOTIONS             NO
+   LVS PRESERVE PARAMETERIZED CELLS       NO
+   LVS GLOBALS ARE PORTS                  YES
+   LVS REVERSE WL                         NO
+   LVS SPICE PREFER PINS                  YES
+   LVS SPICE SLASH IS SPACE               YES
+   LVS SPICE ALLOW FLOATING PINS          YES
+   // LVS SPICE ALLOW INLINE PARAMETERS     
+   LVS SPICE ALLOW UNQUOTED STRINGS       NO
+   LVS SPICE CONDITIONAL LDD              NO
+   LVS SPICE CULL PRIMITIVE SUBCIRCUITS   NO
+   // LVS SPICE EXCLUDE CELL SOURCE
+   // LVS SPICE EXCLUDE CELL LAYOUT
+   LVS SPICE IMPLIED MOS AREA             NO
+   // LVS SPICE MULTIPLIER NAME
+   LVS SPICE OVERRIDE GLOBALS             NO
+   LVS SPICE REDEFINE PARAM               NO
+   LVS SPICE REPLICATE DEVICES            NO
+   LVS SPICE SCALE X PARAMETERS           NO
+   LVS SPICE STRICT WL                    NO
+   // LVS SPICE OPTION
+   LVS STRICT SUBTYPES                    NO
+   LVS EXACT SUBTYPES                     NO
+   LAYOUT CASE                            NO
+   SOURCE CASE                            YES
+   LVS COMPARE CASE                       NO
+   LVS COMPARE CASE STRICT                NO
+   LVS DOWNCASE DEVICE                    NO
+   LVS REPORT MAXIMUM                     1000
+   LVS PROPERTY RESOLUTION MAXIMUM        32
+   // LVS SIGNATURE MAXIMUM
+   LVS FILTER UNUSED OPTION               AG RC RE RG
+   LVS REPORT OPTION                      S
+   LVS REPORT UNITS                       YES
+   // LVS NON USER NAME PORT
+   // LVS NON USER NAME NET
+   // LVS NON USER NAME INSTANCE
+   // LVS IGNORE DEVICE PIN
+   // LVS PREFER NETS FILTER SOURCE
+   // LVS PREFER NETS FILTER LAYOUT
+   LVS PREFER PORT NETS                   NO
+
+   // Device Type Map
+
+   LVS DEVICE TYPE                        RESISTOR "rnod_m" "rnodrpo_m" "rnodw_m" "rnpo1_dis" "rnpo1rpo_dis" "rnpo1w_dis" "rnwod_m"
+                                                   "rpod_m" "rpodrpo_m" "rpodw_m" "rppo1_dis" "rppo1rpo_dis" "rppo1w_dis"
+                                                   "rppolyhri_dis" "rppolyhri_rf" "rppolyl_rf" "rppolys_rf" "rppolywo_rf"
+                                                   [ POS=PLUS NEG=MINUS ]  SOURCE LAYOUT
+
+   // Reduction
+
+   LVS REDUCE SERIES MOS                  NO
+   LVS REDUCE PARALLEL MOS                YES
+   LVS REDUCE SEMI SERIES MOS             NO
+   LVS REDUCE SPLIT GATES                 YES
+   LVS REDUCE PARALLEL BIPOLAR            YES
+   LVS REDUCE SERIES CAPACITORS           YES
+   LVS REDUCE PARALLEL CAPACITORS         YES
+   LVS REDUCE SERIES RESISTORS            YES
+   LVS REDUCE PARALLEL RESISTORS          YES
+   LVS REDUCE PARALLEL DIODES             YES
+
+   LVS REDUCE  rnod_m  PARALLEL [ TOLERANCE l 0 ]
+   LVS REDUCE  rnod_m  SERIES PLUS MINUS [ TOLERANCE w 0 ]
+   LVS REDUCE  rnodrpo_m  PARALLEL [ TOLERANCE l 0 ]
+   LVS REDUCE  rnodrpo_m  SERIES PLUS MINUS [ TOLERANCE w 0 ]
+   LVS REDUCE  rnodw_m  PARALLEL [ TOLERANCE l 0 ]
+   LVS REDUCE  rnodw_m  SERIES PLUS MINUS [ TOLERANCE w 0 ]
+   LVS REDUCE  rnpo1_dis  PARALLEL [ TOLERANCE l 0 ]
+   LVS REDUCE  rnpo1_dis  SERIES PLUS MINUS [ TOLERANCE w 0 ]
+   LVS REDUCE  rnpo1rpo_dis  PARALLEL [ TOLERANCE l 0 ]
+   LVS REDUCE  rnpo1rpo_dis  SERIES PLUS MINUS [ TOLERANCE w 0 ]
+   LVS REDUCE  rnpo1w_dis  PARALLEL [ TOLERANCE l 0 ]
+   LVS REDUCE  rnpo1w_dis  SERIES PLUS MINUS [ TOLERANCE w 0 ]
+   LVS REDUCE  rnwod_m  PARALLEL [ TOLERANCE l 0 ]
+   LVS REDUCE  rnwod_m  SERIES PLUS MINUS [ TOLERANCE w 0 ]
+   LVS REDUCE  rpod_m  PARALLEL [ TOLERANCE l 0 ]
+   LVS REDUCE  rpod_m  SERIES PLUS MINUS [ TOLERANCE w 0 ]
+   LVS REDUCE  rpodrpo_m  PARALLEL [ TOLERANCE l 0 ]
+   LVS REDUCE  rpodrpo_m  SERIES PLUS MINUS [ TOLERANCE w 0 ]
+   LVS REDUCE  rpodw_m  PARALLEL [ TOLERANCE l 0 ]
+   LVS REDUCE  rpodw_m  SERIES PLUS MINUS [ TOLERANCE w 0 ]
+   LVS REDUCE  rppo1_dis  PARALLEL [ TOLERANCE l 0 ]
+   LVS REDUCE  rppo1_dis  SERIES PLUS MINUS [ TOLERANCE w 0 ]
+   LVS REDUCE  rppo1rpo_dis  PARALLEL [ TOLERANCE l 0 ]
+   LVS REDUCE  rppo1rpo_dis  SERIES PLUS MINUS [ TOLERANCE w 0 ]
+   LVS REDUCE  rppo1w_dis  PARALLEL [ TOLERANCE l 0 ]
+   LVS REDUCE  rppo1w_dis  SERIES PLUS MINUS [ TOLERANCE w 0 ]
+   LVS REDUCE  rppolyhri_dis  PARALLEL [ TOLERANCE l 0 ]
+   LVS REDUCE  rppolyhri_dis  SERIES PLUS MINUS [ TOLERANCE w 0 ]
+   LVS REDUCE  rppolyhri_rf  PARALLEL NO
+   LVS REDUCE  rppolyhri_rf  SERIES PLUS MINUS NO
+   LVS REDUCE  rppolyl_rf  PARALLEL NO
+   LVS REDUCE  rppolyl_rf  SERIES PLUS MINUS NO
+   LVS REDUCE  rppolys_rf  PARALLEL NO
+   LVS REDUCE  rppolys_rf  SERIES PLUS MINUS NO
+   LVS REDUCE  rppolywo_rf  PARALLEL NO
+   LVS REDUCE  rppolywo_rf  SERIES PLUS MINUS NO
+   LVS REDUCTION PRIORITY                 PARALLEL
+   
+   LVS SHORT EQUIVALENT NODES             NO
+
+   // Trace Property
+
+   TRACE PROPERTY  mn(n)  l l 0
+   TRACE PROPERTY  mn(n)  w w 0
+   TRACE PROPERTY  mn(n1)  l l 0
+   TRACE PROPERTY  mn(n1)  w w 0
+   TRACE PROPERTY  mn(n2)  l l 0
+   TRACE PROPERTY  mn(n2)  w w 0
+   TRACE PROPERTY  mn(na)  l l 0
+   TRACE PROPERTY  mn(na)  w w 0
+   TRACE PROPERTY  mn(nb)  l l 0
+   TRACE PROPERTY  mn(nb)  w w 0
+   TRACE PROPERTY  mn(nd)  l l 0
+   TRACE PROPERTY  mn(nd)  w w 0
+   TRACE PROPERTY  mn(nl)  l l 0
+   TRACE PROPERTY  mn(nl)  w w 0
+   TRACE PROPERTY  mn(nn)  l l 0
+   TRACE PROPERTY  mn(nn)  w w 0
+   TRACE PROPERTY  mp(p)  l l 0
+   TRACE PROPERTY  mp(p)  w w 0
+   TRACE PROPERTY  mp(pa)  l l 0
+   TRACE PROPERTY  mp(pa)  w w 0
+   TRACE PROPERTY  mp(pd)  l l 0
+   TRACE PROPERTY  mp(pd)  w w 0
+   TRACE PROPERTY  d(d1)  a a 0
+   TRACE PROPERTY  d(d2)  a a 0
+   TRACE PROPERTY  d(d3)  a a 0
+   TRACE PROPERTY  d(db)  a a 0
+   TRACE PROPERTY  d(dn)  a a 0
+   TRACE PROPERTY  d(dp)  a a 0
+   TRACE PROPERTY  d(dw)  a a 0
+   TRACE PROPERTY  r(lr)  r r 0
+   TRACE PROPERTY  r(m1)  r r 0
+   TRACE PROPERTY  r(m2)  r r 0
+   TRACE PROPERTY  r(m3)  r r 0
+   TRACE PROPERTY  r(m4)  r r 0
+   TRACE PROPERTY  r(m5)  r r 0
+   TRACE PROPERTY  r(nd)  r r 0
+   TRACE PROPERTY  r(ni)  r r 0
+   TRACE PROPERTY  r(nr)  r r 0
+   TRACE PROPERTY  r(ns)  r r 0
+   TRACE PROPERTY  r(pd)  r r 0
+   TRACE PROPERTY  r(pi)  r r 0
+   TRACE PROPERTY  r(pr)  r r 0
+   TRACE PROPERTY  r(ps)  r r 0
+   TRACE PROPERTY  r(wo)  r r 0
+   TRACE PROPERTY  r(wr)  r r 0
+   TRACE PROPERTY  c(m5)  c c 0.1
+   TRACE PROPERTY  r(mt)  r r 0
+   TRACE PROPERTY  q(nv)  a a 0
+   TRACE PROPERTY  q(p1)  a a 0
+   TRACE PROPERTY  q(pv)  a a 0
+   TRACE PROPERTY  crtmom  nv nv 0
+   TRACE PROPERTY  crtmom  nh nh 0
+   TRACE PROPERTY  crtmom  s s 0
+   TRACE PROPERTY  crtmom  w w 0
+   TRACE PROPERTY  crtmom  stm stm 0
+   TRACE PROPERTY  crtmom  spm spm 0
+   TRACE PROPERTY  crtmom_rf  nv nv 0
+   TRACE PROPERTY  crtmom_rf  nh nh 0
+   TRACE PROPERTY  crtmom_rf  s s 0
+   TRACE PROPERTY  crtmom_rf  w w 0
+   TRACE PROPERTY  crtmom_rf  stm stm 0
+   TRACE PROPERTY  crtmom_rf  spm spm 0
+   TRACE PROPERTY  mimcap_3t  l l 0
+   TRACE PROPERTY  mimcap_3t  w w 0
+   TRACE PROPERTY  mimcap_3t  lay lay 0
+   TRACE PROPERTY  mimcap_shield  lt lt 0
+   TRACE PROPERTY  mimcap_shield  wt wt 0
+   TRACE PROPERTY  mimcap_shield  lay lay 0
+   TRACE PROPERTY  mimcap_wos  lt lt 0
+   TRACE PROPERTY  mimcap_wos  wt wt 0
+   TRACE PROPERTY  mimcap_wos  lay lay 0
+   TRACE PROPERTY  moscap_rf  g g 0
+   TRACE PROPERTY  moscap_rf  b b 0
+   TRACE PROPERTY  moscap_rf33  g g 0
+   TRACE PROPERTY  moscap_rf33  b b 0
+   TRACE PROPERTY  nmos_rf  lr lr 0
+   TRACE PROPERTY  nmos_rf  wr wr 0
+   TRACE PROPERTY  nmos_rf  nr nr 0
+   TRACE PROPERTY  nmos_rf33  lr lr 0
+   TRACE PROPERTY  nmos_rf33  wr wr 0
+   TRACE PROPERTY  nmos_rf33  nr nr 0
+   TRACE PROPERTY  nmoscap  lr lr 0
+   TRACE PROPERTY  nmoscap  wr wr 0
+   TRACE PROPERTY  nmoscap  mr mr 0
+   TRACE PROPERTY  nmoscap_33  lr lr 0
+   TRACE PROPERTY  nmoscap_33  wr wr 0
+   TRACE PROPERTY  nmoscap_33  mr mr 0
+   TRACE PROPERTY  pmos_rf  lr lr 0
+   TRACE PROPERTY  pmos_rf  wr wr 0
+   TRACE PROPERTY  pmos_rf  nr nr 0
+   TRACE PROPERTY  pmos_rf33  lr lr 0
+   TRACE PROPERTY  pmos_rf33  wr wr 0
+   TRACE PROPERTY  pmos_rf33  nr nr 0
+   TRACE PROPERTY  pmos_rf33_nw  lr lr 0
+   TRACE PROPERTY  pmos_rf33_nw  wr wr 0
+   TRACE PROPERTY  pmos_rf33_nw  nr nr 0
+   TRACE PROPERTY  pmos_rf_nw  lr lr 0
+   TRACE PROPERTY  pmos_rf_nw  wr wr 0
+   TRACE PROPERTY  pmos_rf_nw  nr nr 0
+   TRACE PROPERTY  rnod_m  w w 0
+   TRACE PROPERTY  rnod_m  l l 0
+   TRACE PROPERTY  rnodrpo_m  w w 0
+   TRACE PROPERTY  rnodrpo_m  l l 0
+   TRACE PROPERTY  rnodw_m  w w 0
+   TRACE PROPERTY  rnodw_m  l l 0
+   TRACE PROPERTY  rnpo1_dis  w w 0
+   TRACE PROPERTY  rnpo1_dis  l l 0
+   TRACE PROPERTY  rnpo1rpo_dis  w w 0
+   TRACE PROPERTY  rnpo1rpo_dis  l l 0
+   TRACE PROPERTY  rnpo1w_dis  w w 0
+   TRACE PROPERTY  rnpo1w_dis  l l 0
+   TRACE PROPERTY  rnwod_m  w w 0
+   TRACE PROPERTY  rnwod_m  l l 0
+   TRACE PROPERTY  rpod_m  w w 0
+   TRACE PROPERTY  rpod_m  l l 0
+   TRACE PROPERTY  rpodrpo_m  w w 0
+   TRACE PROPERTY  rpodrpo_m  l l 0
+   TRACE PROPERTY  rpodw_m  w w 0
+   TRACE PROPERTY  rpodw_m  l l 0
+   TRACE PROPERTY  rppo1_dis  w w 0
+   TRACE PROPERTY  rppo1_dis  l l 0
+   TRACE PROPERTY  rppo1rpo_dis  w w 0
+   TRACE PROPERTY  rppo1rpo_dis  l l 0
+   TRACE PROPERTY  rppo1w_dis  w w 0
+   TRACE PROPERTY  rppo1w_dis  l l 0
+   TRACE PROPERTY  rppolyhri_dis  w w 0
+   TRACE PROPERTY  rppolyhri_dis  l l 0
+   TRACE PROPERTY  rppolyhri_rf  w w 0
+   TRACE PROPERTY  rppolyhri_rf  l l 0
+   TRACE PROPERTY  rppolyl_rf  w w 0
+   TRACE PROPERTY  rppolyl_rf  l l 0
+   TRACE PROPERTY  rppolys_rf  w w 0
+   TRACE PROPERTY  rppolys_rf  l l 0
+   TRACE PROPERTY  rppolywo_rf  w w 0
+   TRACE PROPERTY  rppolywo_rf  l l 0
+   TRACE PROPERTY  sbd_rf  nf nf 0
+   TRACE PROPERTY  sbd_rf  w w 0
+   TRACE PROPERTY  sbd_rf  l l 0
+   TRACE PROPERTY  sbd_rf_nw  nf nf 0
+   TRACE PROPERTY  sbd_rf_nw  w w 0
+   TRACE PROPERTY  sbd_rf_nw  l l 0
+   TRACE PROPERTY  spiral_s2_std  lay lay 0
+   TRACE PROPERTY  spiral_s2_std  w w 0
+   TRACE PROPERTY  spiral_s2_std  nr nr 0
+   TRACE PROPERTY  spiral_s2_std  rad rad 0
+   TRACE PROPERTY  spiral_s2_std  s s 0
+   TRACE PROPERTY  spiral_s2_sym  lay lay 0
+   TRACE PROPERTY  spiral_s2_sym  w w 0
+   TRACE PROPERTY  spiral_s2_sym  nr nr 0
+   TRACE PROPERTY  spiral_s2_sym  rad rad 0
+   TRACE PROPERTY  spiral_s2_sym  s s 0
+   TRACE PROPERTY  spiral_s2_sym_ct  lay lay 0
+   TRACE PROPERTY  spiral_s2_sym_ct  w w 0
+   TRACE PROPERTY  spiral_s2_sym_ct  nr nr 0
+   TRACE PROPERTY  spiral_s2_sym_ct  rad rad 0
+   TRACE PROPERTY  spiral_s2_sym_ct  s s 0
+   TRACE PROPERTY  spiral_s3_std  lay lay 0
+   TRACE PROPERTY  spiral_s3_std  w w 0
+   TRACE PROPERTY  spiral_s3_std  nr nr 0
+   TRACE PROPERTY  spiral_s3_std  rad rad 0
+   TRACE PROPERTY  spiral_s3_std  s s 0
+   TRACE PROPERTY  spiral_s3_sym  lay lay 0
+   TRACE PROPERTY  spiral_s3_sym  w w 0
+   TRACE PROPERTY  spiral_s3_sym  nr nr 0
+   TRACE PROPERTY  spiral_s3_sym  rad rad 0
+   TRACE PROPERTY  spiral_s3_sym  s s 0
+   TRACE PROPERTY  spiral_s3_sym_ct  lay lay 0
+   TRACE PROPERTY  spiral_s3_sym_ct  w w 0
+   TRACE PROPERTY  spiral_s3_sym_ct  nr nr 0
+   TRACE PROPERTY  spiral_s3_sym_ct  rad rad 0
+   TRACE PROPERTY  spiral_s3_sym_ct  s s 0
+   TRACE PROPERTY  xjvar_nr36  nr nr 0
+   TRACE PROPERTY  xjvar_nr36  w w 0
+   TRACE PROPERTY  xjvar_w40  nr nr 0
+   TRACE PROPERTY  xjvar_w40  w w 0
+
+
+
+                   CELL COMPARISON RESULTS ( TOP LEVEL )
+
+
+
+                         #       ###################       _   _   
+                        #        #                 #       *   *   
+                   #   #         #     CORRECT     #         |     
+                    # #          #                 #       \___/  
+                     #           ###################               
+
+
+
+LAYOUT CELL NAME:         CHIP
+SOURCE CELL NAME:         CHIP
+
+--------------------------------------------------------------------------------------------------------------
+
+INITIAL NUMBERS OF OBJECTS
+--------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:            110       112    *
+
+ Nets:           14310     14978    *
+
+ Instances:         55        55         ADDFHX1 (7 pins)
+                    65        65         ADDFHX2 (7 pins)
+                     3         3         ADDFHX4 (7 pins)
+                     1         1         ADDFX1 (7 pins)
+                   631       631         ADDFX2 (7 pins)
+                     5         5         ADDFXL (7 pins)
+                     3         3         ADDHX1 (6 pins)
+                     1         1         ADDHX2 (6 pins)
+                     1         1         ADDHX4 (6 pins)
+                   121       121         ADDHXL (6 pins)
+                    45        45         AND2X1 (5 pins)
+                   250       250         AND2X2 (5 pins)
+                    16        16         AND2X4 (5 pins)
+                     4         4         AND3X1 (6 pins)
+                    20        20         AND3X2 (6 pins)
+                     5         5         AND3X4 (6 pins)
+                     3         3         AND4X2 (7 pins)
+                     4         4         ANTENNA (3 pins)
+                    16        16         AOI211X1 (7 pins)
+                     2         2         AOI211X2 (7 pins)
+                     2         2         AOI211XL (7 pins)
+                   329       329         AOI21X1 (6 pins)
+                   169       169         AOI21X2 (6 pins)
+                   156       156         AOI21X4 (6 pins)
+                    64        64         AOI21XL (6 pins)
+                    12        12         AOI221X1 (8 pins)
+                     2         2         AOI221X2 (8 pins)
+                     2         2         AOI221XL (8 pins)
+                    38        38         AOI222X1 (9 pins)
+                    10        10         AOI222X2 (9 pins)
+                    30        30         AOI222X4 (9 pins)
+                     1         1         AOI222XL (9 pins)
+                    61        61         AOI22X1 (7 pins)
+                     8         8         AOI22X2 (7 pins)
+                     1         1         AOI22X4 (7 pins)
+                    55        55         AOI22XL (7 pins)
+                    36        36         AOI2BB1X1 (6 pins)
+                     9         9         AOI2BB1X2 (6 pins)
+                     6         6         AOI2BB1X4 (6 pins)
+                     9         9         AOI2BB1XL (6 pins)
+                    36        36         AOI2BB2X1 (7 pins)
+                     6         6         AOI2BB2X2 (7 pins)
+                     4         4         AOI2BB2X4 (7 pins)
+                    21        21         AOI2BB2XL (7 pins)
+                    17        17         AOI31X1 (7 pins)
+                     7         7         AOI31X2 (7 pins)
+                     2         2         AOI31X4 (7 pins)
+                    10        10         AOI32X1 (8 pins)
+                     1         1         AOI32X2 (8 pins)
+                    16        16         AOI32XL (8 pins)
+                     1         1         BUFX1 (4 pins)
+                    16        16         BUFX12 (4 pins)
+                     6         6         BUFX16 (4 pins)
+                     3         3         BUFX2 (4 pins)
+                     3         3         BUFX20 (4 pins)
+                   200       200         BUFX3 (4 pins)
+                    40        40         BUFX4 (4 pins)
+                    17        17         BUFX8 (4 pins)
+                    10        10         BUFXL (4 pins)
+                     4         4         CLKBUFX20 (4 pins)
+                    10        10         CLKBUFX3 (4 pins)
+                     2         2         CLKBUFX4 (4 pins)
+                    64        64         CLKBUFX8 (4 pins)
+                     5         5         CLKINVX2 (4 pins)
+                   212       212         CLKINVX3 (4 pins)
+                    22        22         CLKINVX4 (4 pins)
+                    24        24         CLKINVX8 (4 pins)
+                     4         4         CMPR22X1 (6 pins)
+                    17        17         CMPR32X1 (7 pins)
+                    59        59         CMPR42X1 (10 pins)
+                  1377      1377         INVX1 (4 pins)
+                     2         2         INVX12 (4 pins)
+                   104       104         INVX2 (4 pins)
+                     1         1         INVX20 (4 pins)
+                   109       109         INVX4 (4 pins)
+                    41        41         INVX8 (4 pins)
+                   170       170         INVXL (4 pins)
+                    18        18         MX2X1 (6 pins)
+                     1         1         MX2X2 (6 pins)
+                     7         7         MX2X4 (6 pins)
+                     5         5         MXI2X1 (6 pins)
+                     2         2         MXI2X2 (6 pins)
+                     1         1         MXI2X4 (6 pins)
+                   337       337         NAND2BX1 (5 pins)
+                    24        24         NAND2BX2 (5 pins)
+                    11        11         NAND2BX4 (5 pins)
+                   140       140         NAND2BXL (5 pins)
+                  1379      1379         NAND2X1 (5 pins)
+                   240       240         NAND2X2 (5 pins)
+                    65        65         NAND2X4 (5 pins)
+                   388       388         NAND2XL (5 pins)
+                     4         4         NAND3BX1 (6 pins)
+                     5         5         NAND3BX2 (6 pins)
+                     1         1         NAND3BX4 (6 pins)
+                     2         2         NAND3BXL (6 pins)
+                    52        52         NAND3X1 (6 pins)
+                    20        20         NAND3X2 (6 pins)
+                     6         6         NAND3X4 (6 pins)
+                    11        11         NAND3XL (6 pins)
+                     1         1         NAND4BBX1 (7 pins)
+                     1         1         NAND4BBX2 (7 pins)
+                     1         1         NAND4BX4 (7 pins)
+                     6         6         NAND4X1 (7 pins)
+                     1         1         NAND4X2 (7 pins)
+                     4         4         NAND4X4 (7 pins)
+                     3         3         NAND4XL (7 pins)
+                    93        93         NOR2BX1 (5 pins)
+                    13        13         NOR2BX2 (5 pins)
+                     9         9         NOR2BX4 (5 pins)
+                    25        25         NOR2BXL (5 pins)
+                   730       730         NOR2X1 (5 pins)
+                   338       338         NOR2X2 (5 pins)
+                   129       129         NOR2X4 (5 pins)
+                    71        71         NOR2XL (5 pins)
+                     5         5         NOR3BX1 (6 pins)
+                     6         6         NOR3X1 (6 pins)
+                     1         1         NOR3X4 (6 pins)
+                     3         3         NOR3XL (6 pins)
+                     2         2         NOR4BX1 (7 pins)
+                     1         1         NOR4BXL (7 pins)
+                    17        17         NOR4X1 (7 pins)
+                     1         1         NOR4X2 (7 pins)
+                     2         2         NOR4XL (7 pins)
+                    19        19         OAI211X1 (7 pins)
+                    10        10         OAI211X2 (7 pins)
+                     4         4         OAI211XL (7 pins)
+                   129       129         OAI21X1 (6 pins)
+                   147       147         OAI21X2 (6 pins)
+                   142       142         OAI21X4 (6 pins)
+                   602       602         OAI21XL (6 pins)
+                     2         2         OAI221X1 (8 pins)
+                     3         3         OAI221X2 (8 pins)
+                     7         7         OAI221X4 (8 pins)
+                    50        50         OAI221XL (8 pins)
+                    11        11         OAI222X1 (9 pins)
+                     2         2         OAI222X2 (9 pins)
+                     3         3         OAI222X4 (9 pins)
+                   114       114         OAI222XL (9 pins)
+                    26        26         OAI22X1 (7 pins)
+                     1         1         OAI22X2 (7 pins)
+                     2         2         OAI22X4 (7 pins)
+                     9         9         OAI22XL (7 pins)
+                   174       174         OAI2BB1X1 (6 pins)
+                    40        40         OAI2BB1X2 (6 pins)
+                    18        18         OAI2BB1X4 (6 pins)
+                     7         7         OAI2BB1XL (6 pins)
+                    27        27         OAI2BB2X1 (7 pins)
+                     3         3         OAI2BB2X2 (7 pins)
+                     4         4         OAI2BB2X4 (7 pins)
+                     1         1         OAI2BB2XL (7 pins)
+                     9         9         OAI31X1 (7 pins)
+                     3         3         OAI31X4 (7 pins)
+                     1         1         OAI31XL (7 pins)
+                    18        18         OAI32X1 (8 pins)
+                     1         1         OAI32X4 (8 pins)
+                     4         4         OAI33X1 (9 pins)
+                    10        10         OR2X1 (5 pins)
+                   440       440         OR2X2 (5 pins)
+                    98        98         OR2X4 (5 pins)
+                    74        74         OR2XL (5 pins)
+                     1         1         OR3X4 (6 pins)
+                    14        14         OR3XL (6 pins)
+                     3         3         OR4X2 (7 pins)
+                     1         1         OR4X4 (7 pins)
+                    45        45         PDIDGZ (2 pins)
+                    63        63         PDO12CDG (2 pins)
+                    24        24         SDFFRHQX1 (8 pins)
+                    16        16         SDFFRHQX2 (8 pins)
+                    39        39         SDFFRHQX4 (8 pins)
+                   246       246         SDFFRHQXL (8 pins)
+                     3         3         SDFFRX1 (9 pins)
+                    14        14         SDFFRX4 (9 pins)
+                     5         5         SDFFRXL (9 pins)
+                     1         1         SDFFSXL (9 pins)
+                   366       366         XNOR2X1 (5 pins)
+                   124       124         XNOR2X2 (5 pins)
+                    76        76         XNOR2X4 (5 pins)
+                    41        41         XNOR2XL (5 pins)
+                    54        54         XNOR3X2 (6 pins)
+                   372       372         XOR2X1 (5 pins)
+                   163       163         XOR2X2 (5 pins)
+                   124       124         XOR2X4 (5 pins)
+                    38        38         XOR2XL (5 pins)
+                    91        91         XOR3X2 (6 pins)
+                     2         2         XOR3X4 (6 pins)
+                ------    ------
+ Total Inst:     13217     13217
+
+
+NUMBERS OF OBJECTS AFTER TRANSFORMATION
+---------------------------------------
+
+                Layout    Source         Component Type
+                ------    ------         --------------
+ Ports:            110       110
+
+ Nets:           14308     14308
+
+ Instances:         55        55         ADDFHX1 (7 pins)
+                    65        65         ADDFHX2 (7 pins)
+                     3         3         ADDFHX4 (7 pins)
+                     1         1         ADDFX1 (7 pins)
+                   631       631         ADDFX2 (7 pins)
+                     5         5         ADDFXL (7 pins)
+                     3         3         ADDHX1 (6 pins)
+                     1         1         ADDHX2 (6 pins)
+                     1         1         ADDHX4 (6 pins)
+                   121       121         ADDHXL (6 pins)
+                    45        45         AND2X1 (5 pins)
+                   250       250         AND2X2 (5 pins)
+                    16        16         AND2X4 (5 pins)
+                     4         4         AND3X1 (6 pins)
+                    20        20         AND3X2 (6 pins)
+                     5         5         AND3X4 (6 pins)
+                     3         3         AND4X2 (7 pins)
+                     4         4         ANTENNA (3 pins)
+                    16        16         AOI211X1 (7 pins)
+                     2         2         AOI211X2 (7 pins)
+                     2         2         AOI211XL (7 pins)
+                   329       329         AOI21X1 (6 pins)
+                   169       169         AOI21X2 (6 pins)
+                   156       156         AOI21X4 (6 pins)
+                    64        64         AOI21XL (6 pins)
+                    12        12         AOI221X1 (8 pins)
+                     2         2         AOI221X2 (8 pins)
+                     2         2         AOI221XL (8 pins)
+                    38        38         AOI222X1 (9 pins)
+                    10        10         AOI222X2 (9 pins)
+                    30        30         AOI222X4 (9 pins)
+                     1         1         AOI222XL (9 pins)
+                    61        61         AOI22X1 (7 pins)
+                     8         8         AOI22X2 (7 pins)
+                     1         1         AOI22X4 (7 pins)
+                    55        55         AOI22XL (7 pins)
+                    36        36         AOI2BB1X1 (6 pins)
+                     9         9         AOI2BB1X2 (6 pins)
+                     6         6         AOI2BB1X4 (6 pins)
+                     9         9         AOI2BB1XL (6 pins)
+                    36        36         AOI2BB2X1 (7 pins)
+                     6         6         AOI2BB2X2 (7 pins)
+                     4         4         AOI2BB2X4 (7 pins)
+                    21        21         AOI2BB2XL (7 pins)
+                    17        17         AOI31X1 (7 pins)
+                     7         7         AOI31X2 (7 pins)
+                     2         2         AOI31X4 (7 pins)
+                    10        10         AOI32X1 (8 pins)
+                     1         1         AOI32X2 (8 pins)
+                    16        16         AOI32XL (8 pins)
+                     1         1         BUFX1 (4 pins)
+                    16        16         BUFX12 (4 pins)
+                     6         6         BUFX16 (4 pins)
+                     3         3         BUFX2 (4 pins)
+                     3         3         BUFX20 (4 pins)
+                   200       200         BUFX3 (4 pins)
+                    40        40         BUFX4 (4 pins)
+                    17        17         BUFX8 (4 pins)
+                    10        10         BUFXL (4 pins)
+                     4         4         CLKBUFX20 (4 pins)
+                    10        10         CLKBUFX3 (4 pins)
+                     2         2         CLKBUFX4 (4 pins)
+                    64        64         CLKBUFX8 (4 pins)
+                     5         5         CLKINVX2 (4 pins)
+                   212       212         CLKINVX3 (4 pins)
+                    22        22         CLKINVX4 (4 pins)
+                    24        24         CLKINVX8 (4 pins)
+                     4         4         CMPR22X1 (6 pins)
+                    17        17         CMPR32X1 (7 pins)
+                    59        59         CMPR42X1 (10 pins)
+                  1377      1377         INVX1 (4 pins)
+                     2         2         INVX12 (4 pins)
+                   104       104         INVX2 (4 pins)
+                     1         1         INVX20 (4 pins)
+                   109       109         INVX4 (4 pins)
+                    41        41         INVX8 (4 pins)
+                   170       170         INVXL (4 pins)
+                    18        18         MX2X1 (6 pins)
+                     1         1         MX2X2 (6 pins)
+                     7         7         MX2X4 (6 pins)
+                     5         5         MXI2X1 (6 pins)
+                     2         2         MXI2X2 (6 pins)
+                     1         1         MXI2X4 (6 pins)
+                   337       337         NAND2BX1 (5 pins)
+                    24        24         NAND2BX2 (5 pins)
+                    11        11         NAND2BX4 (5 pins)
+                   140       140         NAND2BXL (5 pins)
+                  1379      1379         NAND2X1 (5 pins)
+                   240       240         NAND2X2 (5 pins)
+                    65        65         NAND2X4 (5 pins)
+                   388       388         NAND2XL (5 pins)
+                     4         4         NAND3BX1 (6 pins)
+                     5         5         NAND3BX2 (6 pins)
+                     1         1         NAND3BX4 (6 pins)
+                     2         2         NAND3BXL (6 pins)
+                    52        52         NAND3X1 (6 pins)
+                    20        20         NAND3X2 (6 pins)
+                     6         6         NAND3X4 (6 pins)
+                    11        11         NAND3XL (6 pins)
+                     1         1         NAND4BBX1 (7 pins)
+                     1         1         NAND4BBX2 (7 pins)
+                     1         1         NAND4BX4 (7 pins)
+                     6         6         NAND4X1 (7 pins)
+                     1         1         NAND4X2 (7 pins)
+                     4         4         NAND4X4 (7 pins)
+                     3         3         NAND4XL (7 pins)
+                    93        93         NOR2BX1 (5 pins)
+                    13        13         NOR2BX2 (5 pins)
+                     9         9         NOR2BX4 (5 pins)
+                    25        25         NOR2BXL (5 pins)
+                   730       730         NOR2X1 (5 pins)
+                   338       338         NOR2X2 (5 pins)
+                   129       129         NOR2X4 (5 pins)
+                    71        71         NOR2XL (5 pins)
+                     5         5         NOR3BX1 (6 pins)
+                     6         6         NOR3X1 (6 pins)
+                     1         1         NOR3X4 (6 pins)
+                     3         3         NOR3XL (6 pins)
+                     2         2         NOR4BX1 (7 pins)
+                     1         1         NOR4BXL (7 pins)
+                    17        17         NOR4X1 (7 pins)
+                     1         1         NOR4X2 (7 pins)
+                     2         2         NOR4XL (7 pins)
+                    19        19         OAI211X1 (7 pins)
+                    10        10         OAI211X2 (7 pins)
+                     4         4         OAI211XL (7 pins)
+                   129       129         OAI21X1 (6 pins)
+                   147       147         OAI21X2 (6 pins)
+                   142       142         OAI21X4 (6 pins)
+                   602       602         OAI21XL (6 pins)
+                     2         2         OAI221X1 (8 pins)
+                     3         3         OAI221X2 (8 pins)
+                     7         7         OAI221X4 (8 pins)
+                    50        50         OAI221XL (8 pins)
+                    11        11         OAI222X1 (9 pins)
+                     2         2         OAI222X2 (9 pins)
+                     3         3         OAI222X4 (9 pins)
+                   114       114         OAI222XL (9 pins)
+                    26        26         OAI22X1 (7 pins)
+                     1         1         OAI22X2 (7 pins)
+                     2         2         OAI22X4 (7 pins)
+                     9         9         OAI22XL (7 pins)
+                   174       174         OAI2BB1X1 (6 pins)
+                    40        40         OAI2BB1X2 (6 pins)
+                    18        18         OAI2BB1X4 (6 pins)
+                     7         7         OAI2BB1XL (6 pins)
+                    27        27         OAI2BB2X1 (7 pins)
+                     3         3         OAI2BB2X2 (7 pins)
+                     4         4         OAI2BB2X4 (7 pins)
+                     1         1         OAI2BB2XL (7 pins)
+                     9         9         OAI31X1 (7 pins)
+                     3         3         OAI31X4 (7 pins)
+                     1         1         OAI31XL (7 pins)
+                    18        18         OAI32X1 (8 pins)
+                     1         1         OAI32X4 (8 pins)
+                     4         4         OAI33X1 (9 pins)
+                    10        10         OR2X1 (5 pins)
+                   440       440         OR2X2 (5 pins)
+                    98        98         OR2X4 (5 pins)
+                    74        74         OR2XL (5 pins)
+                     1         1         OR3X4 (6 pins)
+                    14        14         OR3XL (6 pins)
+                     3         3         OR4X2 (7 pins)
+                     1         1         OR4X4 (7 pins)
+                    45        45         PDIDGZ (2 pins)
+                    63        63         PDO12CDG (2 pins)
+                    24        24         SDFFRHQX1 (8 pins)
+                    16        16         SDFFRHQX2 (8 pins)
+                    39        39         SDFFRHQX4 (8 pins)
+                   246       246         SDFFRHQXL (8 pins)
+                     3         3         SDFFRX1 (9 pins)
+                    14        14         SDFFRX4 (9 pins)
+                     5         5         SDFFRXL (9 pins)
+                     1         1         SDFFSXL (9 pins)
+                   366       366         XNOR2X1 (5 pins)
+                   124       124         XNOR2X2 (5 pins)
+                    76        76         XNOR2X4 (5 pins)
+                    41        41         XNOR2XL (5 pins)
+                    54        54         XNOR3X2 (6 pins)
+                   372       372         XOR2X1 (5 pins)
+                   163       163         XOR2X2 (5 pins)
+                   124       124         XOR2X4 (5 pins)
+                    38        38         XOR2XL (5 pins)
+                    91        91         XOR3X2 (6 pins)
+                     2         2         XOR3X4 (6 pins)
+                ------    ------
+ Total Inst:     13217     13217
+
+
+       * = Number of objects in layout different from number in source.
+
+
+
+**************************************************************************************************************
+                               INFORMATION AND WARNINGS
+**************************************************************************************************************
+
+
+                  Matched    Matched    Unmatched    Unmatched    Component
+                   Layout     Source       Layout       Source    Type
+                  -------    -------    ---------    ---------    ---------
+   Ports:             110        110            0            0
+
+   Nets:            14308      14308            0            0
+
+   Instances:          55         55            0            0    ADDFHX1
+                       65         65            0            0    ADDFHX2
+                        3          3            0            0    ADDFHX4
+                        1          1            0            0    ADDFX1
+                      631        631            0            0    ADDFX2
+                        5          5            0            0    ADDFXL
+                        3          3            0            0    ADDHX1
+                        1          1            0            0    ADDHX2
+                        1          1            0            0    ADDHX4
+                      121        121            0            0    ADDHXL
+                       45         45            0            0    AND2X1
+                      250        250            0            0    AND2X2
+                       16         16            0            0    AND2X4
+                        4          4            0            0    AND3X1
+                       20         20            0            0    AND3X2
+                        5          5            0            0    AND3X4
+                        3          3            0            0    AND4X2
+                        4          4            0            0    ANTENNA
+                       16         16            0            0    AOI211X1
+                        2          2            0            0    AOI211X2
+                        2          2            0            0    AOI211XL
+                      329        329            0            0    AOI21X1
+                      169        169            0            0    AOI21X2
+                      156        156            0            0    AOI21X4
+                       64         64            0            0    AOI21XL
+                       12         12            0            0    AOI221X1
+                        2          2            0            0    AOI221X2
+                        2          2            0            0    AOI221XL
+                       38         38            0            0    AOI222X1
+                       10         10            0            0    AOI222X2
+                       30         30            0            0    AOI222X4
+                        1          1            0            0    AOI222XL
+                       61         61            0            0    AOI22X1
+                        8          8            0            0    AOI22X2
+                        1          1            0            0    AOI22X4
+                       55         55            0            0    AOI22XL
+                       36         36            0            0    AOI2BB1X1
+                        9          9            0            0    AOI2BB1X2
+                        6          6            0            0    AOI2BB1X4
+                        9          9            0            0    AOI2BB1XL
+                       36         36            0            0    AOI2BB2X1
+                        6          6            0            0    AOI2BB2X2
+                        4          4            0            0    AOI2BB2X4
+                       21         21            0            0    AOI2BB2XL
+                       17         17            0            0    AOI31X1
+                        7          7            0            0    AOI31X2
+                        2          2            0            0    AOI31X4
+                       10         10            0            0    AOI32X1
+                        1          1            0            0    AOI32X2
+                       16         16            0            0    AOI32XL
+                        1          1            0            0    BUFX1
+                       16         16            0            0    BUFX12
+                        6          6            0            0    BUFX16
+                        3          3            0            0    BUFX2
+                        3          3            0            0    BUFX20
+                      200        200            0            0    BUFX3
+                       40         40            0            0    BUFX4
+                       17         17            0            0    BUFX8
+                       10         10            0            0    BUFXL
+                        4          4            0            0    CLKBUFX20
+                       10         10            0            0    CLKBUFX3
+                        2          2            0            0    CLKBUFX4
+                       64         64            0            0    CLKBUFX8
+                        5          5            0            0    CLKINVX2
+                      212        212            0            0    CLKINVX3
+                       22         22            0            0    CLKINVX4
+                       24         24            0            0    CLKINVX8
+                        4          4            0            0    CMPR22X1
+                       17         17            0            0    CMPR32X1
+                       59         59            0            0    CMPR42X1
+                     1377       1377            0            0    INVX1
+                        2          2            0            0    INVX12
+                      104        104            0            0    INVX2
+                        1          1            0            0    INVX20
+                      109        109            0            0    INVX4
+                       41         41            0            0    INVX8
+                      170        170            0            0    INVXL
+                       18         18            0            0    MX2X1
+                        1          1            0            0    MX2X2
+                        7          7            0            0    MX2X4
+                        5          5            0            0    MXI2X1
+                        2          2            0            0    MXI2X2
+                        1          1            0            0    MXI2X4
+                      337        337            0            0    NAND2BX1
+                       24         24            0            0    NAND2BX2
+                       11         11            0            0    NAND2BX4
+                      140        140            0            0    NAND2BXL
+                     1379       1379            0            0    NAND2X1
+                      240        240            0            0    NAND2X2
+                       65         65            0            0    NAND2X4
+                      388        388            0            0    NAND2XL
+                        4          4            0            0    NAND3BX1
+                        5          5            0            0    NAND3BX2
+                        1          1            0            0    NAND3BX4
+                        2          2            0            0    NAND3BXL
+                       52         52            0            0    NAND3X1
+                       20         20            0            0    NAND3X2
+                        6          6            0            0    NAND3X4
+                       11         11            0            0    NAND3XL
+                        1          1            0            0    NAND4BBX1
+                        1          1            0            0    NAND4BBX2
+                        1          1            0            0    NAND4BX4
+                        6          6            0            0    NAND4X1
+                        1          1            0            0    NAND4X2
+                        4          4            0            0    NAND4X4
+                        3          3            0            0    NAND4XL
+                       93         93            0            0    NOR2BX1
+                       13         13            0            0    NOR2BX2
+                        9          9            0            0    NOR2BX4
+                       25         25            0            0    NOR2BXL
+                      730        730            0            0    NOR2X1
+                      338        338            0            0    NOR2X2
+                      129        129            0            0    NOR2X4
+                       71         71            0            0    NOR2XL
+                        5          5            0            0    NOR3BX1
+                        6          6            0            0    NOR3X1
+                        1          1            0            0    NOR3X4
+                        3          3            0            0    NOR3XL
+                        2          2            0            0    NOR4BX1
+                        1          1            0            0    NOR4BXL
+                       17         17            0            0    NOR4X1
+                        1          1            0            0    NOR4X2
+                        2          2            0            0    NOR4XL
+                       19         19            0            0    OAI211X1
+                       10         10            0            0    OAI211X2
+                        4          4            0            0    OAI211XL
+                      129        129            0            0    OAI21X1
+                      147        147            0            0    OAI21X2
+                      142        142            0            0    OAI21X4
+                      602        602            0            0    OAI21XL
+                        2          2            0            0    OAI221X1
+                        3          3            0            0    OAI221X2
+                        7          7            0            0    OAI221X4
+                       50         50            0            0    OAI221XL
+                       11         11            0            0    OAI222X1
+                        2          2            0            0    OAI222X2
+                        3          3            0            0    OAI222X4
+                      114        114            0            0    OAI222XL
+                       26         26            0            0    OAI22X1
+                        1          1            0            0    OAI22X2
+                        2          2            0            0    OAI22X4
+                        9          9            0            0    OAI22XL
+                      174        174            0            0    OAI2BB1X1
+                       40         40            0            0    OAI2BB1X2
+                       18         18            0            0    OAI2BB1X4
+                        7          7            0            0    OAI2BB1XL
+                       27         27            0            0    OAI2BB2X1
+                        3          3            0            0    OAI2BB2X2
+                        4          4            0            0    OAI2BB2X4
+                        1          1            0            0    OAI2BB2XL
+                        9          9            0            0    OAI31X1
+                        3          3            0            0    OAI31X4
+                        1          1            0            0    OAI31XL
+                       18         18            0            0    OAI32X1
+                        1          1            0            0    OAI32X4
+                        4          4            0            0    OAI33X1
+                       10         10            0            0    OR2X1
+                      440        440            0            0    OR2X2
+                       98         98            0            0    OR2X4
+                       74         74            0            0    OR2XL
+                        1          1            0            0    OR3X4
+                       14         14            0            0    OR3XL
+                        3          3            0            0    OR4X2
+                        1          1            0            0    OR4X4
+                       45         45            0            0    PDIDGZ
+                       63         63            0            0    PDO12CDG
+                       24         24            0            0    SDFFRHQX1
+                       16         16            0            0    SDFFRHQX2
+                       39         39            0            0    SDFFRHQX4
+                      246        246            0            0    SDFFRHQXL
+                        3          3            0            0    SDFFRX1
+                       14         14            0            0    SDFFRX4
+                        5          5            0            0    SDFFRXL
+                        1          1            0            0    SDFFSXL
+                      366        366            0            0    XNOR2X1
+                      124        124            0            0    XNOR2X2
+                       76         76            0            0    XNOR2X4
+                       41         41            0            0    XNOR2XL
+                       54         54            0            0    XNOR3X2
+                      372        372            0            0    XOR2X1
+                      163        163            0            0    XOR2X2
+                      124        124            0            0    XOR2X4
+                       38         38            0            0    XOR2XL
+                       91         91            0            0    XOR3X2
+                        2          2            0            0    XOR3X4
+                  -------    -------    ---------    ---------
+   Total Inst:      13217      13217            0            0
+
+
+o Statistics:
+
+   2 passthrough source nets were deleted.
+
+   116 source nets were deep shorted to 47.
+
+   2 layout nets had all their pins removed and were deleted.
+   599 source nets had all their pins removed and were deleted.
+
+
+o Initial Correspondence Points:
+
+   Ports:        VDD VSS CDATA_RD[4] CDATA_RD[5] CDATA_RD[6] CDATA_RD[7] CDATA_RD[8] CDATA_RD[9]
+                 CDATA_RD[10] CDATA_RD[11] CDATA_RD[12] CDATA_RD[13] CDATA_RD[14] CDATA_RD[15]
+                 CDATA_RD[16] CDATA_RD[17] CDATA_RD[18] CDATA_RD[19] SCAN_IN SCAN_EN SCAN_OUT
+                 BUSY IADDR[0] IADDR[1] IADDR[2] IADDR[3] IADDR[4] IADDR[5] IADDR[6] IADDR[7]
+                 IADDR[8] CLK RESET IADDR[9] IADDR[10] IADDR[11] READY IDATA[0] CWR CADDR_WR[0]
+                 CADDR_WR[1] CADDR_WR[2] CADDR_WR[3] CADDR_WR[4] CADDR_WR[5] CADDR_WR[6]
+                 CADDR_WR[7] CADDR_WR[8] CADDR_WR[9] CADDR_WR[10] CADDR_WR[11] CDATA_WR[0]
+                 CDATA_WR[1] CDATA_WR[2] CDATA_WR[3] CDATA_WR[4] IDATA[1] IDATA[2] IDATA[3]
+                 IDATA[4] IDATA[5] IDATA[6] IDATA[7] IDATA[8] IDATA[9] IDATA[10] IDATA[11]
+                 IDATA[12] IDATA[13] IDATA[14] IDATA[15] IDATA[16] IDATA[17] IDATA[18] IDATA[19]
+                 CDATA_WR[5] CDATA_WR[6] CDATA_WR[7] CDATA_RD[0] CDATA_RD[1] CDATA_RD[2]
+                 CDATA_WR[8] CDATA_RD[3] CDATA_WR[9] CDATA_WR[10] CDATA_WR[11] CDATA_WR[12]
+                 CDATA_WR[13] CDATA_WR[14] CDATA_WR[15] CDATA_WR[16] CDATA_WR[17] CDATA_WR[18]
+                 CDATA_WR[19] CRD CADDR_RD[0] CADDR_RD[1] CADDR_RD[2] CADDR_RD[3] CADDR_RD[4]
+                 CADDR_RD[5] CADDR_RD[6] CADDR_RD[7] CADDR_RD[8] CADDR_RD[9] CADDR_RD[10]
+                 CADDR_RD[11] CSEL[0] CSEL[1] CSEL[2]
+
+
+**************************************************************************************************************
+                                         SUMMARY
+**************************************************************************************************************
+
+Total CPU Time:      0 sec
+Total Elapsed Time:  1 sec
