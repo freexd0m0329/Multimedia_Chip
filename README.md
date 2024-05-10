@@ -1,1 +1,1 @@
-# Verilog
+# Digital Multimedia IC Design
