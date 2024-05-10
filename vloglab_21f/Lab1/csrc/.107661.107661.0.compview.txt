@@ -1,9 +1,0 @@
-{"vcs1":{"timestamp_begin":1698326928.385566888, "rt":0.79, "ut":0.16, "st":0.14}}
-{"vcselab":{"timestamp_begin":1698326929.244735492, "rt":0.52, "ut":0.16, "st":0.04}}
-{"link":{"timestamp_begin":1698326929.829410192, "rt":0.30, "ut":0.18, "st":0.14}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1698326927.957388679}
-{"VCS_COMP_START_TIME": 1698326927.957388679}
-{"VCS_COMP_END_TIME": 1698326931.049098684}
-{"VCS_USER_OPTIONS": "/home/Ethanchen/verilog/vloglab_21f/Lab1/mux.v /home/Ethanchen/verilog/vloglab_21f/Lab1/mux_test.v -R -full64 -xprop +v2k -debug_access+all"}
-{"vcs1": {"peak_mem": 324044}}
-{"stitch_vcselab": {"peak_mem": 207476}}

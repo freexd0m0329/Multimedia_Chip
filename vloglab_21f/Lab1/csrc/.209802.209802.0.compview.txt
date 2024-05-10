@@ -1,6 +1,0 @@
-{"vcs1":{"timestamp_begin":1695117212.499313628, "rt":0.38, "ut":0.09, "st":0.04}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1695117212.128591182}
-{"VCS_COMP_START_TIME": 1695117212.128591182}
-{"VCS_COMP_END_TIME": 1695117212.923716852}
-{"VCS_USER_OPTIONS": "mux.v mux_test.v -R -full64 -xprop +v2k -debug_access+all"}
-{"vcs1": {"peak_mem": 309440}}
