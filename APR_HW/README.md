@@ -30,4 +30,93 @@ innovus
 ```
 
 File -> Import Design..
-![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/import.png?raw=true)
+![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import.png?raw=true)
+
+**Netlist block**
+Files: `CONV_scan.v`
+Top Cell: `CHIP`
+![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_netlist.png?raw=true)
+
+**Technology/Physical Libraries**
+LEF Files -> ">>" -> LEF Selection
+*Path: CBDK/CIC/SOCE/lef*
+Must add by the same order below:
+![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_lef.png?raw=true)
+
+**Floorplan and Power**
+IO Assignment File: `CONV.io`
+Power Nets: `VDD`
+Ground Nets: `VSS`
+![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_fp_pg.png?raw=true)
+
+**Analysis Configureation**
+Create Analysis Configuration..
+
+I. Library Sets
+
+1. Name: `lib_max`
+Timing Library Files: `slow.lib, tpz973gvwc.lib`
+*Path: CBDK/CIC/SOCE/lib*
+SI Library Files: `slow.cdB`
+*Path: CBDK/CIC/SOCE/celtic*
+
+2. Name: `lib_min`
+Timing Library Files: `fast.lib, tpz973gvbc.lib`
+*Path: CBDK/CIC/SOCE/lib*
+SI Library Files: `fast.cdB`
+*Path: CBDK/CIC/SOCE/celtic*
+![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc_lib.png?raw=true)
+
+II. RC Corners
+
+Name: `RC_corner`
+Cap Table: `tsmc018.capTbl`
+*Path: CBDK/CIC/SOCE/*
+QRC Technology File: `icecaps_5lm.tch`
+*Path: CBDK/CIC/SOCE/FireIce*
+![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc_RC.png?raw=true)
+
+III. Delay Corners
+
+1. Name: `Delay_Corner_max`
+RC Corner: `RC_corner`
+Library Set: `lib_max`
+
+2. Name: `Delay_Corner_min`
+RC Corner: `RC_corner`
+Library Set: `lib_min`
+![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc_delay.png?raw=true)
+
+IV. Constraint Modes
+
+Name: `func_mode`
+SDC Constraint Files: `CONV.sdc`
+![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc_constraint.png?raw=true)
+
+V. Analysis Views
+
+1. Name: `av_func_mode_max`
+Constraint Mode: `func_mode`
+Delay Corner: `Delay_Corner_max`
+
+2. Name: `av_func_mode_min`
+Constraint Mode: `func_mode`
+Delay Corner: `Delay_Corner_min`
+![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc_av.png?raw=true)
+
+VI. Setup Analysis Views
+
+Analysis View: `av_func_mode_max`
+
+VII. Hold Analysis Views
+
+Analysis View: `av_func_mode_min`
+
+Final Setup
+![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc.png?raw=true)
+
+VIII. Save&Close..
+File name: `mmmc.view`
+
+Final Design Import Setup
+![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_final.png?raw=true)
