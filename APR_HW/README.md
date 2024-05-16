@@ -29,24 +29,24 @@ Open Innovus in terminal
 innovus
 ```
 
-File -> Import Design..
+File -> Import Design..  
 ![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import.png?raw=true)
 
-**Netlist block**
-Files: `CONV_scan.v`
-Top Cell: `CHIP`
+**Netlist block**  
+Files: `CONV_scan.v`  
+Top Cell: `CHIP`  
 ![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_netlist.png?raw=true)
 
-**Technology/Physical Libraries**
-LEF Files -> ">>" -> LEF Selection
-*Path: CBDK/CIC/SOCE/lef*
-Must add by the same order below:
+**Technology/Physical Libraries**  
+LEF Files -> ">>" -> LEF Selection  
+*Path: CBDK/CIC/SOCE/lef*  
+Must add by the same order below:  
 ![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_lef.png?raw=true)
 
-**Floorplan and Power**
-IO Assignment File: `CONV.io`
-Power Nets: `VDD`
-Ground Nets: `VSS`
+**Floorplan and Power**  
+IO Assignment File: `CONV.io`  
+Power Nets: `VDD`  
+Ground Nets: `VSS`  
 ![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_fp_pg.png?raw=true)
 
 **Analysis Configureation**
