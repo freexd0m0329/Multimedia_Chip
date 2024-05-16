@@ -96,7 +96,7 @@ elaborate CS -architecture verilog -library CS
 
 ## 2.1 Before Synthesis Schematic View
 
-![image](https://github.com/freexd0m0329/Verilog/blob/main/Multimedia/SYN_HW/before_syn.png?raw=true)
+![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/SYN_HW/before_syn.png?raw=true)
 
 ## 3. Setting Design Constraints
 
@@ -449,7 +449,7 @@ compile -exact_map -map_effort high -area_effort high
 
 ## 7.1 After Synthesis Schematic View
 
-![image](https://github.com/freexd0m0329/Verilog/blob/main/Multimedia/SYN_HW/after_syn.png?raw=true)
+![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/SYN_HW/after_syn.png?raw=true)
 
 ## 8. Report and save after Synthesis
 
@@ -633,4 +633,4 @@ ncverilog testfixture.v CS_compile.v -v tsmc18.v +access+r
 ```
 
 PASS test
-![image](https://github.com/freexd0m0329/Verilog/blob/main/Multimedia/SYN_HW/pass_test.png?raw=true)
+![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/SYN_HW/pass_test.png?raw=true)
