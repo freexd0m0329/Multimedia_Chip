@@ -150,3 +150,52 @@ To Global Net: `VSS`
 innovus 1> specifyScanChain scan1 -start ipad_SCAN_IN/C -stop opad_SCAN_OUT/I
 innovus 2> scantrace
 ```
+
+## 2. Floorplan
+
+### Specify Floorplan
+
+Floorplan -> Specify Floorplan...  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/fp.png?raw=true" width="200" alt="fp"/>  
+Ratio(H/W): `1`  
+Core Utilization: `0~1` (typical 0.5)  
+Core to Left/Top/Right/Bottom: `121`  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/fp_fp.png?raw=true" width="640" alt="fp_fp"/>  
+The distance of pad should 12um at least.  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/fp_120.png?raw=true" width="400" alt="fp_120"/>
+
+### Placement in Floorplan Mode
+
+Place -> Place Standard Cell... -> Run Placement In Floorplan Mode  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/fp_place.png?raw=true" width="640" alt="fp_place"/>
+On the top of right corner, switch to Physical View  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/fp_phy.png?raw=true" width="640" alt="fp_phy"/>
+Design Area should be..  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/fp_place_phy.png?raw=true" width="640" alt="fp_place_phy"/>
+
+### Timing Analysis
+
+```tcl
+innovus 3> createBasicPathGroups -expanded
+innovus 4> setPlaceMode -place_design_floorplan_mode false
+innovus 5> timeDesign -preCTS -pathReports -drvReports -slackReports -numPaths 50 -prefix CHIP_preCTS -outDir timingReports
+```
+
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/fp_pre_timing.png?raw=true" width="640" alt="fp_pre_timing"/>
+
+If the timing does not meet the slack (WNS), execute timing optimization.
+
+### Timing Optimization
+
+ECO -> Optimized Design... -> Pre-CTS -> Check "Max Fanout"
+
+```tcl
+innovus 6> timeDesign -preCTS -pathReports -drvReports -slackReports -numPaths 50 -prefix CHIP_preCTS -outDir timingReports
+```
+
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/fp_post_timing.png?raw=true" width="640" alt="fp_post_timing"/>
+
+### Save Design
+
+File -> Save Design -> Innovus  
+File Name: `floorplan.enc`
