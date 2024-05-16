@@ -65,7 +65,7 @@ Timing Library Files: `fast.lib, tpz973gvbc.lib`
 *Path: CBDK/CIC/SOCE/lib*  
 SI Library Files: `fast.cdB`  
 *Path: CBDK/CIC/SOCE/celtic*  
-![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc_lib.png?raw=true)
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc_lib.png?raw=true"  width="400" alt="LIB"/>
 
 II. RC Corners
 
@@ -74,7 +74,7 @@ Cap Table: `tsmc018.capTbl`
 *Path: CBDK/CIC/SOCE/*  
 QRC Technology File: `icecaps_5lm.tch`  
 *Path: CBDK/CIC/SOCE/FireIce*  
-![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc_RC.png?raw=true)
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc_RC.png?raw=true" width="400" alt="RC"/>
 
 III. Delay Corners
 
@@ -85,13 +85,13 @@ Library Set: `lib_max`
 2. Name: `Delay_Corner_min`  
 RC Corner: `RC_corner`  
 Library Set: `lib_min`  
-![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc_delay.png?raw=true)
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc_delay.png?raw=true" width="640" alt="Delay"/>
 
 IV. Constraint Modes
 
 Name: `func_mode`  
 SDC Constraint Files: `CONV.sdc`  
-![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc_constraint.png?raw=true)
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc_constraint.png?raw=true" width="400" alt="CN"/>
 
 V. Analysis Views
 
@@ -102,7 +102,7 @@ Delay Corner: `Delay_Corner_max`
 2. Name: `av_func_mode_min`  
 Constraint Mode: `func_mode`  
 Delay Corner: `Delay_Corner_min`  
-![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc_av.png?raw=true)
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc_av.png?raw=true" width="300" alt="AV"/>
 
 VI. Setup Analysis Views
 
@@ -113,10 +113,10 @@ VII. Hold Analysis Views
 Analysis View: `av_func_mode_min`
 
 Final Setup
-![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc.png?raw=true)
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc.png?raw=true" width="640" alt="mmmc"/>
 
 VIII. Save&Close..
 File name: `mmmc.view`
 
 Final Design Import Setup
-![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_final.png?raw=true)
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_final.png?raw=true" width="640" alt="import"/>
