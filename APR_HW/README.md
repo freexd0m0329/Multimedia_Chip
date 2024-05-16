@@ -199,3 +199,26 @@ innovus 6> timeDesign -preCTS -pathReports -drvReports -slackReports -numPaths 5
 
 File -> Save Design -> Innovus  
 File Name: `floorplan.enc`
+
+## 3. Powerplan
+
+### Refine Placement
+
+When doing timing analysis, innovus will use train route to help analysis.  
+Place -> Refine Placement... -> Mode -> Uncheck Preserve Routing  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/refine.png?raw=true" width="640" alt="refine"/>  
+
+### Power Ring
+
+Power Planning -> Add Ring -> Basic  
+Net(s): `VDD VSS`  
+Top/Bottom/Left/Right Width: `5`  
+Top/Bottom/Left/Right Spacing: `0.28`  
+Check Offset: Center in channel  
+-> Advanced  
+Check Wire Group  
+Number of bits: `4`  
+Check Interleaving  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/power_ring.png?raw=true" width="640" alt="power_ring"/>  
+
+### Pad Pins
