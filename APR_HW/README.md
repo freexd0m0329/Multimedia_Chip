@@ -123,3 +123,25 @@ Final Design Import Setup
 
 Save...  
 File name: `CHIP.globals`
+
+## 1.1 Design Setup  
+
+**Connect Global PG**  
+Power -> Connect Global Nets..  
+
+1. Pin Name(s): `VDD`  
+To  Global Net: `VDD`  
+-> Add to list  
+2. Pin Name(s): `VSS`  
+To Global Net: `VSS`  
+-> Add to list  
+-> Apply -> Check  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/place_pg.png?raw=true" width="640" alt="import"/>  
+
+**Scan Chain**  
+In terminal>  
+
+```tcl
+specifyScanChain scan1 -start ipad_SCAN_IN/C -stop opad_SCAN_OUT/I
+scantrace
+```
