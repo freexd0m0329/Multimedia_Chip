@@ -101,7 +101,7 @@ Delay Corner: `Delay_Corner_max`
 
 2. Name: `av_func_mode_min`  
 Constraint Mode: `func_mode`  
-Delay Corner: `Delay_Corner_min`
+Delay Corner: `Delay_Corner_min`  
 ![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc_av.png?raw=true)
 
 VI. Setup Analysis Views
