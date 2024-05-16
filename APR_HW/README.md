@@ -41,7 +41,7 @@ Top Cell: `CHIP`
 LEF Files -> ">>" -> LEF Selection  
 *Path: CBDK/CIC/SOCE/lef*  
 Must add by the same order below:  
-![image](https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_lef.png?raw=true)
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_lef.png?raw=true" width="640" alt="LEF"/>
 
 **Floorplan and Power**  
 IO Assignment File: `CONV.io`  
