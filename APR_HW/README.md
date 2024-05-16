@@ -115,8 +115,11 @@ Analysis View: `av_func_mode_min`
 Final Setup  
 <img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc.png?raw=true" width="640" alt="mmmc"/>
 
-VIII. Save&Close..
-File name: `mmmc.view`
+VIII. Save&Close..  
+File name: `mmmc.view`  
 
 Final Design Import Setup  
-<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_final.png?raw=true" width="640" alt="import"/>
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_final.png?raw=true" width="640" alt="import"/>  
+
+Save...  
+File name: `CHIP.globals`
