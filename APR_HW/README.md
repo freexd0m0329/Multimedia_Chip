@@ -169,7 +169,7 @@ The distance of pad should 12um at least.
 Place -> Place Standard Cell... -> Run Placement In Floorplan Mode  
 <img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/fp_place.png?raw=true" width="640" alt="fp_place"/>  
 On the top of right corner, switch to Physical View  
-<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/fp_phy.png?raw=true" width="640" alt="fp_phy"/>  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/fp_phy.png?raw=true" width="100" alt="fp_phy"/>  
 Design Area should be..  
 <img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/fp_place_phy.png?raw=true" width="640" alt="fp_place_phy"/>  
 
