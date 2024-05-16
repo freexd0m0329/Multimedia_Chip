@@ -136,7 +136,7 @@ To  Global Net: `VDD`
 To Global Net: `VSS`  
 -> Add to list  
 -> Apply -> Check  
-<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/place_pg.png?raw=true" width="640" alt="import"/>  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/place_pg.png?raw=true" width="200" alt="import"/>  
 
 **Scan Chain**  
 In terminal>  
