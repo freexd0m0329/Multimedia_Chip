@@ -351,3 +351,40 @@ File Name: `place_CUPPad.enc`
 
 Design Area should be..  
 <img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/place.png?raw=true" width="640" alt="place"/>  
+
+## 4. CTS
+
+### I. Add Clock Tree
+
+```tcl
+ccopt_design -cts
+```
+
+### II. & III. Timing Analysis and Optimization
+
+Same step as 2-III and 2-IV.  
+But change to `Post-CTS` and run both `Setup` and `Hold`.
+
+```tcl
+timeDesign -postCTS -pathReports -drvReports -slackReports -numPaths 50 -prefix CHIP_postCTS -outDir timingReports
+timeDesign -postCTS -hold -pathReports -slackReports -numPaths 50 -prefix CHIP_postCTS -outDir timingReports
+```
+
+### IV. Add Tie Hi/Lo
+
+Place -> Tie Hi/Lo Cell -> Add... -> Mode  
+
+Cell Name(s) -> Select `TIEHI TIELO`  
+Check Specify Maximum Fanout: `20`  
+Check Specify Maximum Distance: `100`
+
+Up to the circumstances there may be 0.  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/place_tiehi.png?raw=true" width="640" alt="place_tiehi"/>
+
+### V. Save
+
+File -> Save Design -> Innovus  
+File Name: `cts_hilo.enc`
+
+Design Area should be..  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/cts.png?raw=true" width="640" alt="cts"/>  
