@@ -231,8 +231,9 @@ Check Interleaving
 Route -> Special Route...  
 
 **Basic**  
+Net(s): `VDD VSS`
 In SRoute block:  
-Uncheck everything expect Pad Pins
+Uncheck everything except Pad Pins
 
 **Advanced**  
 Select Pad Pins  
@@ -277,3 +278,76 @@ Design Area should be..
 
 File -> Save Design -> Innovus  
 File Name: `powerplan.enc`
+
+## 3. Placement
+
+## I. Full Placement
+
+Place -> Place Standard Cell...  
+Select `Run Full Placement`  
+
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/place_full.png?raw=true" width="400" alt="place_full"/>  
+
+## II. Check Placement
+
+Place -> Check Placement...  
+
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/place_check.png?raw=true" width="400" alt="place_check"/>  
+
+### III. & IV. Timing Analysis and Optimization
+
+Same step as 2-III and 2-IV.
+
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/place_timing.png?raw=true" width="400" alt="place_timing"/>  
+
+### V. Refine Placement
+
+Place -> Refine Placement... -> Mode -> Uncheck Preserve Routing  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/refine.png?raw=true" width="640" alt="refine"/>  
+
+### VI. Follow Pins
+
+Route -> Special Route...
+
+**Basic**  
+Net(s): `VDD VSS`  
+In SRoute block:  
+Uncheck everything except Follow Pins
+
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/place_follow.png?raw=true" width="640" alt="place_follow"/>  
+
+### VII. Check and Verify
+
+Verify -> Verify Connectivity...
+
+Select `Special Only`  
+Named: `VDD VSS`  
+Uncheck Soft PG Connect
+
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/place_verify.png?raw=true" width="640" alt="place_verify"/>  
+
+### VIII. IO Filler
+
+```tcl
+source addIoFiller.cmd
+```
+
+### IX. Save DEF and Routing Blockage
+
+Save routing information for blockage script.  
+File -> Save -> DEF...
+
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/place_def.png?raw=true" width="640" alt="place_def"/>  
+
+Run routing blockage script.  
+
+```tcl
+perl ./addbonding_for_t18_v3.pl CHIP.def
+source addRouteBlk.cmd
+```
+
+File -> Save Design -> Innovus  
+File Name: `place_CUPPad.enc`
+
+Design Area should be..  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/place.png?raw=true" width="640" alt="place"/>  
