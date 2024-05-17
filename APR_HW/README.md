@@ -281,14 +281,14 @@ File Name: `powerplan.enc`
 
 ## 3. Placement
 
-## I. Full Placement
+### I. Full Placement
 
 Place -> Place Standard Cell...  
 Select `Run Full Placement`  
 
 <img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/place_full.png?raw=true" width="400" alt="place_full"/>  
 
-## II. Check Placement
+### II. Check Placement
 
 Place -> Check Placement...  
 
@@ -481,7 +481,7 @@ source addbond.cmd
 **Add Text**  
 
 In Design Area, find IOVDD pad pin and use mouse point on it. Check the coordinate at right down corner.  
-<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/vdd.png?raw=true" width="200" alt="vdd"/>  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/vdd.png?raw=true" width="400" alt="vdd"/>  
 
 ```tcl
 add_text -layer METAL5 -label IOVDD -pt 68 1645 -height 10
@@ -501,7 +501,7 @@ Check Merge Files: `tpb973gv.gds`
 *Path: CBDK/CIC/SOCE/Phantom*  
 Check Write abstract information for LEF Macros  
 Units: `1000`  
-<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/gds.png?raw=true" width="200" alt="gds"/>  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/gds.png?raw=true" width="400" alt="gds"/>  
 
 Redo this step for 2-times and select different Merge Files: `tsmc18_core.gds tsmc18_io.gds`  
 
@@ -509,4 +509,4 @@ File -> Save Design -> Innovus
 File Name: `final.enc`
 
 And the final Design Area  
-<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/final.png?raw=true" width="200" alt="final"/>  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/final.png?raw=true" width="640" alt="final"/>  
