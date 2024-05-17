@@ -119,7 +119,7 @@ Analysis View: `av_func_mode_min`
 Final Setup  
 <img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/import_mmmc.png?raw=true" width="640" alt="mmmc"/>
 
-#### VIII. Save&Close..  
+#### VIII. Save & Close
 
 File name: `mmmc.view`  
 
@@ -388,3 +388,125 @@ File Name: `cts_hilo.enc`
 
 Design Area should be..  
 <img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/cts.png?raw=true" width="640" alt="cts"/>  
+
+## 5. Routing
+
+### I. Routing
+
+Route -> NanoRoute -> Route...  
+
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/route.png?raw=true" width="640" alt="route"/>
+
+### II. III. Timing Analysis and Optimization
+
+Same step as 2-III and 2-IV.  
+But change to `Post-Route` and run both `Setup` and `Hold`.
+
+```tcl
+setAnalysisMode -analysisType onChipVariation
+timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix CHIP_postRoute -outDir timingReports
+timeDesign -postRoute -hold -pathReports -slackReports -numPaths 50 -prefix CHIP_postRoute -outDir timingReports
+```
+
+### IV. Add Filler
+
+Place -> Physical Cell -> Add Filler...  
+Cell Name(s) -> Select `Fill1 Fill16 Fill2 Fill32 Fill4 Fill64 Fill8`  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/route_filler.png?raw=true" width="640" alt="route_filler"/>
+
+### V. Verify DRC and Save
+
+Verify -> Verify DRC...  
+
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/route_drc.png?raw=true" width="640" alt="route_drc"/>  
+
+File -> Save Design -> Innovus  
+File Name: `Corefiller.enc`
+
+### VI. Metal Fill and Save
+
+Route -> Metal Fill -> Setup...  
+
+**Windows&Density**  
+METAL1/2/3/4/5 Max: `50`  
+
+Route -> Metal Fill -> Add...  
+Uncheck Tie High/Low to Net(s)  
+Check Critical Nets from Timing Analysis: `0.4`  
+
+File -> Save Design -> Innovus  
+File Name: `metalfill.enc`
+
+### VII. Verify
+
+Verify -> Verify DRC...  
+
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/route_drc.png?raw=true" width="640" alt="route_drc"/>  
+
+Verify -> Verify Connectivity...  
+In Net Type Select `All`  
+In Nets Select `All`  
+
+Verify -> Verify Process Antenna...
+
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/verify.png?raw=true" width="640" alt="verify"/>  
+
+If there has violation, run optimized or ECO route or fall back to placement.
+
+### VIII. Export Design and add Bounding Pads
+
+**Save Netlist**  
+
+File -> Save -> Netlist  
+Netlist File: `CHIP.v`
+
+**Save sdf**  
+
+```tcl
+setAnalysisMode -analysisType bcwc
+write_sdf -max_view av_func_mode_max -min_view av_func_mode_min -edges noedge  -splitsetuphold -remashold -splitrecrem -min_period_edges none CHIP.sdf
+```
+
+**Save def**  
+
+File -> Save -> DEF...  
+Check `Save Scan`
+
+**Add Bounding Pads**  
+
+```tcl
+source addbond.cmd
+```
+
+**Add Text**  
+
+In Design Area, find IOVDD pad pin and use mouse point on it. Check the coordinate at right down corner.  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/vdd.png?raw=true" width="200" alt="vdd"/>  
+
+```tcl
+add_text -layer METAL5 -label IOVDD -pt 68 1645 -height 10
+add_text -layer METAL5 -label IOVSS -pt 68 1734 -height 10
+```
+
+**Save GDS**  
+
+Tools -> Set Modes -> Mode Setup...  
+Select `StreamOut`  
+Uncheck `Virtual Connection`
+
+File -> Save -> GDS/OASIS...  
+Output File: `CHIP.gds`  
+Map File: `streamOut.map`  
+Check Merge Files: `tpb973gv.gds`  
+*Path: CBDK/CIC/SOCE/Phantom*  
+Check Write abstract information for LEF Macros  
+Units: `1000`  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/gds.png?raw=true" width="200" alt="gds"/>  
+
+Redo this step for 2-times and select different Merge Files: `tsmc18_core.gds tsmc18_io.gds`  
+
+File -> Save Design -> Innovus  
+File Name: `final.enc`
+
+And the final Design Area  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/final.png?raw=true" width="200" alt="final"/>  
