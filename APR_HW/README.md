@@ -131,7 +131,7 @@ File name: `CHIP.globals`
 
 ## 1.1 Design Setup  
 
-### Connect Global PG
+### I. Connect Global PG
 
 Power -> Connect Global Nets..  
 
@@ -144,7 +144,7 @@ To Global Net: `VSS`
 -> Apply -> Check  
 <img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/place_pg.png?raw=true" width="200" alt="import"/>  
 
-### Scan Chain
+### II. Scan Chain
 
 ```tcl
 innovus 1> specifyScanChain scan1 -start ipad_SCAN_IN/C -stop opad_SCAN_OUT/I
@@ -153,7 +153,7 @@ innovus 2> scantrace
 
 ## 2. Floorplan
 
-### Specify Floorplan
+### I. Specify Floorplan
 
 Floorplan -> Specify Floorplan...  
 <img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/fp.png?raw=true" width="200" alt="fp"/>  
@@ -164,7 +164,7 @@ Core to Left/Top/Right/Bottom: `121`
 The distance of pad should 12um at least.  
 <img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/fp_120.png?raw=true" width="400" alt="fp_120"/>
 
-### Placement in Floorplan Mode
+### II. Placement in Floorplan Mode
 
 Place -> Place Standard Cell... -> Run Placement In Floorplan Mode  
 <img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/fp_place.png?raw=true" width="640" alt="fp_place"/>  
@@ -173,7 +173,7 @@ On the top of right corner, switch to Physical View
 Design Area should be..  
 <img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/fp_place_phy.png?raw=true" width="640" alt="fp_place_phy"/>  
 
-### Timing Analysis
+### III. Timing Analysis
 
 ```tcl
 innovus 3> createBasicPathGroups -expanded
@@ -185,7 +185,7 @@ innovus 5> timeDesign -preCTS -pathReports -drvReports -slackReports -numPaths 5
 
 If the timing does not meet the slack (WNS), execute timing optimization.
 
-### Timing Optimization
+### IV. Timing Optimization
 
 ECO -> Optimized Design... -> Pre-CTS -> Check "Max Fanout"
 
@@ -195,7 +195,7 @@ innovus 6> timeDesign -preCTS -pathReports -drvReports -slackReports -numPaths 5
 
 <img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/fp_post_timing.png?raw=true" width="640" alt="fp_post_timing"/>
 
-### Save Design
+### V. Save Design
 
 File -> Save Design -> Innovus  
 File Name: `floorplan.enc`
@@ -209,9 +209,9 @@ When doing timing analysis, innovus will use trail route to help analysis. Remov
 Place -> Refine Placement... -> Mode -> Uncheck Preserve Routing  
 <img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/refine.png?raw=true" width="640" alt="refine"/>  
 
-### Power Ring
+### I. Power Ring
 
-Power Planning -> Add Ring  
+Power -> Power Planning -> Add Ring  
 
 **Basic**  
 Net(s): `VDD VSS`  
@@ -223,6 +223,57 @@ Check Offset: Center in channel
 Check Wire Group  
 Number of bits: `4`  
 Check Interleaving  
+
 <img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/power_ring.png?raw=true" width="640" alt="power_ring"/>  
 
-### Pad Pins
+### II. Pad Pins
+
+Route -> Special Route...  
+
+**Basic**  
+In SRoute block:  
+Uncheck everything expect Pad Pins
+
+**Advanced**  
+Select Pad Pins  
+In Number of Connecions to Multiple Geometries:  
+Select `All`  
+
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/power_pad.png?raw=true" width="640" alt="power_pad"/>  
+
+### III. Power Stripe
+
+ Power -> Power Planning -> Add Stripe...  
+
+**Basic**  
+Net(s): `VDD VSS`  
+Layer: `METAL 4`  
+Width: `4`  
+Spacing: `0.28`  
+Set-to-set distance: `60`  
+Relative from core or selected area Start: `50` Stop: `50`
+
+**Advanced**  
+Check Switch layer over obstructions  
+Check Merge with block rings if spacing less than: `0.56`  
+Maximum length of same layer job: `0.56`  
+Check Wire Group  
+Check Interleaving  
+Number of bits: `3`
+
+**Mode**  
+Check Split vias while encountering Obs and different net Wires/Pins  
+
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/power_stripe.png?raw=true" width="640" alt="power_stripe"/>  
+
+**Change following setup and repeate again for Horizontal Power Stripe.**  
+Layer: `METAL 5`  
+Relative from core or selected area Start: `50` Stop: `100`
+
+Design Area should be..  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/power.png?raw=true" width="640" alt="power"/>  
+
+### IV. Save
+
+File -> Save Design -> Innovus  
+File Name: `powerplan.enc`
