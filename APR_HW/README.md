@@ -314,7 +314,7 @@ Net(s): `VDD VSS`
 In SRoute block:  
 Uncheck everything except Follow Pins
 
-<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/place_follow.png?raw=true" width="640" alt="place_follow"/>  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/place_follow.png?raw=true" width="400" alt="place_follow"/>  
 
 ### VII. Check and Verify
 
@@ -337,7 +337,7 @@ source addIoFiller.cmd
 Save routing information for blockage script.  
 File -> Save -> DEF...
 
-<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/place_def.png?raw=true" width="640" alt="place_def"/>  
+<img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/place_def.png?raw=true" width="400" alt="place_def"/>  
 
 Run routing blockage script.  
 
