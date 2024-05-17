@@ -204,18 +204,22 @@ File Name: `floorplan.enc`
 
 ### Refine Placement
 
-When doing timing analysis, innovus will use train route to help analysis.  
+When doing timing analysis, innovus will use trail route to help analysis. Remove it to avoid unknown errors.  
+
 Place -> Refine Placement... -> Mode -> Uncheck Preserve Routing  
 <img src="https://github.com/freexd0m0329/Multimedia_Chip/blob/main/APR_HW/img/refine.png?raw=true" width="640" alt="refine"/>  
 
 ### Power Ring
 
-Power Planning -> Add Ring -> Basic  
+Power Planning -> Add Ring  
+
+**Basic**  
 Net(s): `VDD VSS`  
 Top/Bottom/Left/Right Width: `5`  
 Top/Bottom/Left/Right Spacing: `0.28`  
-Check Offset: Center in channel  
--> Advanced  
+Check Offset: Center in channel
+
+**Advanced**  
 Check Wire Group  
 Number of bits: `4`  
 Check Interleaving  
