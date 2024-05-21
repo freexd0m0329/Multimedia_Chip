@@ -25,9 +25,9 @@ module adder_4bit (                                         // Define a topmodul
 );
 
     wire [3:0] c;                                           // Define a connection "c" with 4 bits
-    full_adder fa0(A[0], B[0], CIN, S[0], c[0]);            // Call submodule "full_adder" named "fa0" with 5 ports A[0], B[0], CIN, S[0] and c[0] which connection by order 
-    full_adder fa1(A[1], B[1], c[0], S[1], c[1]);           // Call submodule "full_adder" named "fa1" with 5 ports A[1], B[1], c[0], S[1] and c[1] which connection by order 
-    full_adder fa2(A[2], B[2], c[1], S[2], c[2]);           // Call submodule "full_adder" named "fa2" with 5 ports A[2], B[2], c[1], S[2] and c[2] which connection by order 
-    full_adder fa3(A[3], B[3], c[2], S[3], COUT);           // Call submodule "full_adder" named "fa0" with 5 ports A[3], B[3], c[2], S[3] and COUT which connection by order 
+    full_adder fa0(A[0], B[0], CIN, S[0], c[0]);            // Call submodule "full_adder" named "fa0" with 5 ports A[0], B[0], CIN, S[0] and c[0] concise code format using positional arguments
+    full_adder fa1(A[1], B[1], c[0], S[1], c[1]);           // Call submodule "full_adder" named "fa1" with 5 ports A[1], B[1], c[0], S[1] and c[1] concise code format using positional arguments
+    full_adder fa2(A[2], B[2], c[1], S[2], c[2]);           // Call submodule "full_adder" named "fa2" with 5 ports A[2], B[2], c[1], S[2] and c[2] concise code format using positional arguments
+    full_adder fa3(A[3], B[3], c[2], S[3], COUT);           // Call submodule "full_adder" named "fa0" with 5 ports A[3], B[3], c[2], S[3] and COUT concise code format using positional arguments
 
 endmodule
