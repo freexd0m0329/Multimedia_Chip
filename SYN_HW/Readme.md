@@ -140,7 +140,7 @@ set_max_transition 0.3 [all_inputs]
 set_max_area 0
 ```
 
-## 4. Setting Desgin Environment
+## 4. Setting Design Environment
 
 ```tcl
 # Set input driving for clk
